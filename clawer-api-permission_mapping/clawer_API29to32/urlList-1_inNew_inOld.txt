@@ -1,0 +1,5 @@
+https://developer.android.google.cn/reference/android/view/contentcapture/DataShareRequest.html
+https://developer.android.google.cn/reference/android/telephony/ims/ImsRegistrationAttributes.html
+https://developer.android.google.cn/reference/android/graphics/text/PositionedGlyphs.html
+https://developer.android.google.cn/reference/android/graphics/text/TextRunShaper.html
+https://developer.android.google.cn/reference/android/service/controls/templates/ThumbnailTemplate.html

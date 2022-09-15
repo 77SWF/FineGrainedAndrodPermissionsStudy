@@ -1,0 +1,11 @@
+<p>
+ The instance of <code dir="ltr" translate="no"><a href="/reference/android/telephony/ServiceState">ServiceState</a></code> passed as an argument here will have various
+ levels of location information stripped from it depending on the location permissions
+ that your app holds.
+ Only apps holding the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission#ACCESS_FINE_LOCATION</a></code> permission will
+ receive all the information in <code dir="ltr" translate="no"><a href="/reference/android/telephony/ServiceState">ServiceState</a></code>, otherwise the cellIdentity
+ will be null if apps only holding the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION">Manifest.permission#ACCESS_COARSE_LOCATION</a></code>
+ permission.
+ Network operator name in long/short alphanumeric format and numeric id will be null if
+ apps holding neither <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code> nor
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION">Manifest.permission.ACCESS_COARSE_LOCATION</a></code>.</p>

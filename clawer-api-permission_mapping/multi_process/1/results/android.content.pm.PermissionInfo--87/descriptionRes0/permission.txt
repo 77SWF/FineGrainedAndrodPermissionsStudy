@@ -1,0 +1,3 @@
+<p>A string resource identifier (in the package's resources) of this
+ permission's description.  From the "description" attribute or,
+ if not set, 0.</p>

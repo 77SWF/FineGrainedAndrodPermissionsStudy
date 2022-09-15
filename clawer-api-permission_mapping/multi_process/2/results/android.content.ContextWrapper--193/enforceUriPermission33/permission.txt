@@ -1,0 +1,34 @@
+<p>If a particular process and user ID has not been granted
+ permission to access a specific URI, throw <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>.  This only checks for permissions that have
+ been explicitly granted -- if the given process/uid has more
+ general access to the URI's content provider then this check
+ will always fail.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">uri</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Uri</code>: The uri that is being checked.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">pid</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The process ID being checked against.  Must be &gt; 0.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">uid</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The user ID being checked against.  A uid of 0 is the root
+ user, which will pass every permission check.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">modeFlags</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The access modes to enforce.
+ Value is either <code dir="ltr" translate="no">0</code> or a combination of <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_READ_URI_PERMISSION">Intent.FLAG_GRANT_READ_URI_PERMISSION</a></code>, and <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_WRITE_URI_PERMISSION">Intent.FLAG_GRANT_WRITE_URI_PERMISSION</a></code><p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">message</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: A message to include in the exception if it is thrown.<p></p></td>
+      </tr>
+    </tbody></table>

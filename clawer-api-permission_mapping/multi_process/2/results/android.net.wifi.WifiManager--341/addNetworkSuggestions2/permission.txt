@@ -1,0 +1,15 @@
+<p>Provide a list of network suggestions to the device. See <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiNetworkSuggestion">WifiNetworkSuggestion</a></code>
+ for a detailed explanation of the parameters.
+ When the device decides to connect to one of the provided network suggestions, platform sends
+ a directed broadcast <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiManager#ACTION_WIFI_NETWORK_SUGGESTION_POST_CONNECTION">ACTION_WIFI_NETWORK_SUGGESTION_POST_CONNECTION</a></code> to the app if
+ the network was created with
+ <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiNetworkSuggestion.Builder#setIsAppInteractionRequired(boolean)">WifiNetworkSuggestion.Builder#setIsAppInteractionRequired(boolean)</a></code> flag set and the
+ app holds <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">ACCESS_FINE_LOCATION</a></code>
+ permission.
+</p><code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CHANGE_WIFI_STATE">Manifest.permission.CHANGE_WIFI_STATE</a></code><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"></code></td>
+          <td width="100%">java.lang.SecurityException SecurityException} if the caller is missing required permissions.</td>
+        </tr>
+      </tbody></table>

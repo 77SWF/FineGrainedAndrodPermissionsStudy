@@ -1,0 +1,3 @@
+<p>Drop the shell permission identity adopted by a previous call to
+ <code dir="ltr" translate="no"><a href="/reference/android/app/UiAutomation#adoptShellPermissionIdentity()">adoptShellPermissionIdentity()</a></code>. If you did not adopt the shell permission
+ identity this method would be a no-op.</p>

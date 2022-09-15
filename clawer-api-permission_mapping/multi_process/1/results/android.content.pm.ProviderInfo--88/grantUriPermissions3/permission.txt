@@ -1,0 +1,3 @@
+<p>If true, additional permissions to specific Uris in this content
+ provider can be granted, as per the
+ <code dir="ltr" translate="no"><a href="/reference/android/R.styleable#AndroidManifestProvider_grantUriPermissions">grantUriPermissions</a></code> attribute.</p>

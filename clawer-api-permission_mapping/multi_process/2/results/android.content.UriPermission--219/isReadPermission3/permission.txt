@@ -1,0 +1,1 @@
+<p>Returns if this permission offers read access.</p>

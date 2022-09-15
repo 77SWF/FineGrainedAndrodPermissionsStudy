@@ -1,0 +1,8 @@
+<p>Callback invoked when the current physical channel configuration has changed
+
+ The calling app should have carrier privileges
+ (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager#hasCarrierPrivileges</a></code>) if it does not have the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PRECISE_PHONE_STATE">Manifest.permission.READ_PRECISE_PHONE_STATE</a></code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PRECISE_PHONE_STATE">Manifest.permission.READ_PRECISE_PHONE_STATE</a></code></p>

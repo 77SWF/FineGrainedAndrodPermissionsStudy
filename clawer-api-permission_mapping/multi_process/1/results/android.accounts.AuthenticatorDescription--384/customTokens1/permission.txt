@@ -1,0 +1,1 @@
+<p>Authenticator handles its own token caching and permission screen</p>

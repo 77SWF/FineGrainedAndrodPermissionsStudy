@@ -1,0 +1,22 @@
+<p>To unregister for location updates, use <code dir="ltr" translate="no"><a href="/reference/android/location/LocationManager#removeUpdates(android.app.PendingIntent)">removeUpdates(android.app.PendingIntent)</a></code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION">Manifest.permission.ACCESS_COARSE_LOCATION</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code></p><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if provider is null or doesn't exist</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if locationRequest is null</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if pendingIntent is null</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if no suitable permission is present</td>
+        </tr>
+      </tbody></table>

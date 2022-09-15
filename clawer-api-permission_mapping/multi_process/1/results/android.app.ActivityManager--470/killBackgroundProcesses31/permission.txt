@@ -1,0 +1,7 @@
+<p>Have the system immediately kill all background processes associated
+ with the given package.  This is the same as the kernel killing those
+ processes to reclaim memory; the system will take care of restarting
+ these processes in the future as needed.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#KILL_BACKGROUND_PROCESSES">Manifest.permission.KILL_BACKGROUND_PROCESSES</a></code></p>

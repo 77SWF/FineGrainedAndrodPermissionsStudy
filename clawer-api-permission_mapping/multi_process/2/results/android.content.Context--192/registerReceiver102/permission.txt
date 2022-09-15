@@ -1,0 +1,33 @@
+<p>Register to receive intent broadcasts, to run in the context of
+ <var translate="no">scheduler</var>.  See
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#registerReceiver(android.content.BroadcastReceiver,%20android.content.IntentFilter)">registerReceiver(android.content.BroadcastReceiver, android.content.IntentFilter)</a></code> for more
+ information.  This allows you to enforce permissions on who can
+ broadcast intents to your receiver, or have the receiver run in
+ a different thread than the main application thread.
+
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">receiver</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">BroadcastReceiver</code>: The BroadcastReceiver to handle the broadcast.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">filter</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">IntentFilter</code>: Selects the Intent broadcasts to be received.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">broadcastPermission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: String naming a permissions that a
+      broadcaster must hold in order to send an Intent to you.  If null,
+      no permission is required.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">scheduler</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Handler</code>: Handler identifying the thread that will receive
+      the Intent.  If null, the main thread of the process will be used.<p></p></td>
+      </tr>
+    </tbody></table>

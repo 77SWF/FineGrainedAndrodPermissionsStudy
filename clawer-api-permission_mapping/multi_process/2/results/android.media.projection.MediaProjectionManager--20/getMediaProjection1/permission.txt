@@ -1,0 +1,11 @@
+<p>Retrieve the MediaProjection obtained from a succesful screen
+ capture request. Will be null if the result from the
+ startActivityForResult() is anything other than RESULT_OK.
+
+ Starting from Android <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES.R</a></code>, if your application requests
+ the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SYSTEM_ALERT_WINDOW">Manifest.permission.SYSTEM_ALERT_WINDOW</a></code> permission, and the
+ user has not explicitly denied it, the permission will be automatically granted until the
+ projection is stopped. This allows for user controls to be displayed on top of the screen
+ being captured.
+
+ </p>

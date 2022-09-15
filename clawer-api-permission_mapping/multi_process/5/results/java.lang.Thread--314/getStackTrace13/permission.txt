@@ -1,0 +1,7 @@
+<p>If there is a security manager, and this thread is not
+ the current thread, then the security manager's
+ <code dir="ltr" translate="no">checkPermission</code> method is called with a
+ <code dir="ltr" translate="no">RuntimePermission("getStackTrace")</code> permission
+ to see if it's ok to get the stack trace.
+
+ </p>

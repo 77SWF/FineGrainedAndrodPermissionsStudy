@@ -1,0 +1,11 @@
+<p>This method is used to re-connect to a remote device after the
+ connection has been dropped. If the device is not in range, the
+ re-connection will be triggered once the device is back in range.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission#BLUETOOTH_CONNECT</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission.BLUETOOTH_CONNECT</a></code></p>

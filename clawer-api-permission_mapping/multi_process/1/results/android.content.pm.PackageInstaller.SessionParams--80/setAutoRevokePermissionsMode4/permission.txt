@@ -1,0 +1,15 @@
+<p>Sets whether permissions should be auto-revoked if this package is unused for an
+ extended periodd of time.
+
+ It's disabled by default but generally the installer should enable it for most packages,
+ excluding only those where doing so might cause breakage that cannot be easily addressed
+ by simply re-requesting the permission(s).
+
+ If user explicitly enabled or disabled it via settings, this call is ignored.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">shouldAutoRevoke</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">boolean</code>: whether permissions should be auto-revoked.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,3 @@
+<p>Requires <code dir="ltr" translate="no">android.permission.MANAGE_USERS</code> or
+ <code dir="ltr" translate="no">android.permission.INTERACT_ACROSS_USERS</code>, otherwise specified <code dir="ltr" translate="no"><a href="/reference/android/os/UserHandle">user</a></code>
+ must be the calling user or a profile associated with it.</p>

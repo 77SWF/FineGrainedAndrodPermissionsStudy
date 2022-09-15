@@ -1,0 +1,4 @@
+<p>Return the number of users currently created on the device.
+ 
+ <br/>
+ Requires android.Manifest.permission.MANAGE_USERS or android.Manifest.permission.CREATE_USERS</p>

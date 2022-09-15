@@ -1,0 +1,6 @@
+<p>Requires permission:
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CALL_PHONE">Manifest.permission.CALL_PHONE</a></code>
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CALL_PHONE">Manifest.permission.CALL_PHONE</a></code>
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_TELEPHONY_RADIO_ACCESS">PackageManager#FEATURE_TELEPHONY_RADIO_ACCESS</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p>

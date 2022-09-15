@@ -1,0 +1,3 @@
+<p>Determines if the currently running thread has permission to
+ modify this thread.
+ </p>

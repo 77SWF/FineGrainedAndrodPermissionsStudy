@@ -1,0 +1,7 @@
+<p> An app holding <code dir="ltr" translate="no">MANAGE_CREDENTIAL_MANAGEMENT_APP</code> permission can also call this
+ method to remove the current credential management app, even if it's not the current
+ credential management app itself.
+
+ <br/>
+ This method may take several seconds to complete, so it should
+ only be called from a worker thread.</p>

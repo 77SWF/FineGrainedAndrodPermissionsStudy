@@ -1,0 +1,14 @@
+<p>Determine if any of the provided authenticators can be used. In other words, determine if
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricPrompt">BiometricPrompt</a></code> can be expected to be shown (hardware available, templates enrolled,
+ user-enabled).
+
+ For biometric authenticators, determine if the device can currently authenticate with at
+ least the requested strength. For example, invoking this API with
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricManager.Authenticators#BIOMETRIC_WEAK">Authenticators#BIOMETRIC_WEAK</a></code> on a device that currently only has
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricManager.Authenticators#BIOMETRIC_STRONG">Authenticators#BIOMETRIC_STRONG</a></code> enrolled will return <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricManager#BIOMETRIC_SUCCESS">BIOMETRIC_SUCCESS</a></code>.
+
+ Invoking this API with <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricManager.Authenticators#DEVICE_CREDENTIAL">Authenticators#DEVICE_CREDENTIAL</a></code> can be used to determine
+ if the user has a PIN/Pattern/Password set up.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_BIOMETRIC">Manifest.permission.USE_BIOMETRIC</a></code></p>

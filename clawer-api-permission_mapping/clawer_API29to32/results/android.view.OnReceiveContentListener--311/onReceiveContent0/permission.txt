@@ -1,0 +1,14 @@
+<h3 data-text="URI permissions" id="uri-permissions">URI permissions</h3><p><code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_READ_URI_PERMISSION">Read permissions</a></code> are
+ granted automatically by the platform for any
+ <code dir="ltr" translate="no"><a href="/reference/android/content/ContentResolver#SCHEME_CONTENT">content URIs</a></code> in the payload passed
+ to this listener. Permissions are transient and will be released automatically by the
+ platform.
+ </p><p>Processing of content should normally be done in a service or activity.
+ For long-running processing, using <code dir="ltr" translate="no">androidx.work.WorkManager</code> is recommended.
+ When implementing this, permissions should be extended to the target service or activity
+ by passing the content using <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#setClipData(android.content.ClipData)">Intent.setClipData</a></code>
+ and <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#addFlags(int)">setting</a></code> the flag
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_READ_URI_PERMISSION">FLAG_GRANT_READ_URI_PERMISSION</a></code>.
+ </p><p>Alternatively, if using a background thread within the current context to process the
+ content, a reference to the <code dir="ltr" translate="no">payload</code> object should be maintained to ensure that
+ permissions are not revoked prematurely.</p>

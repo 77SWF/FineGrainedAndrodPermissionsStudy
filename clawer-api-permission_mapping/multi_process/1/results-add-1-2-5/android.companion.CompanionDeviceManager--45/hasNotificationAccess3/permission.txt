@@ -1,0 +1,7 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">whether the given component has the notification listener permission<p></p></td>
+      </tr>
+    </tbody></table>

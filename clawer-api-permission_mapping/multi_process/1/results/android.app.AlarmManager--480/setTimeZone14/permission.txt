@@ -1,0 +1,7 @@
+<p> On android M and above, it is an error to pass in a non-Olson timezone to this
+ function. Note that this is a bad idea on all Android releases because POSIX and
+ the <code dir="ltr" translate="no">TimeZone</code> class have opposite interpretations of <code dir="ltr" translate="no">'+'</code> and <code dir="ltr" translate="no">'-'</code>
+ in the same non-Olson ID.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SET_TIME_ZONE">Manifest.permission.SET_TIME_ZONE</a></code></p>

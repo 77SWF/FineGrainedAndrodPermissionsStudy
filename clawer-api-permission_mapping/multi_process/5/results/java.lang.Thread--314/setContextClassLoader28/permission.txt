@@ -1,0 +1,3 @@
+<p>If a security manager is present, its <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkPermission(java.security.Permission)">checkPermission</a></code>
+ method is invoked with a <code dir="ltr" translate="no"><a href="/reference/java/lang/RuntimePermission">RuntimePermission</a></code><code dir="ltr" translate="no">("setContextClassLoader")</code> permission to see if setting the context
+ ClassLoader is permitted.</p>

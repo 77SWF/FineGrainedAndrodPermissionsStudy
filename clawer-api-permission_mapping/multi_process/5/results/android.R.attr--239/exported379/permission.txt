@@ -1,0 +1,12 @@
+<p>Flag indicating whether the given application component is available
+ to other applications.  If false, it can only be accessed by
+ applications with its same user id (which usually means only by
+ code in its own package).  If true, it can be invoked by external
+ entities, though which ones can do so may be controlled through
+ permissions.  The default value is false for activity, receiver,
+ and service components that do not specify any intent filters; it
+ is true for activity, receiver, and service components that do
+ have intent filters (implying they expect to be invoked by others
+ who do not know their particular component name) and for all
+ content providers.
+ </p>

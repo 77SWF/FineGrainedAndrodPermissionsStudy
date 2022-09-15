@@ -1,0 +1,7 @@
+<p>Requires Permission:
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">READ_PHONE_STATE</a></code>,
+ READ_PRIVILEGED_PHONE_STATE or that the calling app has carrier privileges (see
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">hasCarrierPrivileges()</a></code>).
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code> or android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE</p>

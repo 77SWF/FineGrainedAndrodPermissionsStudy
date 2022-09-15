@@ -1,0 +1,12 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">protected final void setPathPermissions (<a href="/reference/android/content/pm/PathPermission">PathPermission[]</a> permissions)</pre><p>Change the path-based permission required to read and/or write data in
+ the content provider.  This is normally set for you from its manifest
+ information when the provider is first created.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permissions</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">PathPermission</code>: Array of path permission descriptions.
+ 
+ This value may be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

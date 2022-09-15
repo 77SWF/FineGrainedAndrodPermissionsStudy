@@ -1,0 +1,20 @@
+<h3 class="api-name" data-text="permissionToOp" id="permissionToOp(java.lang.String)">permissionToOp</h3><pre class="api-signature no-pretty-print" dir="ltr" translate="no">public static <a href="/reference/java/lang/String">String</a> permissionToOp (<a href="/reference/java/lang/String">String</a> permission)</pre><p>Gets the app-op name associated with a given permission.
+
+ </p><p>The app-op name is one of the public constants defined
+ in this class such as <code dir="ltr" translate="no"><a href="/reference/android/app/AppOpsManager#OPSTR_COARSE_LOCATION">OPSTR_COARSE_LOCATION</a></code>.
+ This API is intended to be used for mapping runtime
+ permissions to the corresponding app-op.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The permission.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/lang/String">String</a></code></td>
+        <td width="100%">The app-op associated with the permission or <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

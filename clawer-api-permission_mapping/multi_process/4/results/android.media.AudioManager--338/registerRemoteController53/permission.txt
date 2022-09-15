@@ -1,0 +1,9 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">true if the <code dir="ltr" translate="no"><a href="/reference/android/media/RemoteController">RemoteController</a></code> was successfully registered,
+         false if an error occurred, due to an internal system error, or
+         insufficient permissions.<p></p></td>
+      </tr>
+    </tbody></table>

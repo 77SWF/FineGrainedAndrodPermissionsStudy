@@ -1,0 +1,6 @@
+<p>Take a persistable URI permission grant that has been offered. Once
+ taken, the permission grant will be remembered across device reboots.
+ Only URI permissions granted with
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_PERSISTABLE_URI_PERMISSION">Intent#FLAG_GRANT_PERSISTABLE_URI_PERMISSION</a></code> can be persisted. If
+ the grant has already been persisted, taking it again will touch
+ <code dir="ltr" translate="no"><a href="/reference/android/content/UriPermission#getPersistedTime()">UriPermission#getPersistedTime()</a></code>.</p>

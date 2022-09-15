@@ -1,0 +1,5 @@
+<p>A specific <code dir="ltr" translate="no"><a href="/reference/android/R.attr#permission">permission</a></code> name for write
+ access to a <code dir="ltr" translate="no"><a href="/reference/android/content/ContentProvider">ContentProvider</a></code>.  See the
+ <a href="/guide/topics/security/security">Security and Permissions</a>
+ document for more information on permissions.
+ </p>

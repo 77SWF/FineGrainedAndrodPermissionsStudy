@@ -1,0 +1,6 @@
+<ul>
+     <li>If the calling app has been granted the READ_PRIVILEGED_PHONE_STATE permission; this
+     is a privileged permission that can only be granted to apps preloaded on the device.
+     </li><li>If the calling app has carrier privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">hasCarrierPrivileges()</a></code>).
+ </li></ul>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE

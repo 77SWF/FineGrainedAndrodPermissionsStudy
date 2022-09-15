@@ -1,0 +1,11 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">int</code></td>
+        <td width="100%">Highest direct report rate level of this sensor. Note that if the app does not have
+ the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#HIGH_SAMPLING_RATE_SENSORS">Manifest.permission.HIGH_SAMPLING_RATE_SENSORS</a></code> permission, the highest
+ direct report rate level is <code dir="ltr" translate="no"><a href="/reference/android/hardware/SensorDirectChannel#RATE_NORMAL">SensorDirectChannel#RATE_NORMAL</a></code>. If the sensor
+ does not support direct report mode, this returns <code dir="ltr" translate="no"><a href="/reference/android/hardware/SensorDirectChannel#RATE_STOP">SensorDirectChannel#RATE_STOP</a></code>.
+ Value is <code dir="ltr" translate="no"><a href="/reference/android/hardware/SensorDirectChannel#RATE_STOP">SensorDirectChannel.RATE_STOP</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/hardware/SensorDirectChannel#RATE_NORMAL">SensorDirectChannel.RATE_NORMAL</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/hardware/SensorDirectChannel#RATE_FAST">SensorDirectChannel.RATE_FAST</a></code>, or <code dir="ltr" translate="no"><a href="/reference/android/hardware/SensorDirectChannel#RATE_VERY_FAST">SensorDirectChannel.RATE_VERY_FAST</a></code><p></p></td>
+      </tr>
+    </tbody></table>

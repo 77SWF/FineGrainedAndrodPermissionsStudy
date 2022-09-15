@@ -1,0 +1,5 @@
+<p>A shortcut can launch any intent that the publisher app has permission to
+ launch.  For example, a shortcut can launch an unexported activity within the publisher
+ app.  A shortcut intent doesn't have to point at the target activity.
+
+ </p>

@@ -1,0 +1,20 @@
+<p>This is an asynchronous call: it will return immediately, and
+ clients should listen for <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothAdapter#ACTION_STATE_CHANGED">ACTION_STATE_CHANGED</a></code>
+ to be notified of subsequent adapter state changes. If this call returns
+ true, then the adapter state will immediately transition from <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothAdapter#STATE_ON">STATE_ON</a></code> to <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothAdapter#STATE_TURNING_OFF">STATE_TURNING_OFF</a></code>, and some time
+ later transition to either <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothAdapter#STATE_OFF">STATE_OFF</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothAdapter#STATE_ON">STATE_ON</a></code>. If this call returns false then there was an
+ immediate problem that will prevent the adapter from being turned off -
+ such as the adapter already being turned off.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code> or lower, this
+ requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_ADMIN">Manifest.permission#BLUETOOTH_ADMIN</a></code>
+ permission which can be gained with a simple
+ <code dir="ltr" translate="no">&lt;uses-permission&gt;</code> manifest tag.
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission#BLUETOOTH_CONNECT</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission.BLUETOOTH_CONNECT</a></code></p>

@@ -1,0 +1,6 @@
+<p>Perform a system dump of various state associated with the given application
+ package name.  This call blocks while the dump is being performed, so should
+ not be done on a UI thread.  The data will be written to the given file
+ descriptor as text.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#DUMP">Manifest.permission.DUMP</a></code></p>

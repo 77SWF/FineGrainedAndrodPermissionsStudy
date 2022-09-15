@@ -1,0 +1,25 @@
+<table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">packageName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: Optional, a null value means match all packages belonging to the
+                    caller's UID. If this package belongs to another UID, you must hold
+                    <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#DUMP">Manifest.permission.DUMP</a></code> in order to retrieve it.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">pid</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: A process ID that used to belong to this package but died later; a value
+                    of 0 means to ignore this parameter and return all matching records.
+ Value is 0 or greater<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">maxNum</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The maximum number of results to be returned; a value of 0
+                    means to ignore this parameter and return all matching records
+
+ Value is 0 or greater<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,5 @@
+<p>
+ Apps must request the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#FOREGROUND_SERVICE">Manifest.permission.FOREGROUND_SERVICE</a></code> permission
+ in order to use this API. For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#TIRAMISU">Build.VERSION_CODES.TIRAMISU</a></code>
+ or later, notifications will only be posted if the app has also been granted the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#POST_NOTIFICATIONS">Manifest.permission.POST_NOTIFICATIONS</a></code> permission.</p>

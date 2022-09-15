@@ -1,0 +1,4 @@
+android.telecom.TelecomManager.getLine1Number                    	READ_PHONE_NUMBERS       	允许该应用访问设备上的电话号码。
+android.telecom.TelecomManager.getPhoneAccount                   	READ_PHONE_NUMBERS       	允许该应用访问设备上的电话号码。
+android.telephony.SubscriptionInfo.getNumber                     	READ_PHONE_NUMBERS       	允许该应用访问设备上的电话号码。
+android.telephony.TelephonyManager.getLine1Number                	READ_PHONE_NUMBERS       	允许该应用访问设备上的电话号码。

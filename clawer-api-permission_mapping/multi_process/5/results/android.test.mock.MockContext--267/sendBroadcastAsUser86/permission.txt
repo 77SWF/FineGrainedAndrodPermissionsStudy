@@ -1,0 +1,26 @@
+<p>Version of <code dir="ltr" translate="no"><a href="/reference/android/content/Context#sendBroadcast(android.content.Intent,%20java.lang.String)">sendBroadcast(android.content.Intent, java.lang.String)</a></code> that allows you to specify the
+ user the broadcast will be sent to.  This is not available to applications
+ that are not pre-installed on the system image.
+
+ <br/>
+ Requires android.Manifest.permission.INTERACT_ACROSS_USERS</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">intent</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Intent</code>: The Intent to broadcast; all receivers matching this
+               Intent will receive the broadcast.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">user</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">UserHandle</code>: UserHandle to send the intent to.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">receiverPermission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: (optional) String naming a permission that
+               a receiver must hold in order to receive your broadcast.
+               If null, no permission is required.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,6 @@
+<p> If a security manager is present, and the invoker's class loader is
+ not <tt>null</tt> and the invoker's class loader is not the same as or
+ an ancestor of the system class loader, then this method invokes the
+ security manager's <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkPermission(java.security.Permission)"><tt>checkPermission</tt></a></code> method with a <code dir="ltr" translate="no"><a href="/reference/java/lang/RuntimePermission#RuntimePermission(java.lang.String)"><tt>RuntimePermission("getClassLoader")</tt></a></code> permission to verify
+ access to the system class loader.  If not, a
+ <tt>SecurityException</tt> will be thrown.  </p>

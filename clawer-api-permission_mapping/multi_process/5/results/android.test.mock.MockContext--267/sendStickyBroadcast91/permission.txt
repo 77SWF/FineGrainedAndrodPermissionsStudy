@@ -1,0 +1,9 @@
+<p>Perform a <code dir="ltr" translate="no"><a href="/reference/android/content/Context#sendBroadcast(android.content.Intent)">sendBroadcast(android.content.Intent)</a></code> that is "sticky," meaning the
+ Intent you are sending stays around after the broadcast is complete,
+ so that others can quickly retrieve that data through the return
+ value of <code dir="ltr" translate="no"><a href="/reference/android/content/Context#registerReceiver(android.content.BroadcastReceiver,%20android.content.IntentFilter)">registerReceiver(android.content.BroadcastReceiver, android.content.IntentFilter)</a></code>.  In
+ all other ways, this behaves the same as
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#sendBroadcast(android.content.Intent)">sendBroadcast(android.content.Intent)</a></code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BROADCAST_STICKY">Manifest.permission.BROADCAST_STICKY</a></code></p>

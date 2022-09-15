@@ -1,0 +1,6 @@
+<p><!--
+ Note: Use <code translate="no" dir="ltr"--><a href="/reference/android/net/wifi/WifiManager#removeNetworkSuggestions(java.util.List&lt;android.net.wifi.WifiNetworkSuggestion&gt;,%20int)">removeNetworkSuggestions(java.util.List, int)</a>. An <code dir="ltr" translate="no">action</code> of
+ <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiManager#ACTION_REMOVE_SUGGESTION_DISCONNECT">ACTION_REMOVE_SUGGESTION_DISCONNECT</a></code> is equivalent to the current behavior.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CHANGE_WIFI_STATE">Manifest.permission.CHANGE_WIFI_STATE</a></code></p>

@@ -1,0 +1,10 @@
+<p>Remove a list of subscriptions from their subscription group.
+ See <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#createSubscriptionGroup(java.util.List&lt;java.lang.Integer&gt;)">createSubscriptionGroup(java.util.List)</a></code> for more details.
+
+ Caller will either have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code>
+ permission or had carrier privilege permission on the subscriptions:
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager#hasCarrierPrivileges()</a></code> or
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#canManageSubscription(android.telephony.SubscriptionInfo)">canManageSubscription(android.telephony.SubscriptionInfo)</a></code>
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code></p>

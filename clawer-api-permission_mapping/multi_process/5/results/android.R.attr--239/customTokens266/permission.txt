@@ -1,0 +1,3 @@
+<p>Account handles its own token storage and permissions.
+ Default to false
+ </p>

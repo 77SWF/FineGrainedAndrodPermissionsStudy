@@ -1,0 +1,16 @@
+<p>Callback invoked when device service state changes on the registered subscription.
+ Note, the registration subId comes from <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager">TelephonyManager</a></code> object which registers
+ PhoneStateListener by <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#listen(android.telephony.PhoneStateListener,%20int)">TelephonyManager#listen(PhoneStateListener, int)</a></code>.
+ If this TelephonyManager object was created with
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#createForSubscriptionId(int)">TelephonyManager#createForSubscriptionId(int)</a></code>, then the callback applies to the
+ subId. Otherwise, this callback applies to
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#getDefaultSubscriptionId()">SubscriptionManager#getDefaultSubscriptionId()</a></code>.
+
+ The instance of <code dir="ltr" translate="no"><a href="/reference/android/telephony/ServiceState">ServiceState</a></code> passed as an argument here will have various levels of
+ location information stripped from it depending on the location permissions that your app
+ holds. Only apps holding the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission#ACCESS_FINE_LOCATION</a></code> permission will
+ receive all the information in <code dir="ltr" translate="no"><a href="/reference/android/telephony/ServiceState">ServiceState</a></code>, otherwise the cellIdentity will be null
+ if apps only holding the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION">Manifest.permission#ACCESS_COARSE_LOCATION</a></code> permission.
+ Network operator name in long/short alphanumeric format and numeric id will be null if apps
+ holding neither <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code> nor
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION">Manifest.permission.ACCESS_COARSE_LOCATION</a></code>.</p>

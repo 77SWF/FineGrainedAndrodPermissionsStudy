@@ -1,0 +1,1 @@
+<code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SMS_FINANCIAL_TRANSACTIONS">Manifest.permission.SMS_FINANCIAL_TRANSACTIONS</a></code>

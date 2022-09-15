@@ -1,0 +1,5 @@
+<p>Version of <code dir="ltr" translate="no"><a href="/reference/android/app/WallpaperManager#setResource(int)">setResource(int)</a></code> that allows the caller to specify which
+ of the supported wallpaper categories to set.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SET_WALLPAPER">Manifest.permission.SET_WALLPAPER</a></code></p>

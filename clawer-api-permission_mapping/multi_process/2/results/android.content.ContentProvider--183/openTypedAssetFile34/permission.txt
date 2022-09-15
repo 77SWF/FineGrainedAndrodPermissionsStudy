@@ -1,0 +1,18 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/FileNotFoundException">FileNotFoundException</a></code></td>
+          <td width="100%">Throws FileNotFoundException if there is
+ no file associated with the given URI or the mode is invalid.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">Throws SecurityException if the caller does
+ not have permission to access the data.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">Throws IllegalArgumentException if the
+ content provider does not support the requested MIME type.</td>
+        </tr>
+      </tbody></table>

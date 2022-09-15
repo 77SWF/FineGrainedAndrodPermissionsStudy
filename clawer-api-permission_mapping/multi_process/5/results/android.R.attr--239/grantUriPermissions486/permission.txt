@@ -1,0 +1,7 @@
+<p>If true, the <code dir="ltr" translate="no"><a href="/reference/android/content/Context#grantUriPermission(java.lang.String,%20android.net.Uri,%20int)">Context.grantUriPermission</a></code> or corresponding Intent flags can
+ be used to allow others to access specific URIs in the content
+ provider, even if they do not have an explicit read or write
+ permission.  If you are supporting this feature, you must be
+ sure to call <code dir="ltr" translate="no"><a href="/reference/android/content/Context#revokeUriPermission(android.net.Uri,%20int)">Context.revokeUriPermission</a></code> when URIs are deleted from your
+ provider.
+ </p>

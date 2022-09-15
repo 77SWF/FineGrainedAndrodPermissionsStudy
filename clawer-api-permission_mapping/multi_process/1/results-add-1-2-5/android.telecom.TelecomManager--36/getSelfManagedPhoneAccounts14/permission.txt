@@ -1,0 +1,14 @@
+<p>
+ Requires permission <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code>, or that the caller
+ is the default dialer app to get all phone account handles.
+ </p><p>
+ If the caller doesn't meet any of the above requirements and has <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_OWN_CALLS">Manifest.permission.MANAGE_OWN_CALLS</a></code>, the caller can get only the phone account
+ handles they have registered.
+ </p><p>
+ A <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code> will be thrown if the caller is not the default dialer
+ or the caller does not have at least one of the following permissions:
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code> permission,
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_OWN_CALLS">Manifest.permission.MANAGE_OWN_CALLS</a></code> permission
+
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_OWN_CALLS">Manifest.permission.MANAGE_OWN_CALLS</a></code></p>

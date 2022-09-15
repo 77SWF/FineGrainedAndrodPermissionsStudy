@@ -1,0 +1,4 @@
+<p>Returns the <code dir="ltr" translate="no"><a href="/reference/android/graphics/Rect">Rect</a></code> of the maximum bounds of the system privacy indicator, for the
+ current orientation, in relative coordinates, or null if the bounds have not been loaded yet.
+ The privacy indicator shows over apps when an app uses the microphone or camera permissions,
+ while an app is in immersive mode.</p>

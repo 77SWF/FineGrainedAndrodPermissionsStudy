@@ -1,0 +1,21 @@
+<p>Determine whether a particular process and user ID has been granted
+ permission to access a specific slice URI.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">uri</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Uri</code>: The uri that is being checked.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">pid</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The process ID being checked against.  Must be &gt; 0.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">uid</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The user ID being checked against.  A uid of 0 is the root
+ user, which will pass every permission check.<p></p></td>
+      </tr>
+    </tbody></table>

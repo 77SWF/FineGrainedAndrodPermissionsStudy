@@ -1,0 +1,6 @@
+<p> If a security manager has been installed then it verifies that the
+ address and port number of the connection's remote endpoint are permitted
+ by the security manager's <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkAccept(java.lang.String,%20int)">checkAccept</a></code>
+ method. The permission check is performed with privileges that are restricted
+ by the calling context of this method. If the permission check fails then
+ the connection is closed and the operation completes with a <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>.</p>

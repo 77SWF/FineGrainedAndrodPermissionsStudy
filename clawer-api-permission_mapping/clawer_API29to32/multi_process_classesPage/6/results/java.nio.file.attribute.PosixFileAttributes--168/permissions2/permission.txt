@@ -1,0 +1,14 @@
+<h3 class="api-name" data-text="permissions" id="permissions()">permissions</h3><pre class="api-signature no-pretty-print" dir="ltr" translate="no">public abstract <a href="/reference/java/util/Set">Set</a>&lt;<a href="/reference/java/nio/file/attribute/PosixFilePermission">PosixFilePermission</a>&gt; permissions ()</pre><p>Returns the permissions of the file. The file permissions are returned
+ as a set of <code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/PosixFilePermission">PosixFilePermission</a></code> elements. The returned set is a
+ copy of the file permissions and is modifiable. This allows the result
+ to be modified and passed to the <code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/PosixFileAttributeView#setPermissions(java.util.Set&lt;java.nio.file.attribute.PosixFilePermission&gt;)">setPermissions</a></code> method to update the file's permissions.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/Set">Set</a>&lt;<a href="/reference/java/nio/file/attribute/PosixFilePermission">PosixFilePermission</a>&gt;</code></td>
+        <td width="100%">the file permissions<p></p></td>
+      </tr>
+    </tbody></table><div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/PosixFileAttributeView#setPermissions(java.util.Set&lt;java.nio.file.attribute.PosixFilePermission&gt;)">PosixFileAttributeView.setPermissions(Set<posixfilepermission>)</posixfilepermission></a></code></li>
+      </ul>
+  </div>

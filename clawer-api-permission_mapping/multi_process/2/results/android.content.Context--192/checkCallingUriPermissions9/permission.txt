@@ -1,0 +1,17 @@
+<p>Determine whether the calling process and user ID has been
+ granted permission to access a list of URIs.  This is basically
+ the same as calling <code dir="ltr" translate="no"><a href="/reference/android/content/Context#checkUriPermissions(java.util.List&lt;android.net.Uri&gt;,%20int,%20int,%20int)">checkUriPermissions(java.util.List, int, int, int)</a></code>
+ with the pid and uid returned by <code dir="ltr" translate="no"><a href="/reference/android/os/Binder#getCallingPid()">Binder.getCallingPid()</a></code> and <code dir="ltr" translate="no"><a href="/reference/android/os/Binder#getCallingUid()">Binder.getCallingUid()</a></code>.  One important difference is
+ that if you are not currently processing an IPC, this function
+ will always fail.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">int[]</code></td>
+        <td width="100%">Array of permission grants corresponding to each entry in the list of uris.
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_GRANTED">PackageManager#PERMISSION_GRANTED</a></code> if the given pid/uid is allowed to access that uri,
+ or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_DENIED">PackageManager#PERMISSION_DENIED</a></code> if it is not.
+
+ This value cannot be <code dir="ltr" translate="no">null</code>.
+ Value is <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_GRANTED">PackageManager.PERMISSION_GRANTED</a></code>, or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_DENIED">PackageManager.PERMISSION_DENIED</a></code><p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,105 @@
+<p>Characterizes the potential risk implied in a permission and
+ indicates the procedure the system should follow when determining
+ whether to grant the permission to an application requesting it. <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission">Standard permissions</a></code> have a predefined and
+ permanent protectionLevel. If you are creating a custom permission in an
+ application, you can define a protectionLevel attribute with one of the
+ values listed below. If no protectionLevel is defined for a custom
+ permission, the system assigns the default ("normal").
+ </p><p>Each protection level consists of a base permission type and zero or
+ more flags. Use the following functions to extract those.
+ </p><pre dir="ltr" translate="no"> int basePermissionType = permissionInfo.getProtection();
+ int permissionFlags = permissionInfo.getProtectionFlags();
+ </pre><table>
+ <colgroup align="left">
+ </colgroup><colgroup align="left">
+ </colgroup><colgroup align="left">
+ </colgroup><tbody><tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+ <tr><td>appPredictor</td><td>200000</td><td>Additional flag from base permission type: this permission can be automatically
+ granted to the system app predictor</td></tr>
+ <tr><td>appop</td><td>40</td><td>Additional flag from base permission type: this permission is closely
+ associated with an app op for controlling access.</td></tr>
+ <tr><td>companion</td><td>800000</td><td>Additional flag from base permission type: this permission can be automatically
+ granted to the system companion device manager service</td></tr>
+ <tr><td>configurator</td><td>80000</td><td>Additional flag from base permission type: this permission automatically
+ granted to device configurator</td></tr>
+ <tr><td>dangerous</td><td>1</td><td><strong>Base permission type</strong>: a higher-risk permission that
+ would give a requesting application access to private user data or
+ control over the device that can negatively impact the user.  Because
+ this type of permission introduces potential risk, the system may
+ not automatically grant it to the requesting application.  For example,
+ any dangerous permissions requested by an application may be displayed
+ to the user and require confirmation before proceeding, or some other
+ approach may be taken to avoid the user automatically allowing
+ the use of such facilities.</td></tr>
+ <tr><td>development</td><td>20</td><td>Additional flag from base permission type: this permission can also
+ (optionally) be granted to development applications. Although undocumented, the
+ permission state used to be shared by all users (including future users), but it is
+ managed per-user since API level 31.</td></tr>
+ <tr><td>incidentReportApprover</td><td>100000</td><td>Additional flag from base permission type: this permission designates the app
+ that will approve the sharing of incident reports.</td></tr>
+ <tr><td>installer</td><td>100</td><td>Additional flag from base permission type: this permission can be automatically
+ granted to system apps that install packages.</td></tr>
+ <tr><td>instant</td><td>1000</td><td>Additional flag from base permission type: this permission can be granted to instant
+ apps</td></tr>
+ <tr><td>internal</td><td>4</td><td><strong>Base permission type</strong>: a permission that is managed internally by the
+ system and only granted according to the protection flags.</td></tr>
+ <tr><td>knownSigner</td><td>8000000</td><td>Additional flag from base permission type: this permission can also be granted if the
+ requesting application is signed by, or has in its signing lineage, any of the
+ certificate digests declared in <code dir="ltr" translate="no"><a href="/reference/android/R.attr#knownCerts">knownCerts</a></code>.</td></tr>
+ <tr><td>normal</td><td>0</td><td><strong>Base permission type</strong>: a lower-risk permission that gives
+ an application access to isolated application-level features, with minimal
+ risk to other applications, the system, or the user. The system
+ automatically grants this type of permission to a requesting application at
+ installation, without asking for the user's explicit approval (though the
+ user always has the option to review these permissions before installing).</td></tr>
+ <tr><td>oem</td><td>4000</td><td>Additional flag from base permission type: this permission can be granted only
+ if its protection level is signature, the requesting app resides on the OEM partition,
+ and the OEM has allowlisted the app to receive this permission by the OEM.</td></tr>
+ <tr><td>pre23</td><td>80</td><td>Additional flag from base permission type: this permission can be automatically
+ granted to apps that target API levels below
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#M">Build.VERSION_CODES.M</a></code> (before runtime permissions
+ were introduced).</td></tr>
+ <tr><td>preinstalled</td><td>400</td><td>Additional flag from base permission type: this permission can be automatically
+ granted any application pre-installed on the system image (not just privileged
+ apps).</td></tr>
+ <tr><td>privileged</td><td>10</td><td>Additional flag from base permission type: this permission can also
+ be granted to any applications installed as privileged apps on the system image.
+ Please avoid using this option, as the
+ signature protection level should be sufficient for most needs and
+ works regardless of exactly where applications are installed.  This
+ permission flag is used for certain special situations where multiple
+ vendors have applications built in to a system image which need
+ to share specific features explicitly because they are being built
+ together.</td></tr>
+ <tr><td>recents</td><td>2000000</td><td>Additional flag from base permission type: this permission will be granted to the
+ recents app.</td></tr>
+ <tr><td>retailDemo</td><td>1000000</td><td>Additional flag from base permission type: this permission will be granted to the
+ retail demo app, as defined by the OEM.</td></tr>
+ <tr><td>role</td><td>4000000</td><td>Additional flag from base permission type: this permission is managed by role.</td></tr>
+ <tr><td>runtime</td><td>2000</td><td>Additional flag from base permission type: this permission can only be granted to apps
+ that target runtime permissions (<code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#M">Build.VERSION_CODES.M</a></code> and above)</td></tr>
+ <tr><td>setup</td><td>800</td><td>Additional flag from base permission type: this permission can be automatically
+ granted to the setup wizard app</td></tr>
+ <tr><td>signature</td><td>2</td><td><strong>Base permission type</strong>: a permission that the system is
+ to grant only if the requesting application is signed with the same
+ certificate as the application that declared the permission. If the
+ certificates match, the system automatically grants the permission
+ without notifying the user or asking for the user's explicit approval.</td></tr>
+ <tr><td>signatureOrSystem</td><td>3</td><td>Old synonym for "signature|privileged". Deprecated in API level 23.
+ Base permission type: a permission that the system is to grant only
+ to packages in the Android system image <em>or</em> that are signed
+ with the same certificates. Please avoid using this option, as the
+ signature protection level should be sufficient for most needs and
+ works regardless of exactly where applications are installed.  This
+ permission is used for certain special situations where multiple
+ vendors have applications built in to a system image which need
+ to share specific features explicitly because they are being built
+ together.</td></tr>
+ <tr><td>system</td><td>10</td><td>Old synonym for "privileged". Deprecated in API level 23.</td></tr>
+ <tr><td>textClassifier</td><td>10000</td><td>Additional flag from base permission type: this permission can be automatically
+ granted to the system default text classifier</td></tr>
+ <tr><td>vendorPrivileged</td><td>8000</td><td>Additional flag from base permission type: this permission can be granted to
+ privileged apps in vendor partition.</td></tr>
+ <tr><td>verifier</td><td>200</td><td>Additional flag from base permission type: this permission can be automatically
+ granted to system apps that verify packages.</td></tr>
+ </tbody></table>

@@ -1,0 +1,16 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public abstract boolean checkPermission (<a href="/reference/java/security/acl/Permission">Permission</a> permission)</pre><p>Checks if the specified permission is part of the
+ permission set in this entry.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Permission</code>: the permission to be checked for.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">true if the permission is part of the
+ permission set in this entry, false otherwise.<p></p></td>
+      </tr>
+    </tbody></table>

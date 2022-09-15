@@ -1,0 +1,7 @@
+<ul>
+ <li><code dir="ltr" translate="no">UserManager#getEnabledProfileIds(int)</code> returns at least one other profile for the
+ calling user.</li>
+ <li>The calling app has requested
+ <code dir="ltr" translate="no">android.Manifest.permission.INTERACT_ACROSS_PROFILES</code> in its manifest.</li>
+ <li>The calling app is not a profile owner within the profile group of the calling user.</li>
+ </ul>

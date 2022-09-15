@@ -1,0 +1,9 @@
+<h3 class="api-name" data-text="permissions" id="permissions()">permissions</h3><pre class="api-signature no-pretty-print" dir="ltr" translate="no">public <a href="/reference/java/util/Set">Set</a>&lt;<a href="/reference/java/nio/file/attribute/AclEntryPermission">AclEntryPermission</a>&gt; permissions ()</pre><p>Returns a copy of the permissions component.
+
+ </p><p> The returned set is a modifiable copy of the permissions.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/Set">Set</a>&lt;<a href="/reference/java/nio/file/attribute/AclEntryPermission">AclEntryPermission</a>&gt;</code></td>
+        <td width="100%">the permissions component<p></p></td>
+      </tr>
+    </tbody></table>

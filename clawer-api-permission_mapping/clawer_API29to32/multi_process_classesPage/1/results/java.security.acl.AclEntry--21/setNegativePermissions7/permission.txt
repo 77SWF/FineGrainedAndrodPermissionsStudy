@@ -1,0 +1,7 @@
+<p>Sets this ACL entry to be a negative one. That is, the associated
+ principal (e.g., a user or a group) will be denied the permission set
+ specified in the entry.
+
+ Note: ACL entries are by default positive. An entry becomes a
+ negative entry only if this <code dir="ltr" translate="no">setNegativePermissions</code>
+ method is called on it.</p>

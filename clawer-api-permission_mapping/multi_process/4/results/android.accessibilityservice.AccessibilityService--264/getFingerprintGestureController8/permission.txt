@@ -1,0 +1,6 @@
+<p>Get the controller for fingerprint gestures. This feature requires <code dir="ltr" translate="no"><a href="/reference/android/accessibilityservice/AccessibilityServiceInfo#CAPABILITY_CAN_REQUEST_FINGERPRINT_GESTURES">AccessibilityServiceInfo.CAPABILITY_CAN_REQUEST_FINGERPRINT_GESTURES</a></code>.
+
+<strong>Note: </strong> The service must be connected before this method is called.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_FINGERPRINT">Manifest.permission.USE_FINGERPRINT</a></code></p>

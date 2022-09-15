@@ -1,0 +1,24 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">if an I/O exception occurs.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if a security manager is present
+             and the caller doesn't have permission to connect
+             to the proxy.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">will be thrown if proxy is null,
+             or proxy has the wrong type</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/UnsupportedOperationException">UnsupportedOperationException</a></code></td>
+          <td width="100%">if the subclass that
+             implements the protocol handler doesn't support
+             this method.</td>
+        </tr>
+      </tbody></table>

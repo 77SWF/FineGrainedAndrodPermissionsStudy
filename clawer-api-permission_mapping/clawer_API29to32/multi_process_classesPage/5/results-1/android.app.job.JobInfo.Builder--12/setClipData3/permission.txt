@@ -1,0 +1,20 @@
+<p>The main purpose of providing a ClipData is to allow granting of
+ URI permissions for data associated with the clip.  The exact kind
+ of permission grant to perform is specified through <var translate="no">grantFlags</var>.
+
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">clip</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">ClipData</code>: The new clip to set.  May be null to clear the current clip.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">grantFlags</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The desired permissions to grant for any URIs.  This should be
+ a combination of <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_READ_URI_PERMISSION">Intent.FLAG_GRANT_READ_URI_PERMISSION</a></code>,
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_WRITE_URI_PERMISSION">Intent.FLAG_GRANT_WRITE_URI_PERMISSION</a></code>, and
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_PREFIX_URI_PERMISSION">Intent.FLAG_GRANT_PREFIX_URI_PERMISSION</a></code>.<p></p></td>
+      </tr>
+    </tbody></table>

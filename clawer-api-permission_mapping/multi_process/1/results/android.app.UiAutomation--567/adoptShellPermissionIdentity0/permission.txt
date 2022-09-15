@@ -1,0 +1,9 @@
+<p>Adopt the permission identity of the shell UID for all permissions. This allows
+ you to call APIs protected permissions which normal apps cannot hold but are
+ granted to the shell UID. If you already adopted all shell permissions by calling
+ this method or <code dir="ltr" translate="no"><a href="/reference/android/app/UiAutomation#adoptShellPermissionIdentity(java.lang.String...)">adoptShellPermissionIdentity(java.lang.String)</a></code> a subsequent call will
+ replace any previous adoption. Note that your permission state becomes that of the shell UID
+ and it is not a combination of your and the shell UID permissions.
+ </p><p>
+ <strong>Note:<strong> Calling this method adopts all shell permissions and overrides
+ any subset of adopted permissions via <code dir="ltr" translate="no"><a href="/reference/android/app/UiAutomation#adoptShellPermissionIdentity(java.lang.String...)">adoptShellPermissionIdentity(java.lang.String)</a></code>.</strong></strong></p>

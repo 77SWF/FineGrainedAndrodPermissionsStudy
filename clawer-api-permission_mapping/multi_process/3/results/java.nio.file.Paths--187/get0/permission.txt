@@ -1,0 +1,19 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if preconditions on the <code dir="ltr" translate="no">uri</code> parameter do not hold. The
+          format of the URI is provider specific.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/nio/file/FileSystemNotFoundException">FileSystemNotFoundException</a></code></td>
+          <td width="100%">The file system, identified by the URI, does not exist and
+          cannot be created automatically, or the provider identified by
+          the URI's scheme component is not installed</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if a security manager is installed and it denies an unspecified
+          permission to access the file system</td>
+        </tr>
+      </tbody></table>

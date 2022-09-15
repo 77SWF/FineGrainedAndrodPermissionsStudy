@@ -1,0 +1,3 @@
+<p>Some apps cannot be suspended, such as device admins, the active launcher, the required
+ package installer, the required package uninstaller, the required package verifier, the
+ default dialer, and the permission controller.</p>

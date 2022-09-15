@@ -1,0 +1,10 @@
+<p>Set the local destination for the downloaded file. Must be a file URI to a path on
+ external storage, and the calling application must have the WRITE_EXTERNAL_STORAGE
+ permission.
+ </p><p> For applications targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#Q">Build.VERSION_CODES.Q</a></code> or above,
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_EXTERNAL_STORAGE">WRITE EXTERNAL_STORAGE</a></code>
+ permission is not needed and the <code dir="ltr" translate="no">uri</code> must refer to a path within the
+ directories owned by the application (e.g. <code dir="ltr" translate="no"><a href="/reference/android/content/Context#getExternalFilesDir(java.lang.String)">Context#getExternalFilesDir(String)</a></code>)
+ or a path within the top-level Downloads directory (as returned by
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Environment#getExternalStoragePublicDirectory(java.lang.String)">Environment#getExternalStoragePublicDirectory(String)</a></code> with
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Environment#DIRECTORY_DOWNLOADS">Environment#DIRECTORY_DOWNLOADS</a></code>).</p>

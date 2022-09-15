@@ -1,0 +1,12 @@
+<p>Return the results of the latest access point scan.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_WIFI_STATE">Manifest.permission.ACCESS_WIFI_STATE</a></code> and <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code></p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/List">List</a>&lt;<a href="/reference/android/net/wifi/ScanResult">ScanResult</a>&gt;</code></td>
+        <td width="100%">the list of access points found in the most recent scan. An app must hold
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">ACCESS_FINE_LOCATION</a></code> permission
+ and <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_WIFI_STATE">Manifest.permission.ACCESS_WIFI_STATE</a></code> permission
+ in order to get valid results.<p></p></td>
+      </tr>
+    </tbody></table>

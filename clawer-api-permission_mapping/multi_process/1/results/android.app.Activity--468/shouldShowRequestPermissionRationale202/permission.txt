@@ -1,0 +1,15 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public boolean shouldShowRequestPermissionRationale (<a href="/reference/java/lang/String">String</a> permission)</pre><p>Gets whether you should show UI with rationale before requesting a permission.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: A permission your app wants to request.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">Whether you should show permission rationale UI.<p></p></td>
+      </tr>
+    </tbody></table>

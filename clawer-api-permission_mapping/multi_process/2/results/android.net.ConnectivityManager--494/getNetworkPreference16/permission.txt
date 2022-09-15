@@ -1,0 +1,4 @@
+<p>Retrieves the current preferred network type.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_NETWORK_STATE">Manifest.permission.ACCESS_NETWORK_STATE</a></code></p>

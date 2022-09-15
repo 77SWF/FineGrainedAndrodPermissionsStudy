@@ -1,0 +1,6 @@
+<p>Require at least <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code> or
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION">Manifest.permission.ACCESS_COARSE_LOCATION</a></code>. Otherwise return
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/ServiceState#UNKNOWN_ID">UNKNOWN_ID</a></code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION">Manifest.permission.ACCESS_COARSE_LOCATION</a></code></p>

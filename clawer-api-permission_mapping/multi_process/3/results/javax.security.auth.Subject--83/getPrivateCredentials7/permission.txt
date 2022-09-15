@@ -1,0 +1,5 @@
+<p> The caller must have permission to access all of the
+ requested Credentials, or a <code dir="ltr" translate="no">SecurityException</code>
+ will be thrown.
+
+ </p>

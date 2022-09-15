@@ -1,0 +1,2 @@
+<p>Notify the host application that the given permission request
+ has been canceled. Any related UI should therefore be hidden.</p>

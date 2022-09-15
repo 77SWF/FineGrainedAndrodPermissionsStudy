@@ -1,0 +1,13 @@
+<p>Gets the set of origins for which Geolocation permissions are stored.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">callback</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">ValueCallback</code>: a <code dir="ltr" translate="no"><a href="/reference/android/webkit/ValueCallback">ValueCallback</a></code> to receive the result of this
+                 request. This object's
+                 <code dir="ltr" translate="no"><a href="/reference/android/webkit/ValueCallback#onReceiveValue(T)">onReceiveValue()</a></code>
+                 method will be invoked asynchronously with a set of
+                 Strings containing the origins for which Geolocation
+                 permissions are stored.<p></p></td>
+      </tr>
+    </tbody></table>

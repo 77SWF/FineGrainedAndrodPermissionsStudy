@@ -1,0 +1,28 @@
+<ul>
+ <li> This method can be used to allow JavaScript to control the host
+ application. This is a powerful feature, but also presents a security
+ risk for apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#JELLY_BEAN">Build.VERSION_CODES.JELLY_BEAN</a></code> or earlier.
+ Apps that target a version later than <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#JELLY_BEAN">Build.VERSION_CODES.JELLY_BEAN</a></code>
+ are still vulnerable if the app runs on a device running Android earlier than 4.2.
+ The most secure way to use this method is to target <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#JELLY_BEAN_MR1">Build.VERSION_CODES.JELLY_BEAN_MR1</a></code>
+ and to ensure the method is called only when running on Android 4.2 or later.
+ With these older versions, JavaScript could use reflection to access an
+ injected object's public fields. Use of this method in a WebView
+ containing untrusted content could allow an attacker to manipulate the
+ host application in unintended ways, executing Java code with the
+ permissions of the host application. Use extreme care when using this
+ method in a WebView which could contain untrusted content.</li>
+ <li> JavaScript interacts with Java object on a private, background
+ thread of this WebView. Care is therefore required to maintain thread
+ safety.
+ </li>
+ <li> Because the object is exposed to all the frames, any frame could
+ obtain the object name and call methods on it. There is no way to tell the
+ calling frame's origin from the app side, so the app must not assume that
+ the caller is trustworthy unless the app can guarantee that no third party
+ content is ever loaded into the WebView even inside an iframe.</li>
+ <li> The Java object's fields are not accessible.</li>
+ <li> For applications targeted to API level <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#LOLLIPOP">Build.VERSION_CODES.LOLLIPOP</a></code>
+ and above, methods of injected Java objects are enumerable from
+ JavaScript.</li>
+ </ul>

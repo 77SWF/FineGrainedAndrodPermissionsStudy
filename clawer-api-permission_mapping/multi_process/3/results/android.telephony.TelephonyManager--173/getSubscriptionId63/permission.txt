@@ -1,0 +1,15 @@
+<p>Returns the subscription ID for the given phone account handle.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code>
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_TELEPHONY_SUBSCRIPTION">PackageManager#FEATURE_TELEPHONY_SUBSCRIPTION</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">int</code></td>
+        <td width="100%">subscription ID for the given phone account handle; or
+         <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#INVALID_SUBSCRIPTION_ID">SubscriptionManager#INVALID_SUBSCRIPTION_ID</a></code>
+         if not available; or throw a SecurityException if the caller doesn't have the
+         permission.<p></p></td>
+      </tr>
+    </tbody></table>

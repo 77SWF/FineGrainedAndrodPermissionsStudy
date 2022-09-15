@@ -1,0 +1,28 @@
+<p>If this object has been created with <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#createForSubscriptionId(int)">createForSubscriptionId(int)</a></code>, applies
+      to the given subId. Otherwise, applies to
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#getDefaultDataSubscriptionId()">SubscriptionManager#getDefaultDataSubscriptionId()</a></code>
+
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code>
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_TELEPHONY_DATA">PackageManager#FEATURE_TELEPHONY_DATA</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">reason</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: the reason the data enable change is taking place
+ Value is <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#DATA_ENABLED_REASON_USER">DATA_ENABLED_REASON_USER</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#DATA_ENABLED_REASON_POLICY">DATA_ENABLED_REASON_POLICY</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#DATA_ENABLED_REASON_CARRIER">DATA_ENABLED_REASON_CARRIER</a></code>, or <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#DATA_ENABLED_REASON_THERMAL">DATA_ENABLED_REASON_THERMAL</a></code><p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">enabled</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">boolean</code>: True if enabling the data, otherwise disabling.
+
+ <p>Requires Permission:
+ The calling app has carrier privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">hasCarrierPrivileges()</a></code>) if the reason is
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#DATA_ENABLED_REASON_USER">DATA_ENABLED_REASON_USER</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#DATA_ENABLED_REASON_CARRIER">DATA_ENABLED_REASON_CARRIER</a></code> or the call app
+ has <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">MODIFY_PHONE_STATE</a></code> irrespective of
+ the reason.</p></td>
+      </tr>
+    </tbody></table>

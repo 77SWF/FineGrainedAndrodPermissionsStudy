@@ -1,0 +1,24 @@
+<p>Query for all of the permissions associated with a particular group.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">group</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The fully qualified name (i.e. com.google.permission.LOGIN)
+            of the permission group you are interested in. Use <code dir="ltr" translate="no">null</code> to
+            find all of the permissions not associated with a group.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">flags</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: Additional option flags to modify the data returned.
+ Value is either <code dir="ltr" translate="no">0</code> or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#GET_META_DATA">PackageManager.GET_META_DATA</a></code><p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/List">List</a>&lt;<a href="/reference/android/content/pm/PermissionInfo">PermissionInfo</a>&gt;</code></td>
+        <td width="100%">Returns a list of <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo">PermissionInfo</a></code> containing information
+         about all of the permissions in the given group.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,7 @@
+<p>Return the ID of the process that sent you the current transaction
+ that is being processed. This PID can be used with higher-level
+ system services to determine its identity and check permissions.
+ If the current thread is not currently executing an incoming transaction,
+ then its own PID is returned.
+
+ Warning: oneway transactions do not receive PID.</p>

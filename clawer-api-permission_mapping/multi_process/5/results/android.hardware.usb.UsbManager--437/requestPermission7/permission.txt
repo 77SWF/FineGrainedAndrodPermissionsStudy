@@ -1,0 +1,25 @@
+<p>Requests temporary permission for the given package to access the accessory.
+ This may result in a system dialog being displayed to the user
+ if permission had not already been granted.
+ Success or failure is returned via the <code dir="ltr" translate="no"><a href="/reference/android/app/PendingIntent">PendingIntent</a></code> pi.
+ If successful, this grants the caller permission to access the accessory only
+ until the device is disconnected.
+
+ The following extras will be added to pi:
+ </p><ul>
+ <li> <code dir="ltr" translate="no"><a href="/reference/android/hardware/usb/UsbManager#EXTRA_ACCESSORY">EXTRA_ACCESSORY</a></code> containing the accessory passed into this call
+ </li><li> <code dir="ltr" translate="no"><a href="/reference/android/hardware/usb/UsbManager#EXTRA_PERMISSION_GRANTED">EXTRA_PERMISSION_GRANTED</a></code> containing boolean indicating whether
+ permission was granted by the user
+ </li></ul><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">accessory</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">UsbAccessory</code>: to request permissions for<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">pi</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">PendingIntent</code>: PendingIntent for returning result<p></p></td>
+      </tr>
+    </tbody></table>

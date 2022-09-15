@@ -1,0 +1,2 @@
+<p>Sets a new challenge PIN for restrictions. This is only for use by pre-installed
+ apps and requires the MANAGE_USERS permission.</p>

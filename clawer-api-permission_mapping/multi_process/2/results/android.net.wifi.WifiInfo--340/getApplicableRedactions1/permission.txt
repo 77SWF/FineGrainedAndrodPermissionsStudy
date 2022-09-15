@@ -1,0 +1,2 @@
+<p>Returns a bitmask of all the applicable redactions (based on the permissions held by the
+ receiving app) to be performed on this TransportInfo.</p>

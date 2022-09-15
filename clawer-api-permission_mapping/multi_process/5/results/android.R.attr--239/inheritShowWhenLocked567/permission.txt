@@ -1,0 +1,8 @@
+<p>Specifies whether this <code dir="ltr" translate="no"><a href="/reference/android/app/Activity">Activity</a></code> should be shown on
+ top of the lock screen whenever the lockscreen is up and this activity has another
+ activity behind it with the <code dir="ltr" translate="no"><a href="/reference/android/R.attr#showWhenLocked">showWhenLocked</a></code> attribute set. That
+ is, this activity is only visible on the lock screen if there is another activity with
+ the <code dir="ltr" translate="no"><a href="/reference/android/R.attr#showWhenLocked">showWhenLocked</a></code> attribute visible at the same time on the
+ lock screen. A use case for this is permission dialogs, that should only be visible on
+ the lock screen if their requesting activity is also visible.
+ </p>

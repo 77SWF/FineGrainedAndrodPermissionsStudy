@@ -1,0 +1,6 @@
+<p>
+ The service must be protected by <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BIND_DEVICE_ADMIN">Manifest.permission.BIND_DEVICE_ADMIN</a></code>.
+ Note that the <code dir="ltr" translate="no"><a href="/reference/android/content/Context">Context</a></code> used to obtain this
+ <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager">DevicePolicyManager</a></code> instance via <code dir="ltr" translate="no"><a href="/reference/android/content/Context#getSystemService(java.lang.Class&lt;T&gt;)">Context#getSystemService(Class)</a></code> will be used
+ to bind to the <code dir="ltr" translate="no"><a href="/reference/android/app/Service">Service</a></code>.
+ </p>

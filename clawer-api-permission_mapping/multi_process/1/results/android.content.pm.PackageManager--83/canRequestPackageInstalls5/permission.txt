@@ -1,0 +1,8 @@
+<p>Checks whether the calling package is allowed to request package installs through package
+ installer. Apps are encouraged to call this API before launching the package installer via
+ intent <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#ACTION_INSTALL_PACKAGE">Intent.ACTION_INSTALL_PACKAGE</a></code>. Starting from Android O, the
+ user can explicitly choose what external sources they trust to install apps on the device.
+ If this API returns false, the install request will be blocked by the package installer and
+ a dialog will be shown to the user with an option to launch settings to change their
+ preference. An application must target Android O or higher and declare permission
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_INSTALL_PACKAGES">Manifest.permission.REQUEST_INSTALL_PACKAGES</a></code> in order to use this API.</p>

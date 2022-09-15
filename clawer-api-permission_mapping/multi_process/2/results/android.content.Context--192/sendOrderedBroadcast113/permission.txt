@@ -1,0 +1,49 @@
+<table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">intent</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Intent</code>: The Intent to broadcast; all receivers matching this
+               Intent will receive the broadcast.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">receiverPermission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: String naming a permissions that
+               a receiver must hold in order to receive your broadcast.
+               If null, no permission is required.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">resultReceiver</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">BroadcastReceiver</code>: Your own BroadcastReceiver to treat as the final
+                       receiver of the broadcast.
+ This value may be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">scheduler</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Handler</code>: A custom Handler with which to schedule the
+                  resultReceiver callback; if null it will be
+                  scheduled in the Context's main thread.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">initialCode</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: An initial value for the result code.  Often
+                    Activity.RESULT_OK.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">initialData</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: An initial value for the result data.  Often
+                    null.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">initialExtras</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Bundle</code>: An initial value for the result extras.  Often
+                      null.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,8 @@
+<p>Returns the permissions for the given CodeSource object.
+ </p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/security/PermissionCollection">PermissionCollection</a></code></td>
+        <td width="100%">the permissions granted to the codesource.<p></p></td>
+      </tr>
+    </tbody></table>

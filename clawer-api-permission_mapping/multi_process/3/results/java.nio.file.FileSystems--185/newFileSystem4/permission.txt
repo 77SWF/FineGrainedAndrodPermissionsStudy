@@ -1,0 +1,31 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if the pre-conditions for the <code dir="ltr" translate="no">uri</code> parameter are not met,
+          or the <code dir="ltr" translate="no">env</code> parameter does not contain properties required
+          by the provider, or a property value is invalid</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/nio/file/FileSystemAlreadyExistsException">FileSystemAlreadyExistsException</a></code></td>
+          <td width="100%">if the URI scheme identifies an installed provider and the file
+          system has already been created</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/nio/file/ProviderNotFoundException">ProviderNotFoundException</a></code></td>
+          <td width="100%">if a provider supporting the URI scheme is not found</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/util/ServiceConfigurationError">ServiceConfigurationError</a></code></td>
+          <td width="100%">when an error occurs while loading a service provider</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">an I/O error occurs creating the file system</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if a security manager is installed and it denies an unspecified
+          permission required by the file system provider implementation</td>
+        </tr>
+      </tbody></table>

@@ -1,0 +1,4 @@
+<p>Get the carrier network offload state for merged or unmerged networks for specified
+ subscription.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_WIFI_STATE">Manifest.permission.ACCESS_WIFI_STATE</a></code></p>

@@ -1,0 +1,14 @@
+<p>If no lock-specific wallpaper has been configured for the given user, then
+ this method will return <code dir="ltr" translate="no">null</code> when requesting <code dir="ltr" translate="no"><a href="/reference/android/app/WallpaperManager#FLAG_LOCK">FLAG_LOCK</a></code> rather than
+ returning the system wallpaper's image file.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE">Manifest.permission.READ_EXTERNAL_STORAGE</a></code></p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/android/os/ParcelFileDescriptor">ParcelFileDescriptor</a></code></td>
+        <td width="100%">An open, readable file desriptor to the requested wallpaper image file;
+     or <code dir="ltr" translate="no">null</code> if no such wallpaper is configured or if the calling app does
+     not have permission to read the current wallpaper.<p></p></td>
+      </tr>
+    </tbody></table>

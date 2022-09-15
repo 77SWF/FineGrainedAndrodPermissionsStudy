@@ -1,0 +1,8 @@
+<p>Requires Permission:
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">MODIFY_PHONE_STATE</a></code>, or the calling app
+ has carrier privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager#hasCarrierPrivileges()</a></code>).
+
+ </p><p>This method returns before the reload has completed, and <code dir="ltr" translate="no"><a href="/reference/android/service/carrier/CarrierService#onLoadConfig(android.service.carrier.CarrierIdentifier)">CarrierService.onLoadConfig(CarrierIdentifier)</a></code> will be called from an arbitrary thread.
+ 
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code></p>

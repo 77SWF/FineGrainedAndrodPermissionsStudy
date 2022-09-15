@@ -1,0 +1,3 @@
+<p>Returns the principal for which permissions are granted or denied by
+ this ACL entry. Returns null if there is no principal set for this
+ entry yet.</p>

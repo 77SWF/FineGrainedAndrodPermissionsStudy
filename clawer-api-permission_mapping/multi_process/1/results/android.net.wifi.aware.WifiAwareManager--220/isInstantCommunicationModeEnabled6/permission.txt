@@ -1,0 +1,4 @@
+<p>Return the current status of the Wifi Aware instant communication mode.
+ If the device doesn't support this feature, return will always be false.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_WIFI_STATE">Manifest.permission.ACCESS_WIFI_STATE</a></code></p>

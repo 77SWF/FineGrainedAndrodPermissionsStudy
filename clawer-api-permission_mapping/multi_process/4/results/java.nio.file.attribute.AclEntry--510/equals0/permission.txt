@@ -1,0 +1,5 @@
+<p> For two ACL entries to be considered equals requires that they are
+ both the same type, their who components are equal, their permissions
+ components are equal, and their flags components are equal.
+
+ </p>

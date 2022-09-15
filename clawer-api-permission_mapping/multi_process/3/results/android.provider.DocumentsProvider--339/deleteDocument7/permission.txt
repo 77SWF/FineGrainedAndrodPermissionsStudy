@@ -1,0 +1,6 @@
+<p>
+ Upon returning, any URI permission grants for the given document will be
+ revoked. If additional documents were deleted as a side effect of this
+ call (such as documents inside a directory) the implementor is
+ responsible for revoking those permissions using
+ <code dir="ltr" translate="no"><a href="/reference/android/provider/DocumentsProvider#revokeDocumentPermission(java.lang.String)">revokeDocumentPermission(java.lang.String)</a></code>.</p>

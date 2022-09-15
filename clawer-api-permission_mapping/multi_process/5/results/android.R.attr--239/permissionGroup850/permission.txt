@@ -1,0 +1,4 @@
+<h3 class="api-name" data-text="permissionGroup" id="permissionGroup">permissionGroup</h3><pre class="api-signature no-pretty-print" dir="ltr" translate="no">public static final int permissionGroup</pre><p>Specified the name of a group that this permission is associated
+ with.  The group must have been defined with the
+ <code dir="ltr" translate="no"><a href="/reference/android/R.styleable#AndroidManifestPermissionGroup">permission-group</a></code> tag.
+ </p>

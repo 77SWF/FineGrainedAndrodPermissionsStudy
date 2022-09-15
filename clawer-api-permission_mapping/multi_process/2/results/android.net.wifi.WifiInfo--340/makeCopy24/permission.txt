@@ -1,0 +1,2 @@
+<p>Create a copy of a <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiInfo">WifiInfo</a></code> with some fields redacted based on the permissions
+ held by the receiving app.</p>

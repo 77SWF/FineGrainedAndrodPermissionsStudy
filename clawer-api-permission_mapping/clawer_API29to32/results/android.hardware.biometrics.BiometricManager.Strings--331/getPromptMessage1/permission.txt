@@ -1,0 +1,6 @@
+<p>This method may return <code dir="ltr" translate="no">null</code> if none of the requested authenticator types are
+ available, but this should <em>not</em> be relied upon for checking the status of
+ authenticators. Instead, use <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricManager#canAuthenticate(int)">BiometricManager.canAuthenticate(int)</a></code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_BIOMETRIC">Manifest.permission.USE_BIOMETRIC</a></code></p>

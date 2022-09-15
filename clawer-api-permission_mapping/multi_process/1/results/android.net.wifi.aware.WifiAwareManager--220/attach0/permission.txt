@@ -1,0 +1,6 @@
+<p>
+ Note: a Aware cluster is a shared resource - if the device is already attached to a cluster
+ then this function will simply indicate success immediately using the same <code dir="ltr" translate="no">attachCallback</code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_WIFI_STATE">Manifest.permission.ACCESS_WIFI_STATE</a></code> and <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CHANGE_WIFI_STATE">Manifest.permission.CHANGE_WIFI_STATE</a></code></p>

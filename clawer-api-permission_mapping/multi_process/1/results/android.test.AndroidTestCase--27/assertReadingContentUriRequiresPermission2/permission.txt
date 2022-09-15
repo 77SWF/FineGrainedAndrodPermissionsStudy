@@ -1,0 +1,15 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public void assertReadingContentUriRequiresPermission (<a href="/reference/android/net/Uri">Uri</a> uri, 
+                <a href="/reference/java/lang/String">String</a> permission)</pre><p>Asserts that reading from the content uri requires a particular permission by querying the
+ uri and ensuring a <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code> is thrown mentioning the particular permission.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">uri</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Uri</code>: The uri that requires a permission to query.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The permission that should be required.<p></p></td>
+      </tr>
+    </tbody></table>

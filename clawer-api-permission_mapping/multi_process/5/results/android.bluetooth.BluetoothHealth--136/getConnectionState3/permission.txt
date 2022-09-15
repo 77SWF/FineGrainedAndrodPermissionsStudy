@@ -1,0 +1,19 @@
+<p>Get the current connection state of the profile.
+
+ This is not specific to any application configuration but represents the connection
+ state of the local Bluetooth adapter with the remote device. This can be used
+ by applications like status bar which would just like to know the state of the
+ local adapter.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code> or lower, this
+ requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH">Manifest.permission#BLUETOOTH</a></code> permission
+ which can be gained with a simple <code dir="ltr" translate="no">&lt;uses-permission&gt;</code>
+ manifest tag.
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission#BLUETOOTH_CONNECT</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission.BLUETOOTH_CONNECT</a></code></p>

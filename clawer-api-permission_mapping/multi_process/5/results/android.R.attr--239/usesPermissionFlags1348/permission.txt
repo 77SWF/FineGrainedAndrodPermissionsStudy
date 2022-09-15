@@ -1,0 +1,12 @@
+<p>Optional: set of flags that should apply to this permission request. Note that
+ these flags start at 0x4 to match PackageInfo.requestedPermissionsFlags.
+ </p><table>
+ <colgroup align="left">
+ </colgroup><colgroup align="left">
+ </colgroup><colgroup align="left">
+ </colgroup><tbody><tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+ <tr><td>neverForLocation</td><td>10000</td><td>Strong assertion by a developer that they will never use this
+ permission to derive the physical location of the device, even
+ when the app has been granted the ACCESS_FINE_LOCATION and/or
+ ACCESS_COARSE_LOCATION permissions.</td></tr>
+ </tbody></table>

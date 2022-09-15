@@ -1,0 +1,16 @@
+<p class="note"><strong>Note:</strong>
+ Starting with <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code>, apps targeting SDK level 31 or higher
+ need to request the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SCHEDULE_EXACT_ALARM">SCHEDULE_EXACT_ALARM</a></code> permission to use this
+ API, unless the app is exempt from battery restrictions.
+ The user and the system can revoke this permission via the special app access screen in
+ Settings.
+
+ </p><p class="note"><strong>Note:</strong>
+ Exact alarms should only be used for user-facing features.
+ For more details, see <a href="/about/versions/12/behavior-changes-12#exact-alarm-permission">
+ Exact alarm permission</a>.</p><div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SCHEDULE_EXACT_ALARM">SCHEDULE_EXACT_ALARM</a></code></li>
+      </ul>
+  </div>

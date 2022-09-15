@@ -1,0 +1,6 @@
+<p>Returns the current enabled/disabled status of the given provider. To listen for changes, see
+ <code dir="ltr" translate="no"><a href="/reference/android/location/LocationManager#PROVIDERS_CHANGED_ACTION">PROVIDERS_CHANGED_ACTION</a></code>.
+
+ Before API version <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#LOLLIPOP">Build.VERSION_CODES.LOLLIPOP</a></code>, this method would throw
+ <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code> if the location permissions were not sufficient to use the
+ specified provider.</p>

@@ -1,0 +1,5 @@
+<p>Additional flags about this group as given by
+ <code dir="ltr" translate="no"><a href="/reference/android/R.attr#permissionGroupFlags">R.attr.permissionGroupFlags</a></code>.
+ 
+ <br/>
+ Value is either <code dir="ltr" translate="no">0</code> or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionGroupInfo#FLAG_PERSONAL_INFO">FLAG_PERSONAL_INFO</a></code></p>

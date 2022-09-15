@@ -1,0 +1,1 @@
+<p>Return the Uri this permission pertains to.</p>

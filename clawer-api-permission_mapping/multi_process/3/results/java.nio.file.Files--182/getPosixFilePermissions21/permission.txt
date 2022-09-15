@@ -1,0 +1,9 @@
+<p>Returns a file's POSIX file permissions.
+
+ </p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/Set">Set</a>&lt;<a href="/reference/java/nio/file/attribute/PosixFilePermission">PosixFilePermission</a>&gt;</code></td>
+        <td width="100%">the file permissions<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,13 @@
+<p>If this object has been created with <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#createForSubscriptionId(int)">createForSubscriptionId(int)</a></code>, applies to the
+ given subId. Otherwise, applies to <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#getDefaultSubscriptionId()">SubscriptionManager#getDefaultSubscriptionId()</a></code>
+
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_TELEPHONY_CALLING">PackageManager#FEATURE_TELEPHONY_CALLING</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if the caller does not have the permission.</td>
+        </tr>
+      </tbody></table>

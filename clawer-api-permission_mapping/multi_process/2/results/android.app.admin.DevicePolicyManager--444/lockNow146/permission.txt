@@ -1,0 +1,7 @@
+<p>
+ From version <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES.R</a></code> onwards, the caller must either have
+ the LOCK_DEVICE permission or the device must have the device admin feature; if neither is
+ true, then the method will return without completing any action. Before version
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES.R</a></code>, the device needed the device admin feature,
+ regardless of the caller's permissions.
+ </p>

@@ -1,0 +1,10 @@
+<table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">mac</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">byte</code>: The MAC address of the Aware discovery interface. The application must have the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code> to get the actual MAC address,
+            otherwise all 0's will be provided.<p></p></td>
+      </tr>
+    </tbody></table>

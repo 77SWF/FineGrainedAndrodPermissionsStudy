@@ -1,0 +1,11 @@
+<p>Requires Permission:
+     <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_SMS">READ_SMS</a></code>,
+     <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_NUMBERS">READ_PHONE_NUMBERS</a></code>,
+     that the caller is the default SMS app,
+     or that the caller has carrier privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">hasCarrierPrivileges()</a></code>)
+     for any API level.
+     <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">READ_PHONE_STATE</a></code>
+     for apps targeting SDK API level 29 and below.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_SMS">Manifest.permission.READ_SMS</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_NUMBERS">Manifest.permission.READ_PHONE_NUMBERS</a></code></p>

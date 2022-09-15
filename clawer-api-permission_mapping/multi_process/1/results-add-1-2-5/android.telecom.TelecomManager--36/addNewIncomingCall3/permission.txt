@@ -1,0 +1,10 @@
+<p>Registers a new incoming call. A <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code> should invoke this method when it
+ has an incoming call. For managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code>s, the specified
+ <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccountHandle">PhoneAccountHandle</a></code> must have been registered with <code dir="ltr" translate="no"><a href="/reference/android/telecom/TelecomManager#registerPhoneAccount(android.telecom.PhoneAccount)">registerPhoneAccount(PhoneAccount)</a></code> and
+ the user must have enabled the corresponding <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccount">PhoneAccount</a></code>.  This can be checked using
+ <code dir="ltr" translate="no"><a href="/reference/android/telecom/TelecomManager#getPhoneAccount(android.telecom.PhoneAccountHandle)">getPhoneAccount(PhoneAccountHandle)</a></code>. Self-managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code>s must have
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_OWN_CALLS">Manifest.permission.MANAGE_OWN_CALLS</a></code> to add a new incoming call.
+ </p><p>
+ For a self-managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code>, a <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code> will be thrown if
+ the <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccount">PhoneAccount</a></code> has <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccount#CAPABILITY_SELF_MANAGED">PhoneAccount#CAPABILITY_SELF_MANAGED</a></code> and the calling app
+ does not have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_OWN_CALLS">Manifest.permission.MANAGE_OWN_CALLS</a></code>.</p>

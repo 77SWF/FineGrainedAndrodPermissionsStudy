@@ -1,0 +1,12 @@
+<p>Returns details about the currently active default data network. When
+ connected, this network is the default route for outgoing connections.
+ You should always check <code dir="ltr" translate="no"><a href="/reference/android/net/NetworkInfo#isConnected()">NetworkInfo#isConnected()</a></code> before initiating
+ network traffic. This may return <code dir="ltr" translate="no">null</code> when there is no default
+ network.
+ Note that if the default network is a VPN, this method will return the
+ NetworkInfo for one of its underlying networks instead, or null if the
+ VPN agent did not specify any. Apps interested in learning about VPNs
+ should use <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager#getNetworkInfo(android.net.Network)">getNetworkInfo(android.net.Network)</a></code> instead.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_NETWORK_STATE">Manifest.permission.ACCESS_NETWORK_STATE</a></code></p>

@@ -1,0 +1,9 @@
+<p>If a security manager exists, its
+ <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkPermission(java.security.Permission)">checkPermission</a></code>
+ method is called with a
+ <code dir="ltr" translate="no"><code dir="ltr" translate="no"><a href="/reference/java/lang/RuntimePermission">RuntimePermission</a></code>("getenv."+name)</code>
+ permission.  This may result in a <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>
+ being thrown.  If no exception is thrown the value of the
+ variable <code dir="ltr" translate="no">name</code> is returned.
+
+ </p>

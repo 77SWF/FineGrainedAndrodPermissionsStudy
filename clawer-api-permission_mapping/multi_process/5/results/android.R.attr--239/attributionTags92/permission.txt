@@ -1,0 +1,4 @@
+<p>Attribution tag to be used for permission sub-attribution if a
+ permission is checked in  <code dir="ltr" translate="no"><a href="/reference/android/content/Context#sendBroadcast(android.content.Intent,%20java.lang.String)">Context.sendBroadcast(Intent, String)</a></code>.
+ Multiple tags can be specified separated by '|'.
+ </p>

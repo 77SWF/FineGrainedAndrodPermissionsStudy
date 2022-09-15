@@ -1,0 +1,8 @@
+<p>
+ <b>NOTE:</b> If targeting your app to work on API level
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#LOLLIPOP_MR1">Build.VERSION_CODES.LOLLIPOP_MR1</a></code> and before, AUTHENTICATE_ACCOUNTS
+ permission is needed for those platforms. See docs for this function in API level
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#LOLLIPOP_MR1">Build.VERSION_CODES.LOLLIPOP_MR1</a></code>.
+
+ <br/>
+ Requires android.Manifest.permission.AUTHENTICATE_ACCOUNTS</p>

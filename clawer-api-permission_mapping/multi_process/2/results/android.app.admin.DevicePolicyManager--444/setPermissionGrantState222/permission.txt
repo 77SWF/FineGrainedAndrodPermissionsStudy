@@ -1,0 +1,94 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public boolean setPermissionGrantState (<a href="/reference/android/content/ComponentName">ComponentName</a> admin, 
+                <a href="/reference/java/lang/String">String</a> packageName, 
+                <a href="/reference/java/lang/String">String</a> permission, 
+                int grantState)</pre><p>Sets the grant state of a runtime permission for a specific application. The state can be
+ <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DEFAULT">default</a></code> in which a user can manage it through the UI,
+ <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DENIED">denied</a></code>, in which the permission is denied and the user
+ cannot manage it through the UI, and <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_GRANTED">granted</a></code> in which
+ the permission is granted and the user cannot manage it through the UI. This method can only
+ be called by a profile owner, device owner, or a delegate given the
+ <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#DELEGATION_PERMISSION_GRANT">DELEGATION_PERMISSION_GRANT</a></code> scope via <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#setDelegatedScopes(android.content.ComponentName,%20java.lang.String,%20java.util.List&lt;java.lang.String&gt;)">setDelegatedScopes(ComponentName, String, List<string>)</string></a></code>.
+ </p><p>
+ Note that user cannot manage other permissions in the affected group through the UI
+ either and their granted state will be kept as the current value. Thus, it's recommended that
+ you set the grant state of all the permissions in the affected group.
+ </p><p>
+ Setting the grant state to <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DEFAULT">default</a></code> does not revoke
+ the permission. It retains the previous grant, if any.
+ </p><p>
+ Device admins with a <code dir="ltr" translate="no">targetSdkVersion</code> &lt; <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#Q">Build.VERSION_CODES.Q</a></code>
+ cannot grant and revoke permissions for applications built with a <code dir="ltr" translate="no">targetSdkVersion</code>
+ &lt; <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#M">Build.VERSION_CODES.M</a></code>.
+ </p><p>
+ Admins with a <code dir="ltr" translate="no">targetSdkVersion</code> ¡Ý <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#Q">Build.VERSION_CODES.Q</a></code> can
+ grant and revoke permissions of all apps. Similar to the user revoking a permission from a
+ application built with a <code dir="ltr" translate="no">targetSdkVersion</code> &lt;
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#M">Build.VERSION_CODES.M</a></code> the app-op matching the permission is set to
+ <code dir="ltr" translate="no"><a href="/reference/android/app/AppOpsManager#MODE_IGNORED">AppOpsManager.MODE_IGNORED</a></code>, but the permission stays granted.
+ </p><p>
+ NOTE: On devices running <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES.S</a></code> and above, control over
+ the following, sensors-related, permissions is restricted:
+ </p><ul>
+    <li>Manifest.permission.ACCESS_FINE_LOCATION</li>
+    <li>Manifest.permission.ACCESS_BACKGROUND_LOCATION</li>
+    <li>Manifest.permission.ACCESS_COARSE_LOCATION</li>
+    <li>Manifest.permission.CAMERA</li>
+    <li>Manifest.permission.RECORD_AUDIO</li>
+    <li>Manifest.permission.RECORD_BACKGROUND_AUDIO</li>
+    <li>Manifest.permission.ACTIVITY_RECOGNITION</li>
+    <li>Manifest.permission.BODY_SENSORS</li>
+ </ul><p>
+ A profile owner may not grant these permissions (i.e. call this method with any of the
+ permissions listed above and <code dir="ltr" translate="no">grantState</code> of <code dir="ltr" translate="no">#PERMISSION_GRANT_STATE_GRANTED</code>),
+ but may deny them.
+ </p><p>
+ A device owner, by default, may continue granting these permissions. However, for increased
+ user control, the admin may opt out of controlling grants for these permissions by including
+ <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#EXTRA_PROVISIONING_SENSORS_PERMISSION_GRANT_OPT_OUT">EXTRA_PROVISIONING_SENSORS_PERMISSION_GRANT_OPT_OUT</a></code> in the provisioning parameters.
+ In that case the device owner's control will be limited do denying these permissions.
+ </p><p>
+ NOTE: On devices running <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES.S</a></code> and above, control over
+ the following permissions are restricted for managed profile owners:
+ </p><ul>
+    <li>Manifest.permission.READ_SMS</li>
+ </ul><p>
+ A managed profile owner may not grant these permissions (i.e. call this method with any of
+ the permissions listed above and <code dir="ltr" translate="no">grantState</code> of
+ <code dir="ltr" translate="no">#PERMISSION_GRANT_STATE_GRANTED</code>), but may deny them.
+ </p><p>
+ Attempts by the admin to grant these permissions, when the admin is restricted from doing
+ so, will be silently ignored (no exception will be thrown).</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">admin</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">ComponentName</code>: Which profile or device owner this request is associated with.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">packageName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The application to grant or revoke a permission to.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The permission to grant or revoke.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">grantState</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The permission grant state which is one of
+            <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DENIED">PERMISSION_GRANT_STATE_DENIED</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DEFAULT">PERMISSION_GRANT_STATE_DEFAULT</a></code>,
+            <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_GRANTED">PERMISSION_GRANT_STATE_GRANTED</a></code>,
+ Value is <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DEFAULT">PERMISSION_GRANT_STATE_DEFAULT</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_GRANTED">PERMISSION_GRANT_STATE_GRANTED</a></code>, or <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DENIED">PERMISSION_GRANT_STATE_DENIED</a></code><p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">whether the permission was successfully granted or revoked.<p></p></td>
+      </tr>
+    </tbody></table>

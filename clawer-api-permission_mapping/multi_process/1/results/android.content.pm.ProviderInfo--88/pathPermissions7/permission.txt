@@ -1,0 +1,4 @@
+<p>If non-null, these are path-specific permissions that are allowed for
+ accessing the provider.  Any permissions listed here will allow a
+ holding client to access the provider, and the provider will check
+ the URI it provides when making calls against the patterns here.</p>

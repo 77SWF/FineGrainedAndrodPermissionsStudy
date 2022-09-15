@@ -1,0 +1,22 @@
+<p> Use this socket if an authenticated socket link is possible. Authentication refers
+ to the authentication of the link key to prevent person-in-the-middle type of attacks.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code> or lower, this
+ requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH">Manifest.permission#BLUETOOTH</a></code> permission
+ which can be gained with a simple <code dir="ltr" translate="no">&lt;uses-permission&gt;</code>
+ manifest tag.
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission#BLUETOOTH_CONNECT</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission.BLUETOOTH_CONNECT</a></code></p><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">on error, for example Bluetooth not available, or insufficient
+ permissions</td>
+        </tr>
+      </tbody></table>

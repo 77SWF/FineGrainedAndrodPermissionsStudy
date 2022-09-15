@@ -1,0 +1,4 @@
+https://developer.android.google.cn/reference/android/service/voice/AlwaysOnHotwordDetector.html
+https://developer.android.google.cn/reference/android/service/voice/AlwaysOnHotwordDetector.Callback.html
+https://developer.android.google.cn/reference/android/service/voice/AlwaysOnHotwordDetector.EventPayload.html
+https://developer.android.google.cn/reference/android/service/voice/AlwaysOnHotwordDetector.ModelParamRange.html

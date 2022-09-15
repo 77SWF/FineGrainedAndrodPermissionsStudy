@@ -1,0 +1,20 @@
+<p>A convenience method to set the owner's write permission for this abstract
+ pathname.
+
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">writable</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">boolean</code>: If <code dir="ltr" translate="no">true</code>, sets the access permission to allow write
+          operations; if <code dir="ltr" translate="no">false</code> to disallow write operations<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%"><code dir="ltr" translate="no">true</code> if and only if the operation succeeded.  The
+          operation will fail if the user does not have permission to
+          change the access permissions of this abstract pathname.<p></p></td>
+      </tr>
+    </tbody></table>

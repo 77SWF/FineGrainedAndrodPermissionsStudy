@@ -1,0 +1,1 @@
+<code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code>

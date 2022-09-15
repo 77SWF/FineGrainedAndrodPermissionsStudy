@@ -1,0 +1,1 @@
+<p>Clears the Geolocation permission state for all origins.</p>

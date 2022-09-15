@@ -1,0 +1,5 @@
+<p>Return the Linux UID assigned to the process that sent you the
+ current transaction that is being processed. This UID can be used with
+ higher-level system services to determine its identity and check
+ permissions. If the current thread is not currently executing an
+ incoming transaction, then its own UID is returned.</p>

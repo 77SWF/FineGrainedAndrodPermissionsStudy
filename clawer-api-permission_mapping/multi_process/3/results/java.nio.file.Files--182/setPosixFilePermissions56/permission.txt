@@ -1,0 +1,15 @@
+<p>Sets a file's POSIX permissions.
+
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">path</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Path</code>: The path to the file<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">perms</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Set</code>: The new set of permissions<p></p></td>
+      </tr>
+    </tbody></table>

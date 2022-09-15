@@ -1,0 +1,7 @@
+<p>Requires that the calling app has carrier privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">hasCarrierPrivileges()</a></code>),
+ or has either READ_PRIVILEGED_PHONE_STATE
+ or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">READ_PHONE_STATE</a></code> permission.
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code>
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_TELEPHONY_DATA">PackageManager#FEATURE_TELEPHONY_DATA</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p>

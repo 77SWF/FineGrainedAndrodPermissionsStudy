@@ -1,0 +1,10 @@
+<p>
+ Applications targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#TIRAMISU">Build.VERSION_CODES.TIRAMISU</a></code> or later need to have
+ the following permissions: <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CHANGE_WIFI_STATE">Manifest.permission.CHANGE_WIFI_STATE</a></code> and
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#NEARBY_WIFI_DEVICES">Manifest.permission.NEARBY_WIFI_DEVICES</a></code>.
+ Applications targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or prior SDK levels need to have the
+ following permissions: <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CHANGE_WIFI_STATE">Manifest.permission.CHANGE_WIFI_STATE</a></code> and
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code>
+ Callers without
+ the permissions will trigger a <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>.
+ </p>

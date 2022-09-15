@@ -1,0 +1,3 @@
+<h3 class="api-name" data-text="permissions" id="permissions">permissions</h3><pre class="api-signature no-pretty-print" dir="ltr" translate="no">public <a href="/reference/android/content/pm/PermissionInfo">PermissionInfo[]</a> permissions</pre><p>Array of all <code dir="ltr" translate="no"><a href="/reference/android/R.styleable#AndroidManifestPermission">&lt;permission&gt;</a></code> tags included under &lt;manifest&gt;,
+ or null if there were none.  This is only filled in if the flag
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#GET_PERMISSIONS">PackageManager#GET_PERMISSIONS</a></code> was set.</p>

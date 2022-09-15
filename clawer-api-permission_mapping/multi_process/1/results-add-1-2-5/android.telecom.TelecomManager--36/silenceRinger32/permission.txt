@@ -1,0 +1,6 @@
+<p>
+ Requires permission: <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code> or that the
+ app fills the dialer role (see <code dir="ltr" translate="no"><a href="/reference/android/telecom/TelecomManager#getDefaultDialerPackage()">getDefaultDialerPackage()</a></code>).
+ 
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code></p>

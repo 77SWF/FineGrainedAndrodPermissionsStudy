@@ -1,0 +1,9 @@
+<ul>
+   <li>an application must have permission to access the device location,
+   see <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION">Manifest.permission.ACCESS_COARSE_LOCATION</a></code>,
+   <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code>;
+   </li><li>an application must provide an implementation of the
+   <code dir="ltr" translate="no"><a href="/reference/android/webkit/WebChromeClient#onGeolocationPermissionsShowPrompt(java.lang.String,%20android.webkit.GeolocationPermissions.Callback)">WebChromeClient#onGeolocationPermissionsShowPrompt</a></code> callback
+   to receive notifications that a page is requesting access to location
+   via the JavaScript Geolocation API.
+ </li></ul>

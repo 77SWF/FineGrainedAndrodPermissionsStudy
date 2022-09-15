@@ -1,0 +1,20 @@
+<p>Callback invoked when active data subscription ID changes.
+ Note, this callback triggers regardless of registered subscription.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">subId</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: current subscription used to setup Cellular Internet data. The data is
+              only active on the subscription at a time, even it is multi-SIM mode.
+              For example, it could be the current active opportunistic subscription
+              in use, or the subscription user selected as default data subscription in
+              DSDS mode.
+
+ The calling app should have carrier privileges
+ (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager#hasCarrierPrivileges</a></code>) if it does not have the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code>.<p></p></td>
+      </tr>
+    </tbody></table>

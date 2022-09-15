@@ -1,0 +1,4 @@
+<p>
+     If a periodic sync is specified, the caller must hold the permission
+     <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_SYNC_SETTINGS">Manifest.permission.WRITE_SYNC_SETTINGS</a></code>.
+</p>

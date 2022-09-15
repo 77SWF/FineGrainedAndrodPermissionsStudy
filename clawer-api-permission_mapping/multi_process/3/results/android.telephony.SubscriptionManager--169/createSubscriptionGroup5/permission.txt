@@ -1,0 +1,23 @@
+<p>Inform SubscriptionManager that subscriptions in the list are bundled
+ as a group. It can be multiple primary (non-opportunistic) subscriptions,
+ or one or more primary plus one or more opportunistic subscriptions.
+
+ This API will always create a new immutable group and assign group UUID to all the
+ subscriptions, regardless whether they are in a group already or not.
+
+ Grouped subscriptions will have below behaviors:
+ 1) They will share the same user settings.
+ 2) The opportunistic subscriptions in the group is considered invisible and will not
+    return from <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#getActiveSubscriptionInfoList()">getActiveSubscriptionInfoList()</a></code>, unless caller has carrier
+    privilege permission of the subscriptions.
+ 3) The opportunistic subscriptions in the group can't be active by itself. If all other
+    non-opportunistic ones are deactivated (unplugged or disabled in Settings),
+    the opportunistic ones will be deactivated automatically.
+
+ Caller will either have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code>
+ permission or had carrier privilege permission on the subscriptions:
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager#hasCarrierPrivileges()</a></code> or
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#canManageSubscription(android.telephony.SubscriptionInfo)">canManageSubscription(android.telephony.SubscriptionInfo)</a></code>
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code></p>

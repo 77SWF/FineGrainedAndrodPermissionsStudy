@@ -1,0 +1,7 @@
+<p>Requires one of the following permissions:
+ </p><ul>
+     <li>READ_PRIVILEGED_PHONE_STATE
+     </li><li>the calling app has carrier privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">hasCarrierPrivileges()</a></code>).
+     </li><li>the calling app has been granted the
+     <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER">Manifest.permission#USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER</a></code> permission.
+ </li></ul>

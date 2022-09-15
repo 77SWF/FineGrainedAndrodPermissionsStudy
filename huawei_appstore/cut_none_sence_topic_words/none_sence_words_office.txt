@@ -1,0 +1,16 @@
+pdf
+word
+excel
+ppt
+office
+txt
+zip
+jpg
+tar
+rar
+png
+wps
+doc
+docx
+word
+xlsx

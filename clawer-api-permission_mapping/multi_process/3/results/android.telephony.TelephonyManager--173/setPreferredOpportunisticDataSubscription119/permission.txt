@@ -1,0 +1,7 @@
+<p>Requires that the calling app has carrier privileges on both primary and
+ secondary subscriptions (see
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">hasCarrierPrivileges()</a></code>), or has permission
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">MODIFY_PHONE_STATE</a></code>.
+
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_TELEPHONY_DATA">PackageManager#FEATURE_TELEPHONY_DATA</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p>

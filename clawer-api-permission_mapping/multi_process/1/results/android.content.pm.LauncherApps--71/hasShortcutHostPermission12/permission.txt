@@ -1,0 +1,6 @@
+<p>Note when this method returns <code dir="ltr" translate="no">false</code>, it may be a temporary situation because
+ the user is trying a new launcher application.  The user may decide to change the default
+ launcher back to the calling application again, so even if a launcher application loses
+ this permission, it does <b>not</b> have to purge pinned shortcut information.
+ If the calling launcher application contains pinned shortcuts, they will still work,
+ even though the caller no longer has the shortcut host permission.</p>

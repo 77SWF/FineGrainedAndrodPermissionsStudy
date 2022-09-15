@@ -1,0 +1,6 @@
+<p>Allows all apps to bypass this VPN connection.
+
+ By default, all traffic from apps is forwarded through the VPN interface and it is not
+ possible for apps to side-step the VPN. If this method is called, apps may use methods
+ such as <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager#bindProcessToNetwork(android.net.Network)">ConnectivityManager#bindProcessToNetwork</a></code> to instead send/receive
+ directly over the underlying network or any other network they have permissions for.</p>

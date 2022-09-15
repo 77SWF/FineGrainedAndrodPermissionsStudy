@@ -1,0 +1,10 @@
+<p>Reenable the keyguard.  The keyguard will reappear if the previous
+ call to <code dir="ltr" translate="no"><a href="/reference/android/app/KeyguardManager.KeyguardLock#disableKeyguard()">disableKeyguard()</a></code> caused it to be hidden.
+
+ A good place to call this is from <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#onPause()">Activity.onPause()</a></code>
+
+ Note: This call has no effect while any <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager">DevicePolicyManager</a></code>
+ is enabled that requires a password.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#DISABLE_KEYGUARD">Manifest.permission.DISABLE_KEYGUARD</a></code></p>

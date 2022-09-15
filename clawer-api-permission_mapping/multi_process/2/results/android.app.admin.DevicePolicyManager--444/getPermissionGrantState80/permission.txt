@@ -1,0 +1,40 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public int getPermissionGrantState (<a href="/reference/android/content/ComponentName">ComponentName</a> admin, 
+                <a href="/reference/java/lang/String">String</a> packageName, 
+                <a href="/reference/java/lang/String">String</a> permission)</pre><p>Returns the current grant state of a runtime permission for a specific application. This
+ function can be called by a device owner, profile owner, or by a delegate given the
+ <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#DELEGATION_PERMISSION_GRANT">DELEGATION_PERMISSION_GRANT</a></code> scope via <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#setDelegatedScopes(android.content.ComponentName,%20java.lang.String,%20java.util.List&lt;java.lang.String&gt;)">setDelegatedScopes(ComponentName, String, List<string>)</string></a></code>.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">admin</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">ComponentName</code>: Which profile or device owner this request is associated with, or <code dir="ltr" translate="no">null</code>
+            if the caller is a permission grant delegate.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">packageName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The application to check the grant state for.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The permission to check for.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">int</code></td>
+        <td width="100%">the current grant state specified by device policy. If the profile or device owner
+         has not set a grant state, the return value is
+         <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DEFAULT">PERMISSION_GRANT_STATE_DEFAULT</a></code>. This does not indicate whether or not the
+         permission is currently granted for the package.
+         <p>
+         If a grant state was set by the profile or device owner, then the return value will
+         be one of <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DENIED">PERMISSION_GRANT_STATE_DENIED</a></code> or
+         <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_GRANTED">PERMISSION_GRANT_STATE_GRANTED</a></code>, which indicates if the permission is
+         currently denied or granted.
+ Value is <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DEFAULT">PERMISSION_GRANT_STATE_DEFAULT</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_GRANTED">PERMISSION_GRANT_STATE_GRANTED</a></code>, or <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#PERMISSION_GRANT_STATE_DENIED">PERMISSION_GRANT_STATE_DENIED</a></code></p></td>
+      </tr>
+    </tbody></table>

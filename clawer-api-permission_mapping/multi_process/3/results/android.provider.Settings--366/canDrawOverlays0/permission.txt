@@ -1,0 +1,8 @@
+<p>Checks if the specified context can draw on top of other apps. As of API
+ level 23, an app cannot draw on top of other apps unless it declares the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SYSTEM_ALERT_WINDOW">Manifest.permission.SYSTEM_ALERT_WINDOW</a></code> permission in its
+ manifest, <em>and</em> the user specifically grants the app this
+ capability. To prompt the user to grant this approval, the app must send an
+ intent with the action
+ <code dir="ltr" translate="no"><a href="/reference/android/provider/Settings#ACTION_MANAGE_OVERLAY_PERMISSION">ACTION_MANAGE_OVERLAY_PERMISSION</a></code>, which
+ causes the system to display a permission management screen.</p>

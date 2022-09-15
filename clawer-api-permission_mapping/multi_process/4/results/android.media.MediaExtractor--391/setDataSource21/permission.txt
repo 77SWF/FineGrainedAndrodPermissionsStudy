@@ -1,0 +1,26 @@
+<table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">context</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Context</code>: the Context to use when resolving the Uri
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">uri</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Uri</code>: the Content URI of the data you want to extract from.
+
+ <p>When <code dir="ltr" translate="no">uri</code> refers to a network file the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#INTERNET">Manifest.permission.INTERNET</a></code> permission is required.
+
+ This value cannot be <code dir="ltr" translate="no">null</code>.</p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">headers</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Map</code>: the headers to be sent together with the request for the data.
+        This can be <code dir="ltr" translate="no">null</code> if no specific headers are to be sent with the
+        request.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,9 @@
+<p>Registers a new incoming conference. A <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code> should invoke this method
+ when it has an incoming conference. An incoming <code dir="ltr" translate="no"><a href="/reference/android/telecom/Conference">Conference</a></code> is an adhoc conference
+ call initiated on another device which the user is being invited to join in. For managed
+ <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code>s, the specified <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccountHandle">PhoneAccountHandle</a></code> must have been
+ registered with <code dir="ltr" translate="no"><a href="/reference/android/telecom/TelecomManager#registerPhoneAccount(android.telecom.PhoneAccount)">registerPhoneAccount(PhoneAccount)</a></code> and the user must have enabled the
+ corresponding <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccount">PhoneAccount</a></code>.  This can be checked using
+ <code dir="ltr" translate="no"><a href="/reference/android/telecom/TelecomManager#getPhoneAccount(android.telecom.PhoneAccountHandle)">getPhoneAccount(android.telecom.PhoneAccountHandle)</a></code>. Self-managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code>s must
+ have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_OWN_CALLS">Manifest.permission.MANAGE_OWN_CALLS</a></code> to add a new incoming call.
+ </p>

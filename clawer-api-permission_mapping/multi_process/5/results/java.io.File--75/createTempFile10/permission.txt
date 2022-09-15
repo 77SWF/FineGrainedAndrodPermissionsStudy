@@ -1,0 +1,4 @@
+<p> The <code dir="ltr" translate="no"><a href="/reference/java/nio/file/Files#createTempFile(java.lang.String,%20java.lang.String,%20java.nio.file.attribute.FileAttribute&lt;?&gt;...)">Files.createTempFile</a></code> method provides an alternative method to create an
+ empty file in the temporary-file directory. Files created by that method
+ may have more restrictive access permissions to files created by this
+ method and so may be more suited to security-sensitive applications.</p>

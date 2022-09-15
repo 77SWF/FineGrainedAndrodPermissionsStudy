@@ -1,0 +1,29 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public void enforcePermission (<a href="/reference/java/lang/String">String</a> permission, 
+                int pid, 
+                int uid, 
+                <a href="/reference/java/lang/String">String</a> message)</pre><p>If the given permission is not allowed for a particular process
+ and user ID running in the system, throw a <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The name of the permission being checked.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">pid</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The process ID being checked against.  Must be &gt; 0.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">uid</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The user ID being checked against.  A uid of 0 is the root
+ user, which will pass every permission check.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">message</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: This value may be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

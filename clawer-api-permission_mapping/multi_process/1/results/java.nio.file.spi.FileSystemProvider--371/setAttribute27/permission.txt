@@ -1,0 +1,31 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/UnsupportedOperationException">UnsupportedOperationException</a></code></td>
+          <td width="100%">if the attribute view is not available</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if the attribute name is not specified, or is not recognized, or
+          the attribute value is of the correct type but has an
+          inappropriate value</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/ClassCastException">ClassCastException</a></code></td>
+          <td width="100%">If the attribute value is not of the expected type or is a
+          collection containing elements that are not of the expected
+          type</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">If an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">In the case of the default provider, and a security manager is
+          installed, its <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkWrite(java.lang.String)">checkWrite</a></code>
+          method denies write access to the file. If this method is invoked
+          to set security sensitive attributes then the security manager
+          may be invoked to check for additional permissions.</td>
+        </tr>
+      </tbody></table>

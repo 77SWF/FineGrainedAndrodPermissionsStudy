@@ -1,0 +1,9 @@
+<p>Sends report to remote host as reply for GET_REPORT request from <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothHidDevice.Callback#onGetReport(android.bluetooth.BluetoothDevice,%20byte,%20byte,%20int)">BluetoothHidDevice.Callback.onGetReport(android.bluetooth.BluetoothDevice, byte, byte, int)</a></code>.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission#BLUETOOTH_CONNECT</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission.BLUETOOTH_CONNECT</a></code></p>

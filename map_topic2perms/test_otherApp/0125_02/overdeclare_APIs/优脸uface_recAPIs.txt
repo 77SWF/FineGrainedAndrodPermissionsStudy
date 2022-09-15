@@ -1,0 +1,9 @@
+android.telecom.TelecomManager.placeCall                         	CALL_PHONE               	允许该应用在您未执行操作的情况下拨打电话号码。此权限可能会导致意外收费或呼叫。请注意，此权限不允许该应用拨打紧急电话号码。恶意应用可通过拨打电话产生相关费用，而无需您的确认。
+android.telecom.TelecomManager.startConference                   	CALL_PHONE               	允许该应用在您未执行操作的情况下拨打电话号码。此权限可能会导致意外收费或呼叫。请注意，此权限不允许该应用拨打紧急电话号码。恶意应用可通过拨打电话产生相关费用，而无需您的确认。
+android.telephony.TelephonyManager.sendUssdRequest               	CALL_PHONE               	允许该应用在您未执行操作的情况下拨打电话号码。此权限可能会导致意外收费或呼叫。请注意，此权限不允许该应用拨打紧急电话号码。恶意应用可通过拨打电话产生相关费用，而无需您的确认。
+android.accounts.AccountManager.addOnAccountsUpdatedListener     	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。
+android.accounts.AccountManager.getAccounts                      	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。
+android.accounts.AccountManager.getAccountsByType                	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。
+android.accounts.AccountManager.getAccountsByTypeAndFeatures     	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。
+android.accounts.AccountManager.hasFeatures                      	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。
+android.os.UserManager.getUserName                               	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。

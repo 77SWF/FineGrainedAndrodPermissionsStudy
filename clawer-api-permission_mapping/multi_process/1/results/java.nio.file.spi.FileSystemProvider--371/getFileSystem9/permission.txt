@@ -1,0 +1,18 @@
+<p> If a security manager is installed then a provider implementation
+ may require to check a permission before returning a reference to an
+ existing file system. In the case of the <code dir="ltr" translate="no"><a href="/reference/java/nio/file/FileSystems#getDefault()">default</a></code> file system, no permission check is required.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">If the pre-conditions for the <code dir="ltr" translate="no">uri</code> parameter aren't met</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/nio/file/FileSystemNotFoundException">FileSystemNotFoundException</a></code></td>
+          <td width="100%">If the file system does not exist</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">If a security manager is installed and it denies an unspecified
+          permission.</td>
+        </tr>
+      </tbody></table>

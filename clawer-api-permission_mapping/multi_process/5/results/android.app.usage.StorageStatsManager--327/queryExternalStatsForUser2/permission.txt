@@ -1,0 +1,8 @@
+<p class="note">
+ Note: this API requires the
+ <code dir="ltr" translate="no">android.Manifest.permission#PACKAGE_USAGE_STATS</code> permission, which
+ is a system-level permission that will not be granted to normal apps.
+ Declaring that permission expresses your intention to use this API and an
+ end user can then choose to grant this permission through the Settings
+ application.
+ </p>

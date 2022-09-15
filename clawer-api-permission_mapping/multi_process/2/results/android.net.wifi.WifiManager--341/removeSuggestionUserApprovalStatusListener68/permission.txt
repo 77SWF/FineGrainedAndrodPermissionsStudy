@@ -1,0 +1,7 @@
+<p>Allow callers to remove a previously registered listener using
+ <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiManager#addSuggestionUserApprovalStatusListener(java.util.concurrent.Executor,%20android.net.wifi.WifiManager.SuggestionUserApprovalStatusListener)">addSuggestionUserApprovalStatusListener(java.util.concurrent.Executor, android.net.wifi.WifiManager.SuggestionUserApprovalStatusListener)</a></code>. After calling this method,
+ applications will no longer receive network suggestion user approval status change through
+ that listener.
+ 
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_WIFI_STATE">Manifest.permission.ACCESS_WIFI_STATE</a></code></p>

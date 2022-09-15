@@ -1,0 +1,5 @@
+<p>Return list of all persisted URI permission grants that are hosted by the
+ calling app. That is, the returned permissions have been granted
+ <em>from</em> the calling app. Only grants taken with
+ <code dir="ltr" translate="no"><a href="/reference/android/content/ContentResolver#takePersistableUriPermission(android.net.Uri,%20int)">takePersistableUriPermission(android.net.Uri, int)</a></code> are returned.
+ </p>

@@ -1,0 +1,9 @@
+<p class="caution"><strong>
+      This method was deprecated
+      in API level 15.</strong><br/>
+    Use <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#FLAG_DISMISS_KEYGUARD">LayoutParams#FLAG_DISMISS_KEYGUARD</a></code>
+   and/or <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#FLAG_SHOW_WHEN_LOCKED">LayoutParams#FLAG_SHOW_WHEN_LOCKED</a></code>
+   instead; this allows you to seamlessly hide the keyguard as your application
+   moves in and out of the foreground and does not require that any special
+   permissions be requested.
+  </p>

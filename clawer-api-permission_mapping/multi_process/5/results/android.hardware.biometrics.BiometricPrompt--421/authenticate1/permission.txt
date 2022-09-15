@@ -1,0 +1,8 @@
+<p>Per the Android CDD, only biometric authenticators that meet or exceed the requirements
+ for <strong>Strong</strong> are permitted to integrate with Keystore to perform related
+ cryptographic operations. Therefore, it is an error to call this method after explicitly
+ calling <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricPrompt.Builder#setAllowedAuthenticators(int)">Builder#setAllowedAuthenticators(int)</a></code> with any biometric strength other than
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricManager.Authenticators#BIOMETRIC_STRONG">Authenticators#BIOMETRIC_STRONG</a></code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_BIOMETRIC">Manifest.permission.USE_BIOMETRIC</a></code></p>

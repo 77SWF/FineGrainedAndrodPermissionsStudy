@@ -1,0 +1,4 @@
+<p>
+ Requires Permission:
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">READ_PHONE_STATE</a></code> for applications
+ targeting API level 31+.</p>

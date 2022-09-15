@@ -1,0 +1,13 @@
+<p>
+ Although a wake lock can be created without special permissions,
+ the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WAKE_LOCK">Manifest.permission.WAKE_LOCK</a></code> permission is
+ required to actually acquire or release the wake lock that is returned.
+
+ </p><p class="note">
+ If using this to keep the screen on, you should strongly consider using
+ <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#FLAG_KEEP_SCREEN_ON">WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON</a></code> instead.
+ This window flag will be correctly managed by the platform
+ as the user moves between applications and doesn't require a special permission.
+ Additionally using the flag will keep only the appropriate screen on in a
+ multi-display scenario while using a wake lock will keep every screen powered on.
+ </p>

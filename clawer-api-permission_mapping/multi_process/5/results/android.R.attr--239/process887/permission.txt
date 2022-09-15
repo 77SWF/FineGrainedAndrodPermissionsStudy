@@ -1,0 +1,10 @@
+<p>Application components are normally run in a single process that
+ is created for the entire application.  You can use this tag to modify
+ where they run.  If the process name begins with a ':' character,
+ a new process private to that application will be created when needed
+ to run that component (allowing you to spread your application across
+ multiple processes).  If the process name begins with a lower-case
+ character, the component will be run in a global process of that name,
+ provided that you have permission to do so, allowing multiple
+ applications to share one process to reduce resource usage.
+ </p>

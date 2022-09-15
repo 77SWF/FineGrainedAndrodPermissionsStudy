@@ -1,0 +1,11 @@
+<p>Disable the keyguard from showing.  If the keyguard is currently
+ showing, hide it.  The keyguard will be prevented from showing again
+ until <code dir="ltr" translate="no"><a href="/reference/android/app/KeyguardManager.KeyguardLock#reenableKeyguard()">reenableKeyguard()</a></code> is called.
+
+ A good place to call this is from <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#onResume()">Activity.onResume()</a></code>
+
+ Note: This call has no effect while any <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager">DevicePolicyManager</a></code>
+ is enabled that requires a password.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#DISABLE_KEYGUARD">Manifest.permission.DISABLE_KEYGUARD</a></code></p>

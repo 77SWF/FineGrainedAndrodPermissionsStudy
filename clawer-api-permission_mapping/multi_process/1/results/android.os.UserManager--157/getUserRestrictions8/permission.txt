@@ -1,0 +1,11 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/android/os/Bundle">Bundle</a></code></td>
+        <td width="100%">a Bundle containing all the restrictions.
+
+ <p>Requires <code dir="ltr" translate="no">android.permission.MANAGE_USERS</code> or
+ <code dir="ltr" translate="no">android.permission.INTERACT_ACROSS_USERS</code>, otherwise specified <code dir="ltr" translate="no"><a href="/reference/android/os/UserHandle">user</a></code>
+ must be the calling user or a profile associated with it.</p></td>
+      </tr>
+    </tbody></table>

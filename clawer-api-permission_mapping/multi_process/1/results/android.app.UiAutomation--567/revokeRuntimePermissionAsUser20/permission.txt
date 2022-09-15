@@ -1,0 +1,26 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public void revokeRuntimePermissionAsUser (<a href="/reference/java/lang/String">String</a> packageName, 
+                <a href="/reference/java/lang/String">String</a> permission, 
+                <a href="/reference/android/os/UserHandle">UserHandle</a> userHandle)</pre><p>Revokes a runtime permission from a package.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">packageName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The package to which to grant.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The permission to grant.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">userHandle</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">UserHandle</code> <!-- no parameter comment --><p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if unable to revoke the permission.</td>
+        </tr>
+      </tbody></table>

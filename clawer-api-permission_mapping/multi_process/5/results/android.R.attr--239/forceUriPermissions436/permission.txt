@@ -1,0 +1,8 @@
+<p>If true, the system will always create URI permission grants
+ in the cases where <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_READ_URI_PERMISSION">Intent.FLAG_GRANT_READ_URI_PERMISSION</a></code>
+ or <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_WRITE_URI_PERMISSION">Intent.FLAG_GRANT_WRITE_URI_PERMISSION</a></code> would apply.
+ This is useful for a content provider that dynamically enforces permissions
+ on calls in to the provider, instead of through the manifest: the system
+ needs to know that it should always apply permission grants, even if it
+ looks like the target of the grant would already have access to the URI.
+ </p>

@@ -1,0 +1,10 @@
+<p>Returns a <code dir="ltr" translate="no"><a href="/reference/android/app/PendingIntent">PendingIntent</a></code> that can be used by Apps with
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_EXTERNAL_STORAGE">Manifest.permission.MANAGE_EXTERNAL_STORAGE</a></code> permission
+ to launch the manageSpaceActivity for any App that implements it, irrespective of its
+ exported status.
+ </p><p>
+ Caller has the responsibility of supplying a valid packageName which has
+ manageSpaceActivity implemented.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_EXTERNAL_STORAGE">Manifest.permission.MANAGE_EXTERNAL_STORAGE</a></code></p>

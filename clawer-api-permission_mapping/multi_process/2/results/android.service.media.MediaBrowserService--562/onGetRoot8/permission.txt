@@ -1,0 +1,6 @@
+<p>
+ The implementation should verify that the client package has permission
+ to access browse media information before returning the root id; it
+ should return null if the client is not allowed to access this
+ information.
+ </p>

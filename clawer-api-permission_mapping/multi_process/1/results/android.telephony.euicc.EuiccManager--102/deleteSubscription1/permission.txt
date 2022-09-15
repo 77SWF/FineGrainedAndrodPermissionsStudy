@@ -1,0 +1,6 @@
+<p>Requires that the calling app has carrier privileges according to the metadata of the
+ profile to be deleted, or the
+ <code dir="ltr" translate="no">android.Manifest.permission#WRITE_EMBEDDED_SUBSCRIPTIONS</code> permission.
+
+ <br/>
+ Requires android.Manifest.permission.WRITE_EMBEDDED_SUBSCRIPTIONS</p>

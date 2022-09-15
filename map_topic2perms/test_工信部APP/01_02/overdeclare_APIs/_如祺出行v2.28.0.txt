@@ -1,0 +1,1 @@
+android.telephony.PhoneStateListener.onCallStateChanged          	READ_CALL_LOG            	此应用可读取您的通话记录。

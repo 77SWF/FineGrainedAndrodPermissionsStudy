@@ -1,0 +1,3 @@
+<p>
+ Apps require no extra permissions to read or write to the returned path,
+ since this path lives in their private storage.</p>

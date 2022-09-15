@@ -1,0 +1,32 @@
+ÓïÍæ	
+Traceback (most recent call last):
+  File "c:/Users/susu/Desktop/Graduation_Design/FineGrainedAndrodPermissionsStudy/apk_analyse/test_androguard.py", line 44, in get_dir_api_permissions
+    out = AnalyzeAPK(path + '/' + apkfile)
+  File "C:\Download\Python\Python36-64\lib\site-packages\androguard\misc.py", line 84, in AnalyzeAPK
+    dx.add(df)
+  File "C:\Download\Python\Python36-64\lib\site-packages\androguard\core\analysis\analysis.py", line 1000, in add
+    for current_class in vm.get_classes():#±éÀúÒ»¸ödexÀïµÄclass
+  File "C:\Download\Python\Python36-64\lib\site-packages\androguard\core\bytecodes\dvm.py", line 7955, in get_classes
+    return self.classes.class_def#Ö»ÓÃµ½self.classes
+AttributeError: 'NoneType' object has no attribute 'class_def'
+ÓïÍæ1	
+Traceback (most recent call last):
+  File "c:/Users/susu/Desktop/Graduation_Design/FineGrainedAndrodPermissionsStudy/apk_analyse/test_androguard.py", line 44, in get_dir_api_permissions
+    out = AnalyzeAPK(path + '/' + apkfile)
+  File "C:\Download\Python\Python36-64\lib\site-packages\androguard\misc.py", line 84, in AnalyzeAPK
+    dx.add(df)
+  File "C:\Download\Python\Python36-64\lib\site-packages\androguard\core\analysis\analysis.py", line 1000, in add
+    for current_class in vm.get_classes():#±éÀúÒ»¸ödexÀïµÄclass
+  File "C:\Download\Python\Python36-64\lib\site-packages\androguard\core\bytecodes\dvm.py", line 7955, in get_classes
+    return self.classes.class_def#Ö»ÓÃµ½self.classes
+AttributeError: 'NoneType' object has no attribute 'class_def'
+è§†é¢‘å»æ°´å°åŠ©æ‰‹	
+Traceback (most recent call last):
+  File "c:/Users/susu/Desktop/Graduation_Design/FineGrainedAndrodPermissionsStudy/apk_analyse/extract_perm_xml_2.py", line 217, in main
+    a,dx = AnalyzeAPK(apk_path)
+ValueError: too many values to unpack (expected 2)
+æ¶ˆé˜²å·¥ç¨‹å¸ˆé¢˜åº“-2	
+Traceback (most recent call last):
+  File "c:/Users/susu/Desktop/Graduation_Design/FineGrainedAndrodPermissionsStudy/apk_analyse/extract_perm_xml_2.py", line 217, in main
+    a,dx = AnalyzeAPK(apk_path)
+ValueError: too many values to unpack (expected 2)

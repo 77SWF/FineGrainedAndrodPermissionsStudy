@@ -1,0 +1,5 @@
+<p>Returns the user name of the context user. This call is only available to applications on
+ the system image.
+
+ <br/>
+ Requires android.Manifest.permission.MANAGE_USERS or android.Manifest.permission.CREATE_USERS or android.Manifest.permission.QUERY_USERS or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#GET_ACCOUNTS_PRIVILEGED">Manifest.permission.GET_ACCOUNTS_PRIVILEGED</a></code></p>

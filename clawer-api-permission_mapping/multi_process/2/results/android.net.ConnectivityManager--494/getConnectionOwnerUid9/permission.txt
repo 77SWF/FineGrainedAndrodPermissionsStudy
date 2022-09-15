@@ -1,0 +1,8 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">int</code></td>
+        <td width="100%"><code dir="ltr" translate="no">uid</code> if the connection is found and the app has permission to observe it
+     (e.g., if it is associated with the calling VPN app's VpnService tunnel) or <code dir="ltr" translate="no"><a href="/reference/android/os/Process#INVALID_UID">Process.INVALID_UID</a></code> if the connection is not found.<p></p></td>
+      </tr>
+    </tbody></table>

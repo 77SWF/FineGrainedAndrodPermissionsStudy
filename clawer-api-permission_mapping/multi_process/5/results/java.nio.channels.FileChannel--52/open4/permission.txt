@@ -1,0 +1,25 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">If the set contains an invalid combination of options</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/UnsupportedOperationException">UnsupportedOperationException</a></code></td>
+          <td width="100%">If the <code dir="ltr" translate="no">path</code> is associated with a provider that does not
+          support creating file channels, or an unsupported open option is
+          specified</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">If an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">If a security manager is installed and it denies an
+          unspecified permission required by the implementation.
+          In the case of the default provider, the <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkRead(java.lang.String)">SecurityManager.checkRead(java.lang.String)</a></code> method is invoked to check
+          read access if the file is opened for reading. The <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkWrite(java.lang.String)">SecurityManager.checkWrite(java.lang.String)</a></code> method is invoked to check
+          write access if the file is opened for writing</td>
+        </tr>
+      </tbody></table>

@@ -1,0 +1,20 @@
+android.telecom.TelecomManager.acceptRingingCall                 	ANSWER_PHONE_CALLS       	允许该应用接听来电。
+android.telecom.TelecomManager.endCall                           	ANSWER_PHONE_CALLS       	允许该应用接听来电。
+android.app.admin.DevicePolicyManager.setPermissionGrantState    	BODY_SENSORS;READ_SMS    	允许该应用存取监测您身体状况的传感器所收集的数据，例如您的心率。;此应用可读取您手机上存储的所有短信。
+no API: PROCESS_OUTGOING_CALLS                                   	PROCESS_OUTGOING_CALLS   	允许应用在拨出电话时查看拨打的电话号码，并选择改为拨打其他号码或完全中止通话。
+no API: READ_CALENDAR                                            	READ_CALENDAR            	此应用可读取您手机上存储的所有日历活动，并分享或保存您的日历数据。
+android.telephony.PhoneStateListener.onCallStateChanged          	READ_CALL_LOG            	此应用可读取您的通话记录。
+android.telecom.TelecomManager.getLine1Number                    	READ_PHONE_NUMBERS;READ_SMS	允许该应用访问设备上的电话号码。;此应用可读取您手机上存储的所有短信。
+android.telecom.TelecomManager.getPhoneAccount                   	READ_PHONE_NUMBERS       	允许该应用访问设备上的电话号码。
+android.telephony.SubscriptionInfo.getNumber                     	READ_PHONE_NUMBERS;READ_SMS	允许该应用访问设备上的电话号码。;此应用可读取您手机上存储的所有短信。
+android.telephony.TelephonyManager.getLine1Number                	READ_PHONE_NUMBERS;READ_SMS	允许该应用访问设备上的电话号码。;此应用可读取您手机上存储的所有短信。
+no API: RECEIVE_MMS                                              	RECEIVE_MMS              	允许该应用接收和处理彩信。这就意味着，该应用可能会监视发送到您设备的彩信，或删除发送到您设备的彩信而不向您显示。
+no API: RECEIVE_WAP_PUSH                                         	RECEIVE_WAP_PUSH         	允许该应用接收和处理 WAP 消息。此权限包括监视发送给您的消息或删除发送给您的消息而不向您显示的功能。
+android.telephony.SmsManager.sendDataMessage                     	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendMultipartTextMessage            	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendTextMessage                     	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendTextMessageWithoutPersisting    	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.TelephonyManager.sendVisualVoicemailSms        	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+no API: WRITE_CALENDAR                                           	WRITE_CALENDAR           	此应用可在手机上添加、移除或更改日历活动。此应用可能会以日历所有者的身份发送消息，或在不通知所有者的情况下更改活动。
+no API: WRITE_CALL_LOG                                           	WRITE_CALL_LOG           	允许该应用修改手机的通话记录，包括有关来电和外拨电话的数据。恶意应用可能会借此清除或修改您的通话记录。
+no API: WRITE_CONTACTS                                           	WRITE_CONTACTS           	允许该应用修改您手机上存储的联系人相关数据。此权限允许应用删除联系人数据。

@@ -1,0 +1,30 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/NullPointerException">NullPointerException</a></code></td>
+          <td width="100%">There is no value
+            for the `org.xml.sax.parser' system property.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/ClassNotFoundException">ClassNotFoundException</a></code></td>
+          <td width="100%">The SAX parser
+            class was not found (check your CLASSPATH).</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalAccessException">IllegalAccessException</a></code></td>
+          <td width="100%">The SAX parser class was
+            found, but you do not have permission to load
+            it.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/InstantiationException">InstantiationException</a></code></td>
+          <td width="100%">The SAX parser class was
+            found but could not be instantiated.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/ClassCastException">ClassCastException</a></code></td>
+          <td width="100%">The SAX parser class
+            was found and instantiated, but does not implement
+            org.xml.sax.Parser.</td>
+        </tr>
+      </tbody></table>

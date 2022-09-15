@@ -1,0 +1,21 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public void onRequestPermissionsFromFragment (<a href="/reference/android/app/Fragment">Fragment</a> fragment, 
+                <a href="/reference/java/lang/String">String[]</a> permissions, 
+                int requestCode)</pre><p>Requests permissions from the given fragment.
+ See <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity#requestPermissions(String[], int)</a></code></p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">fragment</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Fragment</code>: This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permissions</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">requestCode</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code> <!-- no parameter comment --><p></p></td>
+      </tr>
+    </tbody></table>

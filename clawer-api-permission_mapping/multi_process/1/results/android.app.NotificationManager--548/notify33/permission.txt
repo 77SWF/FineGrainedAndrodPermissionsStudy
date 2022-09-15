@@ -1,0 +1,11 @@
+<p>Posts a notification to be shown in the status bar. If a notification with
+ the same tag and id has already been posted by your application and has not yet been
+ canceled, it will be replaced by the updated information.
+
+ All <code dir="ltr" translate="no"><a href="/reference/android/service/notification/NotificationListenerService">listener services</a></code> will
+ be granted <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_READ_URI_PERMISSION">Intent#FLAG_GRANT_READ_URI_PERMISSION</a></code> access to any <code dir="ltr" translate="no"><a href="/reference/android/net/Uri">uris</a></code>
+ provided on this notification or the
+ <code dir="ltr" translate="no"><a href="/reference/android/app/NotificationChannel">NotificationChannel</a></code> this notification is posted to using
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#grantUriPermission(java.lang.String,%20android.net.Uri,%20int)">Context#grantUriPermission(String, Uri, int)</a></code>. Permission will be revoked when the
+ notification is canceled, or you can revoke permissions with
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#revokeUriPermission(android.net.Uri,%20int)">Context#revokeUriPermission(Uri, int)</a></code>.</p>

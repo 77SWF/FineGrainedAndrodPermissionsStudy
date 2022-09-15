@@ -1,0 +1,8 @@
+<p>
+ May return <code dir="ltr" translate="no">null</code> if the Wi-Fi Aware service is not initialized. Use
+ <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/aware/WifiAwareManager#attach(android.net.wifi.aware.AttachCallback,%20android.os.Handler)">attach(android.net.wifi.aware.AttachCallback, android.os.Handler)</a></code> or
+ <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/aware/WifiAwareManager#attach(android.net.wifi.aware.AttachCallback,%20android.net.wifi.aware.IdentityChangedListener,%20android.os.Handler)">attach(android.net.wifi.aware.AttachCallback, android.net.wifi.aware.IdentityChangedListener, android.os.Handler)</a></code> to initialize the Wi-Fi
+ Aware service.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_WIFI_STATE">Manifest.permission.ACCESS_WIFI_STATE</a></code></p>

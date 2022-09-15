@@ -1,0 +1,10 @@
+<p>Callback invoked when call disconnect cause changes on the registered subscription.
+ Note, the registration subId comes from <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager">TelephonyManager</a></code> object which registers
+ PhoneStateListener by <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#listen(android.telephony.PhoneStateListener,%20int)">TelephonyManager#listen(PhoneStateListener, int)</a></code>.
+ If this TelephonyManager object was created with
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#createForSubscriptionId(int)">TelephonyManager#createForSubscriptionId(int)</a></code>, then the callback applies to the
+ subId. Otherwise, this callback applies to
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#getDefaultSubscriptionId()">SubscriptionManager#getDefaultSubscriptionId()</a></code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PRECISE_PHONE_STATE">Manifest.permission.READ_PRECISE_PHONE_STATE</a></code></p>

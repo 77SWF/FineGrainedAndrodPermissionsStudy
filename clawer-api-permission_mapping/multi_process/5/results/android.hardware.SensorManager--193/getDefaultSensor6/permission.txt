@@ -1,0 +1,8 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/android/hardware/Sensor">Sensor</a></code></td>
+        <td width="100%">the default sensor matching the requested type if one exists and the application
+         has the necessary permissions, or null otherwise.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,3 @@
+<p>Returns true if this is a negative ACL entry (one denying the
+ associated principal the set of permissions in the entry), false
+ otherwise.</p>

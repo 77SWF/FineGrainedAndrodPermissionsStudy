@@ -1,0 +1,1 @@
+<p>Return the base permission type.</p>

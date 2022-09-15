@@ -1,0 +1,35 @@
+<p>The status of the request can be followed by listening to the various callbacks described
+ in <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager.NetworkCallback">NetworkCallback</a></code>. The <code dir="ltr" translate="no"><a href="/reference/android/net/Network">Network</a></code> object passed to the callback methods can be
+ used to direct traffic to the network (although accessing some networks may be subject to
+ holding specific permissions). Callers will learn about the specific characteristics of the
+ network through
+ <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager.NetworkCallback#onCapabilitiesChanged(android.net.Network,%20android.net.NetworkCapabilities)">NetworkCallback#onCapabilitiesChanged(Network, NetworkCapabilities)</a></code> and
+ <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager.NetworkCallback#onLinkPropertiesChanged(android.net.Network,%20android.net.LinkProperties)">NetworkCallback#onLinkPropertiesChanged(Network, LinkProperties)</a></code>. The methods of the
+ provided <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager.NetworkCallback">NetworkCallback</a></code> will only be invoked due to changes in the best network
+ matching the request at any given time; therefore when a better network matching the request
+ becomes available, the <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager.NetworkCallback#onAvailable(android.net.Network)">NetworkCallback#onAvailable(Network)</a></code> method is called
+ with the new network after which no further updates are given about the previously-best
+ network, unless it becomes the best again at some later time. All callbacks are invoked
+ in order on the same thread, which by default is a thread created by the framework running
+ in the app.
+  to change where the
+ callbacks are invoked.
+
+ </p><p>This method requires the caller to hold either the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CHANGE_NETWORK_STATE">Manifest.permission.CHANGE_NETWORK_STATE</a></code> permission
+ or the ability to modify system settings as determined by
+ <code dir="ltr" translate="no"><a href="/reference/android/provider/Settings.System#canWrite(android.content.Context)">Settings.System.canWrite(Context)</a></code>.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if <code dir="ltr" translate="no">request</code> contains invalid network capabilities.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if missing the appropriate permissions.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/RuntimeException">RuntimeException</a></code></td>
+          <td width="100%">if the app already has too many callbacks registered.</td>
+        </tr>
+      </tbody></table>

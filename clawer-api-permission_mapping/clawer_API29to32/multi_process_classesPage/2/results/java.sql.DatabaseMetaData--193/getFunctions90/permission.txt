@@ -1,0 +1,3 @@
+<p>
+ A user may not have permission to execute any of the functions that are
+ returned by <code dir="ltr" translate="no">getFunctions</code></p>

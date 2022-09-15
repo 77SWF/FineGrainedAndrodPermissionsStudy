@@ -1,0 +1,24 @@
+<p>
+ Defaults to <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageInstaller.SessionParams#USER_ACTION_UNSPECIFIED">USER_ACTION_UNSPECIFIED</a></code> unless otherwise set. When unspecified for
+ installers using the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_INSTALL_PACKAGES">REQUEST_INSTALL_PACKAGES</a></code>
+ permission will behave as if set to <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageInstaller.SessionParams#USER_ACTION_REQUIRED">USER_ACTION_REQUIRED</a></code>, and
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageInstaller.SessionParams#USER_ACTION_NOT_REQUIRED">USER_ACTION_NOT_REQUIRED</a></code> otherwise. When <code dir="ltr" translate="no">requireUserAction</code> is set to
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageInstaller.SessionParams#USER_ACTION_REQUIRED">USER_ACTION_REQUIRED</a></code>, installers will receive a
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageInstaller#STATUS_PENDING_USER_ACTION">PackageInstaller.STATUS_PENDING_USER_ACTION</a></code> callback once the session is committed, indicating
+ that user action is required for the install to proceed.
+ </p><p>
+ For installers that have been granted the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_INSTALL_PACKAGES">REQUEST_INSTALL_PACKAGES</a></code>
+ permission, user action will not be required when all of the following conditions are
+ met:
+
+ </p><ul>
+     <li><code dir="ltr" translate="no">requireUserAction</code> is set to <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageInstaller.SessionParams#USER_ACTION_NOT_REQUIRED">USER_ACTION_NOT_REQUIRED</a></code>.</li>
+     <li>The app being installed targets <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#Q">API 29</a></code>
+     or higher.</li>
+     <li>The installer is the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/InstallSourceInfo#getInstallingPackageName()">installer of record</a></code> of an existing version of the app (in other words, this install
+     session is an app update) or the installer is updating itself.</li>
+     <li>The installer declares the
+     <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#UPDATE_PACKAGES_WITHOUT_USER_ACTION">UPDATE_PACKAGES_WITHOUT_USER_ACTION</a></code> permission.</li>
+ </ul>

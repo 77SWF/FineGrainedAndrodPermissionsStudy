@@ -1,0 +1,5 @@
+<p>Return the name of the permission required for read-only access to
+ this content provider.  This method can be called from multiple
+ threads, as described in
+ <a href="/guide/topics/fundamentals/processes-and-threads#Threads">Processes
+ and Threads</a>.</p>

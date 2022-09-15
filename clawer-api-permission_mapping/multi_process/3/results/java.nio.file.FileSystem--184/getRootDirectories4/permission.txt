@@ -1,0 +1,5 @@
+<p> When a security manager is installed, it is invoked to check access
+ to the each root directory. If denied, the root directory is not returned
+ by the iterator. In the case of the default provider, the <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkRead(java.lang.String)">SecurityManager.checkRead(java.lang.String)</a></code> method is invoked to check read access
+ to each root directory. It is system dependent if the permission checks
+ are done when the iterator is obtained or during iteration.</p>

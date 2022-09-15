@@ -1,0 +1,5 @@
+<p>Remove all configured networks that were not created by the calling app. Can only
+ be called by a Device Owner (DO) app.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CHANGE_WIFI_STATE">Manifest.permission.CHANGE_WIFI_STATE</a></code></p>

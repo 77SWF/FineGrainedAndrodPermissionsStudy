@@ -1,0 +1,17 @@
+<p>Requires the <code dir="ltr" translate="no">android.Manifest.permission#WRITE_EMBEDDED_SUBSCRIPTIONS</code> permission,
+ or the calling app must be authorized to manage both the currently-active subscription on the
+ current eUICC and the subscription to be downloaded according to the subscription metadata.
+ Without the former, an <code dir="ltr" translate="no"><a href="/reference/android/telephony/euicc/EuiccManager#EMBEDDED_SUBSCRIPTION_RESULT_RESOLVABLE_ERROR">EMBEDDED_SUBSCRIPTION_RESULT_RESOLVABLE_ERROR</a></code> will be
+ returned in the callback intent to prompt the user to accept the download.
+
+ </p><p>On a multi-active SIM device, requires the
+ <code dir="ltr" translate="no">android.Manifest.permission#WRITE_EMBEDDED_SUBSCRIPTIONS</code> permission, or a calling app
+ only if the targeted eUICC does not currently have an active subscription or the calling app
+ is authorized to manage the active subscription on the target eUICC, and the calling app is
+ authorized to manage any active subscription on any SIM. Without it, an
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/euicc/EuiccManager#EMBEDDED_SUBSCRIPTION_RESULT_RESOLVABLE_ERROR">EMBEDDED_SUBSCRIPTION_RESULT_RESOLVABLE_ERROR</a></code> will be returned in the callback
+ intent to prompt the user to accept the download. The caller should also be authorized to
+ manage the subscription to be downloaded.
+
+ <br/>
+ Requires android.Manifest.permission.WRITE_EMBEDDED_SUBSCRIPTIONS</p>

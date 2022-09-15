@@ -1,0 +1,22 @@
+<p>Apps need the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_PASSWORD_COMPLEXITY">permission#REQUEST_PASSWORD_COMPLEXITY</a></code> permission to call this
+ method. On Android <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES.S</a></code> and above, the calling
+ application does not need this permission if it is a device owner or a profile owner.
+
+ </p><p>This method can be called on the <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager">DevicePolicyManager</a></code> instance
+ returned by <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#getParentProfileInstance(android.content.ComponentName)">getParentProfileInstance(android.content.ComponentName)</a></code> in order to retrieve
+ restrictions on the parent profile.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_PASSWORD_COMPLEXITY">Manifest.permission.REQUEST_PASSWORD_COMPLEXITY</a></code></p><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalStateException">IllegalStateException</a></code></td>
+          <td width="100%">if the user is not unlocked.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if the calling application does not have the permission
+                               <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_PASSWORD_COMPLEXITY">permission#REQUEST_PASSWORD_COMPLEXITY</a></code>, and is not a
+                               device owner or a profile owner.</td>
+        </tr>
+      </tbody></table>

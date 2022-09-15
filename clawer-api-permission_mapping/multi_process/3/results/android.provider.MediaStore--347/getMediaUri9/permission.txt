@@ -1,0 +1,8 @@
+<p>
+ This allows apps with Storage Access Framework permissions to convert
+ between <code dir="ltr" translate="no"><a href="/reference/android/provider/MediaStore">MediaStore</a></code> and <code dir="ltr" translate="no"><a href="/reference/android/provider/DocumentsProvider">DocumentsProvider</a></code> Uris that refer
+ to the same underlying item.
+ Note that this method doesn't grant any new permissions, but it grants the same access to
+ the Media Store Uri as the caller has to the given DocumentsProvider Uri; callers must
+ already hold permissions for documentUri obtained with <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#ACTION_OPEN_DOCUMENT">Intent#ACTION_OPEN_DOCUMENT</a></code>
+ or related APIs.</p>

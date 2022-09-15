@@ -1,0 +1,20 @@
+<code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CAMERA">Manifest.permission.CAMERA</a></code><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/android/hardware/camera2/CameraAccessException">CameraAccessException</a></code></td>
+          <td width="100%">if the camera is disabled by device policy,
+ has been disconnected, is being used by a higher-priority camera API client, or the device
+ has reached its maximal resource and cannot open this camera device.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if cameraId or the callback was null,
+ or the cameraId does not match any currently or previously available
+ camera device returned by <code dir="ltr" translate="no"><a href="/reference/android/hardware/camera2/CameraManager#getCameraIdList()">getCameraIdList()</a></code>.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if the application does not have permission to
+ access the camera</td>
+        </tr>
+      </tbody></table>

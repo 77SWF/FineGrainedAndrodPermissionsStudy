@@ -1,0 +1,34 @@
+<p>An asynchronous permission request made by an application for an operation that requires
+ authorization by a local or remote administrator other than the user. The Restrictions
+ Provider should transfer the request to the administrator and deliver back a response, when
+ available. The calling application is aware that the response could take an indefinite
+ amount of time.
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">context</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Context</code> <!-- no parameter comment --><p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">packageName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: the application requesting permission.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">requestType</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: the type of request, which determines the content and presentation of
+ the request data.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">requestId</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code> <!-- no parameter comment --><p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">request</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">PersistableBundle</code>: the request data bundle containing at a minimum a request id.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,6 @@
+<p>This exposure is discouraged since the receiving app may not have access to the
+ shared path. For example, the receiving app may not have requested the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE">Manifest.permission.READ_EXTERNAL_STORAGE</a></code> runtime permission, or the
+ platform may be sharing the <code dir="ltr" translate="no"><a href="/reference/android/net/Uri">Uri</a></code> across user profile boundaries.
+
+ </p><p>Instead, apps should use <code dir="ltr" translate="no">content://</code> Uris so the platform can extend
+ temporary permission for the receiving app to access the resource.</p>

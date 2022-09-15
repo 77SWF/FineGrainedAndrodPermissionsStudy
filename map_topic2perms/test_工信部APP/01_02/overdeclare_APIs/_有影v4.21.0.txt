@@ -1,0 +1,2 @@
+no API: READ_MEDIA_AUDIO                                         	READ_MEDIA_AUDIO         	暂无权限描述。
+no API: READ_MEDIA_VIDEO                                         	READ_MEDIA_VIDEO         	暂无权限描述。

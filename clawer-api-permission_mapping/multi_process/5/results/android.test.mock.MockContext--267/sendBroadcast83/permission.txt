@@ -1,0 +1,25 @@
+<p>Broadcast the given intent to all interested BroadcastReceivers, allowing
+ an optional required permission to be enforced.  This
+ call is asynchronous; it returns immediately, and you will continue
+ executing while the receivers are run.  No results are propagated from
+ receivers and receivers can not abort the broadcast. If you want
+ to allow receivers to propagate results or abort the broadcast, you must
+ send an ordered broadcast using
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#sendOrderedBroadcast(android.content.Intent,%20java.lang.String)">sendOrderedBroadcast(android.content.Intent, java.lang.String)</a></code>.
+
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">intent</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Intent</code>: The Intent to broadcast; all receivers matching this
+               Intent will receive the broadcast.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">receiverPermission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: (optional) String naming a permission that
+               a receiver must hold in order to receive your broadcast.
+               If null, no permission is required.<p></p></td>
+      </tr>
+    </tbody></table>

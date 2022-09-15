@@ -1,0 +1,15 @@
+<p>Determine whether the calling process of an IPC <em>or you</em> has been granted
+ permission to access a list of URIs.  This is the same as
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#checkCallingUriPermission(android.net.Uri,%20int)">checkCallingUriPermission(Uri, int)</a></code>, except it grants your own permissions
+ if you are not currently processing an IPC.  Use with care!</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">int[]</code></td>
+        <td width="100%">Array of permission grants corresponding to each entry in the list of uris.
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_GRANTED">PackageManager#PERMISSION_GRANTED</a></code> if the given pid/uid is allowed to access that uri,
+ or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_DENIED">PackageManager#PERMISSION_DENIED</a></code> if it is not.
+
+ This value cannot be <code dir="ltr" translate="no">null</code>.
+ Value is <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_GRANTED">PackageManager.PERMISSION_GRANTED</a></code>, or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_DENIED">PackageManager.PERMISSION_DENIED</a></code><p></p></td>
+      </tr>
+    </tbody></table>

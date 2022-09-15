@@ -1,0 +1,6 @@
+<p>If a registering app loses its relevant permissions, any callbacks it registered will
+ silently stop receiving callbacks. Note that registering apps must also have location
+ permissions to receive callbacks as some Networks may be location-bound (such as WiFi
+ networks).
+
+ </p>

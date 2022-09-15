@@ -1,0 +1,6 @@
+<p class="note"><strong>WARNING:</strong> The framework does no permission checking
+ on this entry into the content provider besides the basic ability for the application
+ to get access to the provider at all.  For example, it has no idea whether the call
+ being executed may read or write data in the provider, so can't enforce those
+ individual permissions.  Any implementation of this method <strong>must</strong>
+ do its own permission checks on incoming calls to make sure they are allowed.</p>

@@ -1,0 +1,18 @@
+<p>Return a PermissionCollection object containing the set of
+ permissions granted to the specified ProtectionDomain.
+
+ </p><p> The default implementation of this method returns
+ Policy.UNSUPPORTED_EMPTY_COLLECTION object.  This method can be
+ overridden if the policy implementation can return a set of
+ permissions granted to a ProtectionDomain.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/security/PermissionCollection">PermissionCollection</a></code></td>
+        <td width="100%">a set of permissions granted to the specified ProtectionDomain.
+          If this operation is supported, the returned
+          set of permissions must be a new mutable instance
+          and it must support heterogeneous Permission types.
+          If this operation is not supported,
+          Policy.UNSUPPORTED_EMPTY_COLLECTION is returned.<p></p></td>
+      </tr>
+    </tbody></table>

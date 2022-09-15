@@ -1,0 +1,2 @@
+no API: PROCESS_OUTGOING_CALLS                                   	PROCESS_OUTGOING_CALLS   	允许应用在拨出电话时查看拨打的电话号码，并选择改为拨打其他号码或完全中止通话。
+android.telephony.PhoneStateListener.onCallStateChanged          	READ_CALL_LOG            	此应用可读取您的通话记录。

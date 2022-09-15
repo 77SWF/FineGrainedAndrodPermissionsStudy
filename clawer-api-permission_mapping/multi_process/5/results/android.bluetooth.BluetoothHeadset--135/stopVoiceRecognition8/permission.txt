@@ -1,0 +1,16 @@
+<p> Users can listen to <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothHeadset#ACTION_AUDIO_STATE_CHANGED">ACTION_AUDIO_STATE_CHANGED</a></code>.
+ If this function returns true, this intent will be broadcasted with
+ <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothProfile#EXTRA_STATE">BluetoothProfile.EXTRA_STATE</a></code> set to <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothHeadset#STATE_AUDIO_DISCONNECTED">STATE_AUDIO_DISCONNECTED</a></code>.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code> or lower, this
+ requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH">Manifest.permission#BLUETOOTH</a></code> permission
+ which can be gained with a simple <code dir="ltr" translate="no">&lt;uses-permission&gt;</code>
+ manifest tag.
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission#BLUETOOTH_CONNECT</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission.BLUETOOTH_CONNECT</a></code></p>

@@ -1,0 +1,9 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/android/content/AttributionSource">AttributionSource</a></code></td>
+        <td width="100%">The identity of the caller for permission purposes.
+
+ This value may be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

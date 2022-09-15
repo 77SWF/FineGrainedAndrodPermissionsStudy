@@ -1,0 +1,4 @@
+<p>
+ Note that the <code dir="ltr" translate="no">InstallSourceInfo</code> returned by
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#getInstallSourceInfo(java.lang.String)">PackageManager#getInstallSourceInfo(String)</a></code> will not have this information
+ available unless the calling application holds the INSTALL_PACKAGES permission.</p>

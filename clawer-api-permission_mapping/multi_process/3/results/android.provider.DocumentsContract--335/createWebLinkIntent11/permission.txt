@@ -1,0 +1,10 @@
+<p>Providers are required to show confirmation UI for all new permissions granted
+ for the linked document.
+
+ </p><p>If list of recipients is known, then it should be passed in options as
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#EXTRA_EMAIL">Intent#EXTRA_EMAIL</a></code> as a list of email addresses. Note, that
+ this is just a hint for the provider, which can ignore the list. In either
+ case the provider is required to show a UI for letting the user confirm
+ any new permission grants.
+
+ </p>

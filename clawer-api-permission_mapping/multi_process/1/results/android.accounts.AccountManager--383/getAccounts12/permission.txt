@@ -1,0 +1,5 @@
+<p>
+ It is safe to call this method from the main thread.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#GET_ACCOUNTS">Manifest.permission.GET_ACCOUNTS</a></code></p>

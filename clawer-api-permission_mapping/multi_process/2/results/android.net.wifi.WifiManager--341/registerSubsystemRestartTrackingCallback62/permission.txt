@@ -1,0 +1,5 @@
+<p>Registers a <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiManager.SubsystemRestartTrackingCallback">SubsystemRestartTrackingCallback</a></code> to listen to Wi-Fi subsystem restarts.
+ The subsystem may restart due to internal recovery mechanisms or via user action.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_WIFI_STATE">Manifest.permission.ACCESS_WIFI_STATE</a></code></p>

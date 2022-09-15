@@ -1,0 +1,30 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if any of the restrictions on the
+          parameters that may be passed to <code dir="ltr" translate="no">getProxyClass</code>
+          are violated</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if a security manager, <em>s</em>, is present
+          and any of the following conditions is met:
+          <ul>
+             <li> the given <code dir="ltr" translate="no">loader</code> is <code dir="ltr" translate="no">null</code> and
+             the caller's class loader is not <code dir="ltr" translate="no">null</code> and the
+             invocation of <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkPermission(java.security.Permission)">s.checkPermission</a></code> with
+             <code dir="ltr" translate="no">RuntimePermission("getClassLoader")</code> permission
+             denies access.</li>
+             <li> for each proxy interface, <code dir="ltr" translate="no">intf</code>,
+             the caller's class loader is not the same as or an
+             ancestor of the class loader for <code dir="ltr" translate="no">intf</code> and
+             invocation of <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkPackageAccess(java.lang.String)">s.checkPackageAccess()</a></code> denies access to <code dir="ltr" translate="no">intf</code>.</li>
+          </ul></td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/NullPointerException">NullPointerException</a></code></td>
+          <td width="100%">if the <code dir="ltr" translate="no">interfaces</code> array
+          argument or any of its elements are <code dir="ltr" translate="no">null</code></td>
+        </tr>
+      </tbody></table>

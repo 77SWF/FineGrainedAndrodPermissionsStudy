@@ -1,0 +1,13 @@
+<pre dir="ltr" translate="no">     Path path = ...
+
+     // open file for reading
+     ReadableByteChannel rbc = Files.newByteChannel(path, EnumSet.of(READ)));
+
+     // open file for writing to the end of an existing file, creating
+     // the file if it doesn't already exist
+     WritableByteChannel wbc = Files.newByteChannel(path, EnumSet.of(CREATE,APPEND));
+
+     // create file with initial permissions, opening it for both reading and writing
+     <code dir="ltr" translate="no">FileAttribute&lt;Set&lt;PosixFilePermission&gt;&gt; perms = ...</code>
+     SeekableByteChannel sbc = Files.newByteChannel(path, EnumSet.of(CREATE_NEW,READ,WRITE), perms);
+ </pre>

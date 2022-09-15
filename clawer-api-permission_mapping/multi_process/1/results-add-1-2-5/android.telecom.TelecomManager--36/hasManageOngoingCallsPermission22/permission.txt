@@ -1,0 +1,4 @@
+<p>Returns whether the caller has <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_ONGOING_CALLS">Manifest.permission.MANAGE_ONGOING_CALLS</a></code>
+ permission. The permission can be obtained by associating with a physical wearable device
+ via the <code dir="ltr" translate="no"><a href="/reference/android/companion/CompanionDeviceManager">CompanionDeviceManager</a></code> API as a companion app. If the
+ caller app has the permission, it has <code dir="ltr" translate="no"><a href="/reference/android/telecom/InCallService">InCallService</a></code> access to manage ongoing calls.</p>

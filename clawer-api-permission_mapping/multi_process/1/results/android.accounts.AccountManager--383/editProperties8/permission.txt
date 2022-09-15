@@ -1,0 +1,6 @@
+<p><b>NOTE:</b> If targeting your app to work on API level 22 and before,
+ MANAGE_ACCOUNTS permission is needed for those platforms. See docs
+ for this function in API level 22.
+
+ <br/>
+ Requires android.Manifest.permission.MANAGE_ACCOUNTS</p>

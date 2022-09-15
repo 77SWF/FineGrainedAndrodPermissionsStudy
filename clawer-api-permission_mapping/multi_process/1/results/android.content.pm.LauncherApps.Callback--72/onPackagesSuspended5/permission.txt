@@ -1,0 +1,7 @@
+<p>Indicates that one or more packages have been suspended. A device administrator or an app
+ with <code dir="ltr" translate="no">android.permission.SUSPEND_APPS</code> can do this.
+
+ </p><p>A suspending app with the permission <code dir="ltr" translate="no">android.permission.SUSPEND_APPS</code> can
+ optionally provide a <code dir="ltr" translate="no"><a href="/reference/android/os/Bundle">Bundle</a></code> of extra information that it deems helpful for the
+ launcher to handle the suspended state of these packages. The contents of this
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Bundle">Bundle</a></code> are supposed to be a contract between the suspending app and the launcher.</p>

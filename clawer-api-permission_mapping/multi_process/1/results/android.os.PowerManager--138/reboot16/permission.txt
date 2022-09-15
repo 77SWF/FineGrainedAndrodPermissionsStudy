@@ -1,0 +1,3 @@
+<p>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REBOOT">Manifest.permission.REBOOT</a></code> permission.
+ </p><code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REBOOT">Manifest.permission.REBOOT</a></code>

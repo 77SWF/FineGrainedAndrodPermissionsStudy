@@ -1,0 +1,12 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/javax/security/auth/DestroyFailedException">DestroyFailedException</a></code></td>
+          <td width="100%">if the destroy operation fails. <p></p></td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if the caller does not have permission
+          to destroy this <code dir="ltr" translate="no">Object</code>.</td>
+        </tr>
+      </tbody></table>

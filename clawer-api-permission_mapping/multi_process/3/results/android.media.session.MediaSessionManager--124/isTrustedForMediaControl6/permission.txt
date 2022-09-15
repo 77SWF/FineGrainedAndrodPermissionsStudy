@@ -1,0 +1,4 @@
+<p>
+ An app is trusted if the app holds the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MEDIA_CONTENT_CONTROL">Manifest.permission.MEDIA_CONTENT_CONTROL</a></code> permission or has an enabled
+ notification listener.</p>

@@ -1,0 +1,4 @@
+android.app.admin.DevicePolicyManager.setPermissionGrantState    	ACCESS_BACKGROUND_LOCATION	即使您并未使用此应用，此应用也可以随时访问位置信息。
+android.telecom.TelecomManager.placeCall                         	CALL_PHONE               	允许该应用在您未执行操作的情况下拨打电话号码。此权限可能会导致意外收费或呼叫。请注意，此权限不允许该应用拨打紧急电话号码。恶意应用可通过拨打电话产生相关费用，而无需您的确认。
+android.telecom.TelecomManager.startConference                   	CALL_PHONE               	允许该应用在您未执行操作的情况下拨打电话号码。此权限可能会导致意外收费或呼叫。请注意，此权限不允许该应用拨打紧急电话号码。恶意应用可通过拨打电话产生相关费用，而无需您的确认。
+android.telephony.TelephonyManager.sendUssdRequest               	CALL_PHONE               	允许该应用在您未执行操作的情况下拨打电话号码。此权限可能会导致意外收费或呼叫。请注意，此权限不允许该应用拨打紧急电话号码。恶意应用可通过拨打电话产生相关费用，而无需您的确认。

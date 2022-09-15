@@ -1,0 +1,13 @@
+<p> <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/p2p/WifiP2pDevice#deviceAddress">WifiP2pDevice.deviceAddress</a></code> is only available if the caller
+ holds the <code dir="ltr" translate="no">android.Manifest.permission#LOCAL_MAC_ADDRESS</code> permission, and holds the
+ anonymized MAC address (02:00:00:00:00:00) otherwise.
+
+ </p><p>
+ If targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#TIRAMISU">Build.VERSION_CODES.TIRAMISU</a></code> or later, the application must
+ have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#NEARBY_WIFI_DEVICES">Manifest.permission.NEARBY_WIFI_DEVICES</a></code> with
+ android:usesPermissionFlags="neverForLocation". If the application does not declare
+ android:usesPermissionFlags="neverForLocation", then it must also have
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code>.
+
+ If targeting an earlier release than <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#TIRAMISU">Build.VERSION_CODES.TIRAMISU</a></code>, the
+ application must have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code>.</p>

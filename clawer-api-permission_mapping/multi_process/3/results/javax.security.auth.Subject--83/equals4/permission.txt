@@ -1,0 +1,10 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if the caller does not have permission
+          to access the private credentials for this <code dir="ltr" translate="no">Subject</code>,
+          or if the caller does not have permission to access the
+          private credentials for the provided <code dir="ltr" translate="no">Subject</code>.</td>
+        </tr>
+      </tbody></table>

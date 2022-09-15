@@ -1,0 +1,26 @@
+<ul>
+  <li>caller has <code dir="ltr" translate="no">android.Manifest.permission.INTERACT_ACROSS_USERS_FULL</code></li>
+  <li>caller has <code dir="ltr" translate="no">android.Manifest.permission.INTERACT_ACROSS_USERS</code> and is the same
+      package as the <code dir="ltr" translate="no">service</code> (determined by its component's package) and the Android
+      version is at least <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES.S</a></code></li>
+  <li>caller has <code dir="ltr" translate="no">android.Manifest.permission.INTERACT_ACROSS_USERS</code> and is in same
+      profile group as the given <code dir="ltr" translate="no">user</code></li>
+  <li>caller has <code dir="ltr" translate="no">android.Manifest.permission.INTERACT_ACROSS_PROFILES</code> and is in same
+      profile group as the given <code dir="ltr" translate="no">user</code> and is the same package as the <code dir="ltr" translate="no">service</code>
+      </li>
+ </ul><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%"><code dir="ltr" translate="no">true</code> if the system is in the process of bringing up a
+         service that your client has permission to bind to; <code dir="ltr" translate="no">false</code>
+         if the system couldn't find the service. You should call <code dir="ltr" translate="no"><a href="/reference/android/content/Context#unbindService(android.content.ServiceConnection)">unbindService(ServiceConnection)</a></code>
+         to release the connection even if this method returned <code dir="ltr" translate="no">false</code>.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if the client does not have the required permission to bind.</td>
+        </tr>
+      </tbody></table>

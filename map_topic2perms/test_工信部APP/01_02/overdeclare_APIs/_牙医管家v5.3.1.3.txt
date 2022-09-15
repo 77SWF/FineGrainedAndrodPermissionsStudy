@@ -1,0 +1,7 @@
+no API: READ_CALENDAR                                            	READ_CALENDAR            	此应用可读取您手机上存储的所有日历活动，并分享或保存您的日历数据。
+android.telephony.SmsManager.sendDataMessage                     	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendMultipartTextMessage            	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendTextMessage                     	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendTextMessageWithoutPersisting    	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.TelephonyManager.sendVisualVoicemailSms        	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+no API: WRITE_CALENDAR                                           	WRITE_CALENDAR           	此应用可在手机上添加、移除或更改日历活动。此应用可能会以日历所有者的身份发送消息，或在不通知所有者的情况下更改活动。

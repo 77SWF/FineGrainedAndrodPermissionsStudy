@@ -1,0 +1,21 @@
+<p>
+ Caller targeting API level <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#O">Build.VERSION_CODES.O</a></code> and above, will get list
+ of accounts made visible to it by user
+ (see <code dir="ltr" translate="no"><a href="/reference/android/accounts/AccountManager#newChooseAccountIntent(android.accounts.Account,%20java.util.List&lt;android.accounts.Account&gt;,%20java.lang.String[],%20java.lang.String,%20java.lang.String,%20java.lang.String[],%20android.os.Bundle)">newChooseAccountIntent(android.accounts.Account, java.util.List, java.lang.String[], java.lang.String, java.lang.String, java.lang.String[], android.os.Bundle)</a></code>) or AbstractAccountAuthenticator
+ using <code dir="ltr" translate="no"><a href="/reference/android/accounts/AccountManager#setAccountVisibility(android.accounts.Account,%20java.lang.String,%20int)">setAccountVisibility(Account, String, int)</a></code>.
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#GET_ACCOUNTS">Manifest.permission.GET_ACCOUNTS</a></code> permission is not used.
+
+ </p><p>
+ Caller targeting API level below <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#O">Build.VERSION_CODES.O</a></code> that have not been
+ granted the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#GET_ACCOUNTS">Manifest.permission.GET_ACCOUNTS</a></code> permission, will only see those
+ accounts managed by AbstractAccountAuthenticators whose signature matches the client.
+
+ </p><p>
+ <b>NOTE:</b> If targeting your app to work on API level
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#LOLLIPOP_MR1">Build.VERSION_CODES.LOLLIPOP_MR1</a></code> and before,
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#GET_ACCOUNTS">Manifest.permission.GET_ACCOUNTS</a></code> permission is
+ needed for those platforms, irrespective of uid or signature match. See docs for this
+ function in API level <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#LOLLIPOP_MR1">Build.VERSION_CODES.LOLLIPOP_MR1</a></code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#GET_ACCOUNTS">Manifest.permission.GET_ACCOUNTS</a></code></p>

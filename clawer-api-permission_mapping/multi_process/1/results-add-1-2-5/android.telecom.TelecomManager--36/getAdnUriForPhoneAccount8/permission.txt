@@ -1,0 +1,4 @@
+<p>Returns a URI (with the content:// scheme) specific to the specified <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccount">PhoneAccount</a></code>
+ for ADN content retrieval.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code></p>

@@ -1,0 +1,28 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public abstract boolean checkPermission (<a href="/reference/java/security/Principal">Principal</a> principal, 
+                <a href="/reference/java/security/acl/Permission">Permission</a> permission)</pre><p>Checks whether or not the specified principal has the specified
+ permission. If it does, true is returned, otherwise false is returned.
+
+ More specifically, this method checks whether the passed permission
+ is a member of the allowed permission set of the specified principal.
+ The allowed permission set is determined by the same algorithm as is
+ used by the <code dir="ltr" translate="no">getPermissions</code> method.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">principal</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Principal</code>: the principal, assumed to be a valid authenticated
+ Principal.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Permission</code>: the permission to be checked for.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">true if the principal has the specified permission, false
+ otherwise.<p></p></td>
+      </tr>
+    </tbody></table>

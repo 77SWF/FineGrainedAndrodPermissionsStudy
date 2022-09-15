@@ -1,0 +1,4 @@
+<p>Retrieves the route destination for the preferred payment service.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#NFC_PREFERRED_PAYMENT_INFO">Manifest.permission.NFC_PREFERRED_PAYMENT_INFO</a></code></p>

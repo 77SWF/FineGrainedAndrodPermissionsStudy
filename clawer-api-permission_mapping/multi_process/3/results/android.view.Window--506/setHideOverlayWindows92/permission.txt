@@ -1,0 +1,4 @@
+<p>Prevent non-system overlay windows from being drawn on top of this window.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#HIDE_OVERLAY_WINDOWS">Manifest.permission.HIDE_OVERLAY_WINDOWS</a></code></p>

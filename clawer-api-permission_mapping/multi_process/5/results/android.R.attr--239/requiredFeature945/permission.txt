@@ -1,0 +1,4 @@
+<p>Optional: the system must support this feature for the permission to be
+ requested.  If it doesn't support the feature, it will be as if the manifest didn't
+ request it at all.
+ </p>

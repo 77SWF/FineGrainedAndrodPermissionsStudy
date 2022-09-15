@@ -1,0 +1,6 @@
+<p>Returns the current status of Aware API: whether or not Aware is available. To track
+ changes in the state of Aware API register for the
+ <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/aware/WifiAwareManager#ACTION_WIFI_AWARE_STATE_CHANGED">ACTION_WIFI_AWARE_STATE_CHANGED</a></code> broadcast.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_WIFI_STATE">Manifest.permission.ACCESS_WIFI_STATE</a></code></p>

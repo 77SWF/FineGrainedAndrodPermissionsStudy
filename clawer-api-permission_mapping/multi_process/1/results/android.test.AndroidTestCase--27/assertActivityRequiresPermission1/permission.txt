@@ -1,0 +1,25 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public void assertActivityRequiresPermission (<a href="/reference/java/lang/String">String</a> packageName, 
+                <a href="/reference/java/lang/String">String</a> className, 
+                <a href="/reference/java/lang/String">String</a> permission)</pre><p>Asserts that launching a given activity is protected by a particular permission by
+ attempting to start the activity and validating that a <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>
+ is thrown that mentions the permission in its error message.
+
+ Note that an instrumentation isn't needed because all we are looking for is a security error
+ and we don't need to wait for the activity to launch and get a handle to the activity.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">packageName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The package name of the activity to launch.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">className</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The class of the activity to launch.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The name of the permission.<p></p></td>
+      </tr>
+    </tbody></table>

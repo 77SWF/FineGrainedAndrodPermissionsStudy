@@ -1,0 +1,11 @@
+<p>
+ As of Android 11 apps will need specific permission to query other packages. To use
+ this method an app must include in their AndroidManifest:
+ <queries>
+   <intent>
+     <action android:name="android.provider.Telephony.SMS_DELIVER">
+   </action></intent>
+ </queries>
+ Which will allow them to query packages which declare intent filters that include
+ the <code dir="ltr" translate="no"><a href="/reference/android/provider/Telephony.Sms.Intents#SMS_DELIVER_ACTION">Telephony.Sms.Intents.SMS_DELIVER_ACTION</a></code> intent.
+ </p>

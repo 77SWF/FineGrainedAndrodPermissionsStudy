@@ -1,0 +1,30 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public <a href="/reference/java/util/List">List</a>&lt;<a href="/reference/android/content/pm/PackageInfo">PackageInfo</a>&gt; getPackagesHoldingPermissions (<a href="/reference/java/lang/String">String[]</a> permissions, 
+                int flags)</pre><p>Return a List of all installed packages that are currently holding any of
+ the given permissions.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permissions</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">flags</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: Additional option flags to modify the data returned.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/List">List</a>&lt;<a href="/reference/android/content/pm/PackageInfo">PackageInfo</a>&gt;</code></td>
+        <td width="100%">A List of PackageInfo objects, one for each installed package
+         that holds any of the permissions that were provided, containing
+         information about the package. If no installed packages hold any
+         of the permissions, an empty list is returned. If flag
+         <code dir="ltr" translate="no">MATCH_UNINSTALLED_PACKAGES</code> is set, the package
+         information is retrieved from the list of uninstalled
+         applications (which includes installed applications as well as
+         applications with data directory i.e. applications which had been
+         deleted with <code dir="ltr" translate="no">DELETE_KEEP_DATA</code> flag set).
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

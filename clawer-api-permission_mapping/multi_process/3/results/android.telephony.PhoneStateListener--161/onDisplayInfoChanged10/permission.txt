@@ -1,0 +1,12 @@
+<p> The <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyDisplayInfo">TelephonyDisplayInfo</a></code> contains status information shown to the user based on
+ carrier policy.
+
+ For clients compiled on Android 11 SDK, requires permission:
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code> or that the calling app has carrier
+ privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager#hasCarrierPrivileges</a></code>).
+ For clients compiled on Android 12 SDK or newer,
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code> or carrier privileges is not required
+ anymore.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

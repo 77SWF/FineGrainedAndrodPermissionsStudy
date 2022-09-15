@@ -1,0 +1,42 @@
+<table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">context</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Context</code>: The Context of the caller.  This may be null if
+ <var translate="no">intent</var> is also null.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">code</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: Result code to supply back to the IntentSender's target.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">intent</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Intent</code>: Additional Intent data.  See <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#fillIn(android.content.Intent,%20int)">Intent.fillIn()</a></code> for information on how this is applied to the
+ original Intent.  Use null to not modify the original Intent.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">onFinished</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">IntentSender.OnFinished</code>: The object to call back on when the send has
+ completed, or null for no callback.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">handler</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Handler</code>: Handler identifying the thread on which the callback
+ should happen.  If null, the callback will happen from the thread
+ pool of the process.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">requiredPermission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: Name of permission that a recipient of the PendingIntent
+ is required to hold.  This is only valid for broadcast intents, and
+ corresponds to the permission argument in
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#sendBroadcast(android.content.Intent,%20java.lang.String)">Context.sendOrderedBroadcast(Intent, String)</a></code>.
+ If null, no permission is required.<p></p></td>
+      </tr>
+    </tbody></table>

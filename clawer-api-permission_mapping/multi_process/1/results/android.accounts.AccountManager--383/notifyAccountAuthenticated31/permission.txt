@@ -1,0 +1,5 @@
+<p>This method requires the caller to have a signature match with the
+ authenticator that owns the specified account.
+
+ <br/>
+ Requires android.Manifest.permission.AUTHENTICATE_ACCOUNTS</p>

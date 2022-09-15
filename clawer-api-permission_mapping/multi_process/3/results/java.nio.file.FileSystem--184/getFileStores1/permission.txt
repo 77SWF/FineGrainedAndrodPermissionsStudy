@@ -1,0 +1,10 @@
+<p> In the case of the default provider, and a security manager is
+ installed, the security manager is invoked to check <code dir="ltr" translate="no"><a href="/reference/java/lang/RuntimePermission">RuntimePermission</a></code><code dir="ltr" translate="no">("getFileStoreAttributes")</code>. If denied, then
+ no file stores are returned by the iterator. In addition, the security
+ manager's <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkRead(java.lang.String)">SecurityManager#checkRead(String)</a></code> method is invoked to
+ check read access to the file store's <em>top-most</em> directory. If
+ denied, the file store is not returned by the iterator. It is system
+ dependent if the permission checks are done when the iterator is obtained
+ or during iteration.
+
+ </p>

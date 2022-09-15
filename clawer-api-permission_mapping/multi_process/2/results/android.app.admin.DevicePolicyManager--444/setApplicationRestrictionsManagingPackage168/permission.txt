@@ -1,0 +1,7 @@
+<p>Called by a profile owner or device owner to grant permission to a package to manage
+ application restrictions for the calling user via <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#setApplicationRestrictions(android.content.ComponentName,%20java.lang.String,%20android.os.Bundle)">setApplicationRestrictions(ComponentName, String, Bundle)</a></code> and
+ <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#getApplicationRestrictions(android.content.ComponentName,%20java.lang.String)">getApplicationRestrictions(ComponentName, String)</a></code>.
+ </p><p>
+ This permission is persistent until it is later cleared by calling this method with a
+ <code dir="ltr" translate="no">null</code> value or uninstalling the managing package.
+ </p>

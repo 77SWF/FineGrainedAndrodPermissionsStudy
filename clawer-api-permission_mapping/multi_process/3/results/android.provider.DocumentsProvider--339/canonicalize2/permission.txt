@@ -1,0 +1,8 @@
+<p>
+ This is typically used to resolve a subtree URI into a concrete document
+ reference, issuing a narrower single-document URI permission grant along
+ the way.
+
+ <br/>
+ If you override this method you <em>must</em> call through to the
+ superclass implementation.</p>

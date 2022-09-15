@@ -1,0 +1,5 @@
+<p>Set the device to device status sharing user preference for a subscription ID. The setting
+ app uses this method to indicate with whom they wish to share device to device status
+ information.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code></p>

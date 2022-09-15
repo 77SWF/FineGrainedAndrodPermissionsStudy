@@ -1,0 +1,2 @@
+<p>Optional permission required for read/write access this content
+ provider.</p>

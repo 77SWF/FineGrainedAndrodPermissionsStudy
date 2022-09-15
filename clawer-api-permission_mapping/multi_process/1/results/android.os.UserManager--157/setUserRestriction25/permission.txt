@@ -1,0 +1,4 @@
+<p>Sets the value of a specific restriction on the context user.
+ Requires the MANAGE_USERS permission.
+ <br/>
+ Requires android.Manifest.permission.MANAGE_USERS</p>

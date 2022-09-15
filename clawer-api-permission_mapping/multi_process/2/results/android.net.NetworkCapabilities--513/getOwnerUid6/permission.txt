@@ -1,0 +1,20 @@
+<ol>
+   <li>The calling app is the network owner
+   </li><li>The calling app has the ACCESS_FINE_LOCATION permission granted
+   </li><li>The user's location toggle is on
+ </li></ol>
+
+ Instances of NetworkCapabilities sent to apps without the appropriate permissions will have
+ this field cleared out.
+
+ <p>
+ This field will only be populated for VPN and wifi network suggestor apps (i.e using
+ <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiNetworkSuggestion">WifiNetworkSuggestion</a></code>), and only for the
+ network they own. In the case of wifi network suggestors apps, this field is also location
+ sensitive, so the app needs to hold <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code>
+ permission. If the app targets SDK version greater than or equal to
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code>, then they also need to use
+ <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager.NetworkCallback#FLAG_INCLUDE_LOCATION_INFO">NetworkCallback#FLAG_INCLUDE_LOCATION_INFO</a></code> to get the info in their callback. If the
+ apps targets SDK version equal to {<code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code>, this field will always be
+ included. The app will be blamed for location access if this field is included.
+ </p>

@@ -1,0 +1,5 @@
+<p>
+ The default dialer has access to use this method.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

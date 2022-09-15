@@ -1,0 +1,3 @@
+<p>
+ A user may not have permissions to execute any of the procedures that are
+ returned by <code dir="ltr" translate="no">getProcedures</code></p>

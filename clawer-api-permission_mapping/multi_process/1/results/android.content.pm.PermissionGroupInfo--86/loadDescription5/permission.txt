@@ -1,0 +1,10 @@
+<p>Retrieve the textual description of this permission.  This
+ will call back on the given PackageManager to load the description from
+ the application.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/lang/CharSequence">CharSequence</a></code></td>
+        <td width="100%">Returns a CharSequence containing the permission's description.
+ If there is no description, null is returned.<p></p></td>
+      </tr>
+    </tbody></table>

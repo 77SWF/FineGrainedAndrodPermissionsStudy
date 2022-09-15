@@ -1,0 +1,25 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/UnsupportedOperationException">UnsupportedOperationException</a></code></td>
+          <td width="100%">if unsupported events are specified</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if an invalid of combination of events are specified</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/nio/file/ClosedWatchServiceException">ClosedWatchServiceException</a></code></td>
+          <td width="100%">if the watch service is closed</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">if an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if a security manager is installed and it denies an unspecified
+          permission required to monitor this object. Implementations of
+          this interface should specify the permission checks.</td>
+        </tr>
+      </tbody></table>

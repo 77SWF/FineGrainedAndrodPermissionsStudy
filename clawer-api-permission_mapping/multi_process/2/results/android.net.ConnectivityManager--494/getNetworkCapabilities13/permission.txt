@@ -1,0 +1,13 @@
+<p>Get the <code dir="ltr" translate="no"><a href="/reference/android/net/NetworkCapabilities">NetworkCapabilities</a></code> for the given <code dir="ltr" translate="no"><a href="/reference/android/net/Network">Network</a></code>, or null.
+
+ This will remove any location sensitive data in the returned <code dir="ltr" translate="no"><a href="/reference/android/net/NetworkCapabilities">NetworkCapabilities</a></code>.
+ Some <code dir="ltr" translate="no"><a href="/reference/android/net/TransportInfo">TransportInfo</a></code> instances like <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiInfo">WifiInfo</a></code> contain location
+ sensitive information. To retrieve this location sensitive information (subject to
+ the caller's location permissions), use a <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager.NetworkCallback">NetworkCallback</a></code> with the
+ <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager.NetworkCallback#FLAG_INCLUDE_LOCATION_INFO">NetworkCallback#FLAG_INCLUDE_LOCATION_INFO</a></code> flag instead.
+
+ This method returns <code dir="ltr" translate="no">null</code> if the network is unknown or if the |network| argument
+ is null.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_NETWORK_STATE">Manifest.permission.ACCESS_NETWORK_STATE</a></code></p>

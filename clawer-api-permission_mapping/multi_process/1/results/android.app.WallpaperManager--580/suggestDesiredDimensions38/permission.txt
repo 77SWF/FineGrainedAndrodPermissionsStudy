@@ -1,0 +1,2 @@
+<p>This method requires the caller to hold the permission
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SET_WALLPAPER_HINTS">Manifest.permission.SET_WALLPAPER_HINTS</a></code>.</p>

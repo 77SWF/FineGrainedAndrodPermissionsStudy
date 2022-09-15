@@ -1,0 +1,8 @@
+<ul>
+     <li>If the calling app's target SDK is API level 29 or lower and the app has been granted
+     the READ_PHONE_STATE permission.
+     </li><li>If the calling app has been granted any of READ_PRIVILEGED_PHONE_STATE,
+     READ_PHONE_NUMBERS, or READ_SMS.
+     </li><li>If the calling app has carrier privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager.hasCarrierPrivileges()</a></code>).
+     </li><li>If the calling app is the default SMS role holder.
+ </li></ul>

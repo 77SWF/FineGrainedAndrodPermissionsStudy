@@ -1,0 +1,25 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/nio/channels/AlreadyBoundException">AlreadyBoundException</a></code></td>
+          <td width="100%">If the socket is already bound</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/nio/channels/UnsupportedAddressTypeException">UnsupportedAddressTypeException</a></code></td>
+          <td width="100%">If the type of the given address is not supported</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/nio/channels/ClosedChannelException">ClosedChannelException</a></code></td>
+          <td width="100%">If the channel is closed</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">If some other I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">If a security manager is installed and it denies an unspecified
+          permission. An implementation of this interface should specify
+          any required permissions.</td>
+        </tr>
+      </tbody></table>

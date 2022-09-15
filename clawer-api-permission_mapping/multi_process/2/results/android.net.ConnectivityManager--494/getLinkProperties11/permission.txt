@@ -1,0 +1,5 @@
+<p>Get the <code dir="ltr" translate="no"><a href="/reference/android/net/LinkProperties">LinkProperties</a></code> for the given <code dir="ltr" translate="no"><a href="/reference/android/net/Network">Network</a></code>.  This
+ will return <code dir="ltr" translate="no">null</code> if the network is unknown.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_NETWORK_STATE">Manifest.permission.ACCESS_NETWORK_STATE</a></code></p>

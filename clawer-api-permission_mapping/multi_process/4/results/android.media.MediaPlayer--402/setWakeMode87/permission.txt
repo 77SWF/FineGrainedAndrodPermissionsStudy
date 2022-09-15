@@ -1,0 +1,6 @@
+<p>This function has the MediaPlayer access the low-level power manager
+ service to control the device's power usage while playing is occurring.
+ The parameter is a combination of <code dir="ltr" translate="no"><a href="/reference/android/os/PowerManager">PowerManager</a></code> wake flags.
+ Use of this method requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WAKE_LOCK">Manifest.permission.WAKE_LOCK</a></code>
+ permission.
+ By default, no attempt is made to keep the device awake during playback.</p>

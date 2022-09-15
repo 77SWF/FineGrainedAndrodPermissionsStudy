@@ -1,0 +1,6 @@
+<p><b>NOTE:</b> If targeting your app to work on API level 22 and before,
+ AUTHENTICATE_ACCOUNTS permission and same UID as account's authenticator
+ is needed for those platforms. See docs for this function in API level 22.
+
+ <br/>
+ Requires android.Manifest.permission.AUTHENTICATE_ACCOUNTS</p>

@@ -1,0 +1,52 @@
+<p>Returns an enumeration for the set of allowed permissions for the
+ specified principal (representing an entity such as an individual or
+ a group). This set of allowed permissions is calculated as
+ follows:
+
+ </p><ul>
+
+ <li>If there is no entry in this Access Control List for the
+ specified principal, an empty permission set is returned.
+
+ </li><li>Otherwise, the principal's group permission sets are determined.
+ (A principal can belong to one or more groups, where a group is a
+ group of principals, represented by the Group interface.)
+ The group positive permission set is the union of all
+ the positive permissions of each group that the principal belongs to.
+ The group negative permission set is the union of all
+ the negative permissions of each group that the principal belongs to.
+ If there is a specific permission that occurs in both
+ the positive permission set and the negative permission set,
+ it is removed from both.<p>
+
+ The individual positive and negative permission sets are also
+ determined. The positive permission set contains the permissions
+ specified in the positive ACL entry (if any) for the principal.
+ Similarly, the negative permission set contains the permissions
+ specified in the negative ACL entry (if any) for the principal.
+ The individual positive (or negative) permission set is considered
+ to be null if there is not a positive (negative) ACL entry for the
+ principal in this ACL.</p><p>
+
+ The set of permissions granted to the principal is then calculated
+ using the simple rule that individual permissions always override
+ the group permissions. That is, the principal's individual negative
+ permission set (specific denial of permissions) overrides the group
+ positive permission set, and the principal's individual positive
+ permission set overrides the group negative permission set.
+
+ </p></li></ul><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">user</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Principal</code>: the principal whose permission set is to be returned.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/Enumeration">Enumeration</a>&lt;<a href="/reference/java/security/acl/Permission">Permission</a>&gt;</code></td>
+        <td width="100%">the permission set specifying the permissions the principal
+ is allowed.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,7 @@
+<p> The <code dir="ltr" translate="no">attrs</code> parameter is optional <code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/FileAttribute">file-attributes</a></code> to set atomically when creating the file. Each attribute
+ is identified by its <code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/FileAttribute#name()">name</a></code>. If more than one
+ attribute of the same name is included in the array then all but the last
+ occurrence is ignored. When no file attributes are specified, then the
+ resulting file may have more restrictive access permissions to files
+ created by the <code dir="ltr" translate="no"><a href="/reference/java/io/File#createTempFile(java.lang.String,%20java.lang.String,%20java.io.File)">File.createTempFile(String, String, File)</a></code>
+ method.</p>

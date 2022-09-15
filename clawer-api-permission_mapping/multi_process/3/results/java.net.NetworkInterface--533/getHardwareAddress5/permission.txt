@@ -1,0 +1,16 @@
+<p>Returns the hardware address (usually MAC) of the interface if it
+ has one and if it can be accessed given the current privileges.
+ If a security manager is set, then the caller must have
+ the permission <code dir="ltr" translate="no"><a href="/reference/java/net/NetPermission">NetPermission</a></code>("getNetworkInformation").</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">byte[]</code></td>
+        <td width="100%">a byte array containing the address, or <code dir="ltr" translate="no">null</code> if
+          the address doesn't exist, is not accessible or a security
+          manager is set and the caller does not have the permission
+          NetPermission("getNetworkInformation"). For example, this
+          method will generally return <code dir="ltr" translate="no">null</code> when called by
+          non-system apps (or 02:00:00:00:00:00 for apps having
+          <code dir="ltr" translate="no">targetSdkVersion &lt; android.os.Build.VERSION_CODES.R</code>).<p></p></td>
+      </tr>
+    </tbody></table>

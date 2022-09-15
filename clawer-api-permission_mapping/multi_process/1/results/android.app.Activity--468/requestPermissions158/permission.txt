@@ -1,0 +1,53 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public final void requestPermissions (<a href="/reference/java/lang/String">String[]</a> permissions, 
+                int requestCode)</pre><p>Requests permissions to be granted to this application. These permissions
+ must be requested in your manifest, they should not be granted to your app,
+ and they should have protection level <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#PROTECTION_DANGEROUS">dangerous</a></code>, regardless
+ whether they are declared by the platform or a third-party app.
+ </p><p>
+ Normal permissions <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#PROTECTION_NORMAL">PermissionInfo.PROTECTION_NORMAL</a></code>
+ are granted at install time if requested in the manifest. Signature permissions
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#PROTECTION_SIGNATURE">PermissionInfo.PROTECTION_SIGNATURE</a></code> are granted at
+ install time if requested in the manifest and the signature of your app matches
+ the signature of the app declaring the permissions.
+ </p><p>
+ Call <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#shouldShowRequestPermissionRationale(java.lang.String)">shouldShowRequestPermissionRationale(java.lang.String)</a></code> before calling this API to
+ check if the system recommends to show a rationale UI before asking for a permission.
+ </p><p>
+ If your app does not have the requested permissions the user will be presented
+ with UI for accepting them. After the user has accepted or rejected the
+ requested permissions you will receive a callback on <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#onRequestPermissionsResult(int,%20java.lang.String[],%20int[])">onRequestPermissionsResult(int, java.lang.String[], int[])</a></code> reporting whether the
+ permissions were granted or not.
+ </p><p>
+ Note that requesting a permission does not guarantee it will be granted and
+ your app should be able to run without having this permission.
+ </p><p>
+ This method may start an activity allowing the user to choose which permissions
+ to grant and which to reject. Hence, you should be prepared that your activity
+ may be paused and resumed. Further, granting some permissions may require
+ a restart of you application. In such a case, the system will recreate the
+ activity stack before delivering the result to <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#onRequestPermissionsResult(int,%20java.lang.String[],%20int[])">onRequestPermissionsResult(int, java.lang.String[], int[])</a></code>.
+ </p><p>
+ When checking whether you have a permission you should use <code dir="ltr" translate="no"><a href="/reference/android/content/ContextWrapper#checkSelfPermission(java.lang.String)">ContextWrapper.checkSelfPermission(java.lang.String)</a></code>.
+ </p><p>
+ You cannot request a permission if your activity sets <code dir="ltr" translate="no"><a href="/reference/android/R.styleable#AndroidManifestActivity_noHistory">noHistory</a></code> to
+ <code dir="ltr" translate="no">true</code> because in this case the activity would not receive
+ result callbacks including <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#onRequestPermissionsResult(int,%20java.lang.String[],%20int[])">onRequestPermissionsResult(int, java.lang.String[], int[])</a></code>.
+ </p><p>
+ The <a href="https://github.com/android/permissions-samples">
+ RuntimePermissions</a> sample apps demonstrate how to use this method to
+ request permissions at run time.
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permissions</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The requested permissions. Must me non-null and not empty.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">requestCode</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: Application specific request code to match with a result
+    reported to <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#onRequestPermissionsResult(int,%20java.lang.String[],%20int[])">onRequestPermissionsResult(int, java.lang.String[], int[])</a></code>.
+    Should be &gt;= 0.<p></p></td>
+      </tr>
+    </tbody></table>

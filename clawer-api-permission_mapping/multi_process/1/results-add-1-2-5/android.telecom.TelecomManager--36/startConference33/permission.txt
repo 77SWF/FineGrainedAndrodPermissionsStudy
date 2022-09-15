@@ -1,0 +1,1 @@
+<code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CALL_PHONE">Manifest.permission.CALL_PHONE</a></code>

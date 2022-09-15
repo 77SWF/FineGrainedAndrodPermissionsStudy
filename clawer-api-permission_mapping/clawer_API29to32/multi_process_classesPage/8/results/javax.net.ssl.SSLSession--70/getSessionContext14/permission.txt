@@ -1,0 +1,14 @@
+<p>
+ If the context is available and there is a
+ security manager installed, the caller may require
+ permission to access it or a security exception may be thrown.
+ In a Java environment, the security manager's
+ <code dir="ltr" translate="no">checkPermission</code> method is called with a
+ <code dir="ltr" translate="no">SSLPermission("getSSLSessionContext")</code> permission.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if the calling thread does not have
+         permission to get SSL session context.</td>
+        </tr>
+      </tbody></table>

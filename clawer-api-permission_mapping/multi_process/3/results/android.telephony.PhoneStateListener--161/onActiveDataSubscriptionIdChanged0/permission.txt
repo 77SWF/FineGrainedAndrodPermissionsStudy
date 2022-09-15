@@ -1,0 +1,6 @@
+<p>Callback invoked when active data subId changes.
+ Note, this callback triggers regardless of registered subscription.
+
+ Requires the READ_PHONE_STATE permission.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

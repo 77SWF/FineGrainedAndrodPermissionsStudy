@@ -1,0 +1,7 @@
+<ul>
+ <li>Write permission is required on the directories containing both the source and
+ destination paths.
+ </li><li>Search permission is required for all parents of both paths.
+ </li><li>Both paths be on the same mount point. On Android, applications are most likely to hit
+ this restriction when attempting to copy between internal storage and an SD card.
+ </li></ul>

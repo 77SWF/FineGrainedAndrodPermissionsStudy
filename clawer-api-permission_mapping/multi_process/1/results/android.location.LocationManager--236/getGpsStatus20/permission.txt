@@ -1,0 +1,9 @@
+<p>Retrieves information about the current status of the GPS engine. This should only be called
+ from within the <code dir="ltr" translate="no"><a href="/reference/android/location/GpsStatus.Listener#onGpsStatusChanged(int)">GpsStatus.Listener#onGpsStatusChanged</a></code> callback to ensure that the
+ data is copied atomically.
+
+ The caller may either pass in an existing <code dir="ltr" translate="no"><a href="/reference/android/location/GpsStatus">GpsStatus</a></code> object to be overwritten, or pass
+ null to create a new <code dir="ltr" translate="no"><a href="/reference/android/location/GpsStatus">GpsStatus</a></code> object.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code></p>

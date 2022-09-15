@@ -1,0 +1,6 @@
+<p>Requires Permission:
+     <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_SMS">READ_SMS</a></code>,
+     <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_NUMBERS">READ_PHONE_NUMBERS</a></code>,
+     or that the caller is the default SMS app for any API level.
+     <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">READ_PHONE_STATE</a></code>
+     for apps targeting SDK API level 29 and below.</p>

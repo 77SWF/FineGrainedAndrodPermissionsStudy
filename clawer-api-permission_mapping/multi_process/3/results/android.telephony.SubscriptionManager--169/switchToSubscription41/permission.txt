@@ -1,0 +1,5 @@
+<p>Switch to a certain subscription
+
+
+ <br/>
+ Requires android.Manifest.permission.WRITE_EMBEDDED_SUBSCRIPTIONS</p>

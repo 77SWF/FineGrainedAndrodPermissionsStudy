@@ -1,0 +1,2 @@
+<p>This function will throw <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code> if you do not
+ have permission to stop the given service.</p>

@@ -1,0 +1,22 @@
+<p>
+ If the caller has carrier priviliges on any active subscription, then they have permission to
+ get simple information like the card ID (<code dir="ltr" translate="no"><a href="/reference/android/telephony/UiccCardInfo#getCardId()">UiccCardInfo#getCardId()</a></code>), whether the card
+ is an eUICC (<code dir="ltr" translate="no"><a href="/reference/android/telephony/UiccCardInfo#isEuicc()">UiccCardInfo#isEuicc()</a></code>), and the physical slot index where the card is
+ inserted (<code dir="ltr" translate="no"><a href="/reference/android/telephony/UiccCardInfo#getPhysicalSlotIndex()">UiccCardInfo#getPhysicalSlotIndex()</a></code>.
+ </p><p>
+ See <code dir="ltr" translate="no"><a href="/reference/android/telephony/UiccCardInfo">UiccCardInfo</a></code> for more details on the kind of information available.
+
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_TELEPHONY_SUBSCRIPTION">PackageManager#FEATURE_TELEPHONY_SUBSCRIPTION</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/List">List</a>&lt;<a href="/reference/android/telephony/UiccCardInfo">UiccCardInfo</a>&gt;</code></td>
+        <td width="100%">a list of UiccCardInfo objects, representing information on the currently inserted
+ UICCs and eUICCs. Each UiccCardInfo in the list will have private information filtered out if
+ the caller does not have adequate permissions for that card.
+ 
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

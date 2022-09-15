@@ -1,0 +1,4 @@
+<p>Confirm passkey for <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothDevice#PAIRING_VARIANT_PASSKEY_CONFIRMATION">PAIRING_VARIANT_PASSKEY_CONFIRMATION</a></code> pairing.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission.BLUETOOTH_CONNECT</a></code> and <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_PRIVILEGED">Manifest.permission.BLUETOOTH_PRIVILEGED</a></code></p>

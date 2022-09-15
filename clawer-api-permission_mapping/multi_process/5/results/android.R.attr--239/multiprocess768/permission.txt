@@ -1,0 +1,8 @@
+<p>Normally the system will ensure that all instances of a particular
+ component are only running in a single process.  You can use this
+ attribute to disable that behavior, allowing the system to create
+ instances wherever they are used (provided permissions allow it).
+ This is most often used with content providers, so that instances
+ of a provider can be created in each client process, allowing them
+ to be used without performing IPC.
+ </p>

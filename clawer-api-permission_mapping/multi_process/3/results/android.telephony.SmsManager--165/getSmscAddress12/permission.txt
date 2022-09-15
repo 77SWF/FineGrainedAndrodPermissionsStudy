@@ -1,0 +1,4 @@
+<p class="note"><strong>Note:</strong> Using this method requires that your app is the
+ default SMS application, or READ_PRIVILEGED_PHONE_STATE permission, or has the carrier
+ privileges.</p>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE

@@ -1,0 +1,6 @@
+<p>Requests a temporary <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_READ_URI_PERMISSION">read-only</a></code>
+ access permission for the content URI associated with this object.
+
+ </p><p>The lifecycle of the permission granted here is tied to this object instance. If the
+ permission is not released explicitly via <code dir="ltr" translate="no"><a href="/reference/android/view/inputmethod/InputContentInfo#releasePermission()">releasePermission()</a></code>, it will be
+ released automatically when there are no more references to this object.</p><p>Does nothing if the temporary permission is already granted.</p>

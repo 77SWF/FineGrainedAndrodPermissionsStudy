@@ -1,0 +1,3 @@
+<p> If the file system supports other security related file attributes
+ (such as a file <code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/PosixFileAttributes#permissions()">access-permissions</a></code> for example), the updating the access control list
+ may also cause these security related attributes to be updated.</p>

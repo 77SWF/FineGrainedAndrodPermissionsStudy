@@ -1,0 +1,9 @@
+<table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">next</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">AttributionSource</code>: The permission identity of the receiving app.
+ This value may be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

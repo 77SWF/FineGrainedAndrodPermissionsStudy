@@ -1,0 +1,32 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public void getGroupOfPlatformPermission (<a href="/reference/java/lang/String">String</a> permissionName, 
+                <a href="/reference/java/util/concurrent/Executor">Executor</a> executor, 
+                <a href="/reference/java/util/function/Consumer">Consumer</a>&lt;<a href="/reference/java/lang/String">String</a>&gt; callback)</pre><p>Get the platform-defined permission group of a particular permission, if the permission is a
+ platform-defined permission.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permissionName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: the permission whose group is desired
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">executor</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Executor</code>: the <code dir="ltr" translate="no"><a href="/reference/java/util/concurrent/Executor">Executor</a></code> on which to invoke the callback
+ This value cannot be <code dir="ltr" translate="no">null</code>.
+ Callback and listener events are dispatched through this
+ <code dir="ltr" translate="no"><a href="/reference/java/util/concurrent/Executor">Executor</a></code>, providing an easy way to control which thread is
+ used. To dispatch events through the main thread of your
+ application, you can use
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#getMainExecutor()">Context.getMainExecutor()</a></code>.
+ To dispatch events through a shared thread pool, you can use
+ <code dir="ltr" translate="no"><a href="/reference/android/os/AsyncTask#THREAD_POOL_EXECUTOR">AsyncTask#THREAD_POOL_EXECUTOR</a></code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">callback</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Consumer</code>: the callback which will receive the name of the permission group this
+                 permission belongs to, or <code dir="ltr" translate="no">null</code> if it has no group, is not a
+                 platform-defined permission, or there was an exception<p></p></td>
+      </tr>
+    </tbody></table>

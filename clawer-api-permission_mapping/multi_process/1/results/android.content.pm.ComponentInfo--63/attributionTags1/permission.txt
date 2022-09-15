@@ -1,0 +1,5 @@
+<p>
+ Additionally, when this component represents a <code dir="ltr" translate="no"><a href="/reference/android/content/BroadcastReceiver">BroadcastReceiver</a></code>
+ and the sender of a broadcast requires the receiver to hold one or more
+ specific permissions, those permission checks will be performed using
+ each of the attributions tags contained here.</p>

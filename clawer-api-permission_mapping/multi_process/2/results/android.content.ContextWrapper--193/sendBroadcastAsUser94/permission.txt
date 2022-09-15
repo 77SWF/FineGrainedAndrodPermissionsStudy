@@ -1,0 +1,5 @@
+<p>Version of <code dir="ltr" translate="no"><a href="/reference/android/content/Context#sendBroadcast(android.content.Intent)">sendBroadcast(android.content.Intent)</a></code> that allows you to specify the
+ user the broadcast will be sent to.  This is not available to applications
+ that are not pre-installed on the system image.
+ <br/>
+ Requires android.Manifest.permission.INTERACT_ACROSS_USERS</p>

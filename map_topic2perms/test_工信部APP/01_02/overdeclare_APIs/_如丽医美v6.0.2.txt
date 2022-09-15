@@ -1,0 +1,1 @@
+android.provider.MediaStore.setRequireOriginal                   	ACCESS_MEDIA_LOCATION    	允许该应用从您的媒体收藏中读取位置信息。

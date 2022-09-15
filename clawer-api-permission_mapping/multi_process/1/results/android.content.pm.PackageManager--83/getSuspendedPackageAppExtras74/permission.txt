@@ -1,0 +1,5 @@
+<p>Returns a <code dir="ltr" translate="no"><a href="/reference/android/os/Bundle">Bundle</a></code> of extras that was meant to be sent to the calling app when it was
+ suspended. An app with the permission <code dir="ltr" translate="no">android.permission.SUSPEND_APPS</code> can supply this
+ to the system at the time of suspending an app.
+
+ </p>

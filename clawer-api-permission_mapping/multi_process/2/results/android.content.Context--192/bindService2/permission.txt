@@ -1,0 +1,20 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%"><code dir="ltr" translate="no">true</code> if the system is in the process of bringing up a
+         service that your client has permission to bind to; <code dir="ltr" translate="no">false</code>
+         if the system couldn't find the service or if your client doesn't
+         have permission to bind to it. You should call <code dir="ltr" translate="no"><a href="/reference/android/content/Context#unbindService(android.content.ServiceConnection)">unbindService(ServiceConnection)</a></code>
+         to release the connection even if this method returned <code dir="ltr" translate="no">false</code>.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">If the caller does not have permission to
+      access the service or the service cannot be found. Call
+      <code dir="ltr" translate="no"><a href="/reference/android/content/Context#unbindService(android.content.ServiceConnection)">unbindService(ServiceConnection)</a></code> to release the connection when this exception
+      is thrown.</td>
+        </tr>
+      </tbody></table>

@@ -1,0 +1,8 @@
+<p>Returns a <code dir="ltr" translate="no"><a href="/reference/android/net/Network">Network</a></code> object corresponding to the currently active
+ default data network.  In the event that the current active default data
+ network disconnects, the returned <code dir="ltr" translate="no">Network</code> object will no longer
+ be usable.  This will return <code dir="ltr" translate="no">null</code> when there is no default
+ network, or when the default network is blocked.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_NETWORK_STATE">Manifest.permission.ACCESS_NETWORK_STATE</a></code></p>

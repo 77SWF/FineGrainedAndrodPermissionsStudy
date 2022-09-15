@@ -1,0 +1,10 @@
+<p>Retrieve all of the known permission groups in the system.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/List">List</a>&lt;<a href="/reference/android/content/pm/PermissionGroupInfo">PermissionGroupInfo</a>&gt;</code></td>
+        <td width="100%">Returns a list of <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionGroupInfo">PermissionGroupInfo</a></code> containing
+         information about all of the known permission groups.
+ 
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,7 @@
+<ul>
+     <li>declare a <code dir="ltr" translate="no"><a href="/reference/android/net/VpnService">VpnService</a></code> in its manifest, guarded by
+         <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BIND_VPN_SERVICE">Manifest.permission.BIND_VPN_SERVICE</a></code>;</li>
+     <li>target <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#N">API 24</a></code> or above; and</li>
+     <li><i>not</i> explicitly opt out of the feature through
+         <code dir="ltr" translate="no"><a href="/reference/android/net/VpnService#SERVICE_META_DATA_SUPPORTS_ALWAYS_ON">VpnService.SERVICE_META_DATA_SUPPORTS_ALWAYS_ON</a></code>.</li>
+ </ul>

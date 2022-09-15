@@ -1,0 +1,6 @@
+<p>
+ Note: this method CANNOT be used to end ongoing emergency calls and will return <code dir="ltr" translate="no">false</code>
+ if an attempt is made to end an emergency call.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ANSWER_PHONE_CALLS">Manifest.permission.ANSWER_PHONE_CALLS</a></code></p>

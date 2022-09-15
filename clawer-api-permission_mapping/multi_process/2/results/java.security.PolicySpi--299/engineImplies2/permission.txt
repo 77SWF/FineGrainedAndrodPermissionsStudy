@@ -1,0 +1,21 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">protected abstract boolean engineImplies (<a href="/reference/java/security/ProtectionDomain">ProtectionDomain</a> domain, 
+                <a href="/reference/java/security/Permission">Permission</a> permission)</pre><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">domain</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">ProtectionDomain</code>: the ProtectionDomain to check.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Permission</code>: check whether this permission is granted to the
+          specified domain.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">boolean true if the permission is granted to the domain.<p></p></td>
+      </tr>
+    </tbody></table>

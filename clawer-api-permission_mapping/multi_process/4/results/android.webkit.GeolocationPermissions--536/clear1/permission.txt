@@ -1,0 +1,8 @@
+<p>Clears the Geolocation permission state for the specified origin.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">origin</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: the origin for which Geolocation permissions are cleared<p></p></td>
+      </tr>
+    </tbody></table>

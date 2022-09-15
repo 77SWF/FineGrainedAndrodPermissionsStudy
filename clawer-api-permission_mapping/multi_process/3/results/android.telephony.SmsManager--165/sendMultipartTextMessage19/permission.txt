@@ -1,0 +1,2 @@
+<p class="note"><strong>Note:</strong> Using this method requires that your app has the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SEND_SMS">Manifest.permission.SEND_SMS</a></code> permission.</p>

@@ -1,0 +1,12 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">protected final void setWritePermission (<a href="/reference/java/lang/String">String</a> permission)</pre><p>Change the permission required to read and write data in the content
+ provider.  This is normally set for you from its manifest information
+ when the provider is first created.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: Name of the permission required for read/write access.
+ 
+ This value may be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

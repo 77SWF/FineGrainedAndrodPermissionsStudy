@@ -1,0 +1,5 @@
+<p>Additional flags about this permission as given by
+ <code dir="ltr" translate="no"><a href="/reference/android/R.attr#permissionFlags">R.attr.permissionFlags</a></code>.
+ 
+ <br/>
+ Value is either <code dir="ltr" translate="no">0</code> or a combination of <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#FLAG_COSTS_MONEY">FLAG_COSTS_MONEY</a></code>, android.content.pm.PermissionInfo.FLAG_REMOVED, <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#FLAG_HARD_RESTRICTED">FLAG_HARD_RESTRICTED</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#FLAG_SOFT_RESTRICTED">FLAG_SOFT_RESTRICTED</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#FLAG_IMMUTABLY_RESTRICTED">FLAG_IMMUTABLY_RESTRICTED</a></code>, and <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#FLAG_INSTALLED">FLAG_INSTALLED</a></code></p>

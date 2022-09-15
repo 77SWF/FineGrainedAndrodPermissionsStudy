@@ -1,0 +1,3 @@
+<p>Sets the path where the Geolocation databases should be saved. In order
+ for Geolocation permissions and cached positions to be persisted, this
+ method must be called with a path to which the application can write.</p>

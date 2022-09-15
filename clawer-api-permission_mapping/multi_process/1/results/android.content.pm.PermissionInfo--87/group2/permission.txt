@@ -1,0 +1,5 @@
+<p>The group this permission is a part of, as per
+ <code dir="ltr" translate="no"><a href="/reference/android/R.attr#permissionGroup">R.attr.permissionGroup</a></code>.
+ </p><p>
+ The actual grouping of platform-defined runtime permissions is subject to change and can be
+ queried with <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#getGroupOfPlatformPermission(java.lang.String,%20java.util.concurrent.Executor,%20java.util.function.Consumer&lt;java.lang.String&gt;)">PackageManager#getGroupOfPlatformPermission</a></code>.</p>

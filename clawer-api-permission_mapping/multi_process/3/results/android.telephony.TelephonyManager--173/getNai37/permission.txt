@@ -1,0 +1,17 @@
+<ul>
+     <li>If the calling app has been granted the READ_PRIVILEGED_PHONE_STATE permission; this
+     is a privileged permission that can only be granted to apps preloaded on the device.
+     </li><li>If the calling app is the device owner of a fully-managed device, a profile
+     owner of an organization-owned device, or their delegates (see <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#getEnrollmentSpecificId()">DevicePolicyManager.getEnrollmentSpecificId()</a></code>).
+     </li><li>If the calling app has carrier privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">hasCarrierPrivileges()</a></code>).
+     </li><li>If the calling app is the default SMS role holder (see <code dir="ltr" translate="no"><a href="/reference/android/app/role/RoleManager#isRoleHeld(java.lang.String)">RoleManager.isRoleHeld(java.lang.String)</a></code>).
+ </li></ul><ul>
+     <li>If the calling app's target SDK is API level 28 or lower and the app has the
+     READ_PHONE_STATE permission then null is returned.</li>
+     <li>If the calling app's target SDK is API level 28 or lower and the app does not have
+     the READ_PHONE_STATE permission, or if the calling app is targeting API level 29 or
+     higher, then a SecurityException is thrown.</li>
+ </ul>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE
+ 
+ 

@@ -1,0 +1,23 @@
+<p>Returns true if the caller has permission to access the device.
+ Permission might have been granted temporarily via
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/usb/UsbManager#requestPermission(android.hardware.usb.UsbDevice,%20android.app.PendingIntent)">requestPermission(android.hardware.usb.UsbDevice, android.app.PendingIntent)</a></code> or
+ by the user choosing the caller as the default application for the device.
+ Permission for USB devices of class <code dir="ltr" translate="no"><a href="/reference/android/hardware/usb/UsbConstants#USB_CLASS_VIDEO">UsbConstants#USB_CLASS_VIDEO</a></code> for clients that
+ target SDK <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#P">Build.VERSION_CODES.P</a></code> and above can be granted only if they
+ have additionally the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CAMERA">Manifest.permission.CAMERA</a></code> permission.
+
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_USB_HOST">PackageManager#FEATURE_USB_HOST</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">device</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">UsbDevice</code>: to check permissions for<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">true if caller has permission<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,6 @@
+<p>You must hold the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BROADCAST_STICKY">Manifest.permission.BROADCAST_STICKY</a></code>
+ permission in order to use this API.  If you do not hold that
+ permission, <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code> will be thrown.
+
+ <br/>
+ Requires android.Manifest.permission.INTERACT_ACROSS_USERS and <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BROADCAST_STICKY">Manifest.permission.BROADCAST_STICKY</a></code></p>

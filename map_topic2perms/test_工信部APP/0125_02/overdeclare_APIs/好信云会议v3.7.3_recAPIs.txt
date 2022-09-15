@@ -1,0 +1,9 @@
+no API: PROCESS_OUTGOING_CALLS                                   	PROCESS_OUTGOING_CALLS   	允许应用在拨出电话时查看拨打的电话号码，并选择改为拨打其他号码或完全中止通话。
+android.telephony.SmsManager.sendDataMessage                     	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendMultipartTextMessage            	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendTextMessage                     	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendTextMessageWithoutPersisting    	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.TelephonyManager.sendVisualVoicemailSms        	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+no API: USE_SIP                                                  	USE_SIP                  	允许该应用拨打和接听SIP电话。
+no API: WRITE_CALL_LOG                                           	WRITE_CALL_LOG           	允许该应用修改手机的通话记录，包括有关来电和外拨电话的数据。恶意应用可能会借此清除或修改您的通话记录。
+no API: WRITE_CONTACTS                                           	WRITE_CONTACTS           	允许该应用修改您手机上存储的联系人相关数据。此权限允许应用删除联系人数据。

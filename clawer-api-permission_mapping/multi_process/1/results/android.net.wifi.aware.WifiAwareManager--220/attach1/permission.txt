@@ -1,0 +1,19 @@
+<p>
+ This version of the API attaches a listener to receive the MAC address of the Aware interface
+ on startup and whenever it is updated (it is randomized at regular intervals for privacy).
+
+ If targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#TIRAMISU">Build.VERSION_CODES.TIRAMISU</a></code> or later, the application must
+ have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#NEARBY_WIFI_DEVICES">Manifest.permission.NEARBY_WIFI_DEVICES</a></code> with
+ android:usesPermissionFlags="neverForLocation". If the application does not declare
+ android:usesPermissionFlags="neverForLocation", then it must also have
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code>.
+
+ If targeting an earlier release than <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#TIRAMISU">Build.VERSION_CODES.TIRAMISU</a></code>, the
+ application must have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code>.
+
+ Apps without <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#NEARBY_WIFI_DEVICES">Manifest.permission.NEARBY_WIFI_DEVICES</a></code> or
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code> can use the
+ <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/aware/WifiAwareManager#attach(android.net.wifi.aware.AttachCallback,%20android.os.Handler)">attach(android.net.wifi.aware.AttachCallback, android.os.Handler)</a></code> version.
+ Note that aside from permission requirements the <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/aware/IdentityChangedListener">IdentityChangedListener</a></code> will wake up
+ the host at regular intervals causing higher power consumption, do not use it unless the
+ information is necessary (e.g. for out-of-band discovery).</p>

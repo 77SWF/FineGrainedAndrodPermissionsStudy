@@ -1,0 +1,7 @@
+<p>
+ Any app can <em>accept</em> blame for traffic performed on a socket
+ originally created by another app by calling this method with the
+ <code dir="ltr" translate="no"><a href="/reference/android/system/Os#getuid()">Os.getuid()</a></code> value. However, only apps holding the
+ <code dir="ltr" translate="no">android.Manifest.permission#UPDATE_DEVICE_STATS</code> permission may
+ <em>assign</em> blame to another UIDs.
+ </p>

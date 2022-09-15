@@ -1,0 +1,5 @@
+<p>As of <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#TIRAMISU">Android TIRAMISU</a></code>, for regular apps
+ this method will only return <code dir="ltr" translate="no"><a href="/reference/android/app/ActivityManager.ProcessErrorStateInfo">ProcessErrorStateInfo</a></code> records for the processes running
+ as the caller's uid, unless the caller has the permission
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#DUMP">Manifest.permission.DUMP</a></code>.
+ </p>

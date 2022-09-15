@@ -1,0 +1,6 @@
+<p>Notify the host application that web content is requesting permission to
+ access the specified resources and the permission currently isn't granted
+ or denied. The host application must invoke <code dir="ltr" translate="no"><a href="/reference/android/webkit/PermissionRequest#grant(java.lang.String[])">PermissionRequest#grant(String[])</a></code>
+ or <code dir="ltr" translate="no"><a href="/reference/android/webkit/PermissionRequest#deny()">PermissionRequest#deny()</a></code>.
+
+ If this method isn't overridden, the permission is denied.</p>

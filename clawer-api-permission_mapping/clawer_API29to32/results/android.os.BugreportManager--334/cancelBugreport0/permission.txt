@@ -1,0 +1,7 @@
+<p>Requires permission: <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#DUMP">Manifest.permission.DUMP</a></code> or that the calling app has
+ carrier privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager.hasCarrierPrivileges()</a></code>) on
+ any active subscription.
+
+ <br/>
+ This method may take several seconds to complete, so it should
+ only be called from a worker thread.</p>

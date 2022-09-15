@@ -1,0 +1,23 @@
+<p>
+ <em>Note: don't be confused by the word "external" here. This directory
+ can better be thought as media/shared storage. It is a filesystem that
+ can hold a relatively large amount of data and that is shared across all
+ applications (does not enforce permissions). Traditionally this is an SD
+ card, but it may also be implemented as built-in storage in a device that
+ is distinct from the protected internal storage and can be mounted as a
+ filesystem on a computer.</em>
+ </p><p>
+ Writing to this path requires the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_EXTERNAL_STORAGE">Manifest.permission.WRITE_EXTERNAL_STORAGE</a></code> permission,
+ and starting in <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#KITKAT">Build.VERSION_CODES.KITKAT</a></code>, read
+ access requires the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE">Manifest.permission.READ_EXTERNAL_STORAGE</a></code> permission,
+ which is automatically granted if you hold the write permission.
+ </p><p>
+ Starting in <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#KITKAT">Build.VERSION_CODES.KITKAT</a></code>, if your
+ application only needs to store internal data, consider using
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#getExternalFilesDir(java.lang.String)">Context#getExternalFilesDir(String)</a></code>,
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#getExternalCacheDir()">Context#getExternalCacheDir()</a></code>, or
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#getExternalMediaDirs()">Context#getExternalMediaDirs()</a></code>, which require no permissions to
+ read or write.
+ </p>

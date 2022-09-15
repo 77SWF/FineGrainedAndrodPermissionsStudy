@@ -1,0 +1,2 @@
+<p>If true, always apply URI permission grants, as per the
+ <code dir="ltr" translate="no"><a href="/reference/android/R.styleable#AndroidManifestProvider_forceUriPermissions">forceUriPermissions</a></code> attribute.</p>

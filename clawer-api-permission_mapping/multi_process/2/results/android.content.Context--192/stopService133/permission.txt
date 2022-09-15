@@ -1,0 +1,14 @@
+<p>This function will throw <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code> if you do not
+ have permission to stop the given service.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">If the caller does not have permission to access the service
+ or the service can not be found.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalStateException">IllegalStateException</a></code></td>
+          <td width="100%">If the application is in a state where the service
+ can not be started (such as not in the foreground in a state when services are allowed).</td>
+        </tr>
+      </tbody></table>

@@ -1,0 +1,6 @@
+<p><public id="0x01010629" name="__removed3" type="attr">
+ A reference to an array resource containing the signing certificate digests to be granted
+ this permission when using the <code dir="ltr" translate="no">knownSigner</code> protection flag. The digest should
+ be computed over the DER encoding of the trusted certificate using the SHA-256 digest
+ algorithm.
+ </public></p>

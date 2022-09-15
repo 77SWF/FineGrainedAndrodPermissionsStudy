@@ -1,0 +1,36 @@
+<p>Returns the set of permissions corresponding to a given <code dir="ltr" translate="no">String</code>
+ representation.
+
+ </p><p> The <code dir="ltr" translate="no">perms</code> parameter is a <code dir="ltr" translate="no">String</code> representing the
+ permissions. It has 9 characters that are interpreted as three sets of
+ three. The first set refers to the owner's permissions; the next to the
+ group permissions and the last to others. Within each set, the first
+ character is <code dir="ltr" translate="no">'r'</code> to indicate permission to read, the second
+ character is <code dir="ltr" translate="no">'w'</code> to indicate permission to write, and the third
+ character is <code dir="ltr" translate="no">'x'</code> for execute permission. Where a permission is
+ not set then the corresponding character is set to <code dir="ltr" translate="no">'-'</code>.
+
+ </p><p> <b>Usage Example:</b>
+ Suppose we require the set of permissions that indicate the owner has read,
+ write, and execute permissions, the group has read and execute permissions
+ and others have none.
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">perms</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: string representing a set of permissions<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/Set">Set</a>&lt;<a href="/reference/java/nio/file/attribute/PosixFilePermission">PosixFilePermission</a>&gt;</code></td>
+        <td width="100%">the resulting set of permissions<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if the string cannot be converted to a set of permissions</td>
+        </tr>
+      </tbody></table>

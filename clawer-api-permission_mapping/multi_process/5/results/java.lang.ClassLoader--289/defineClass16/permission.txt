@@ -1,0 +1,8 @@
+<p> This method assigns a default <code dir="ltr" translate="no"><a href="/reference/java/security/ProtectionDomain"><tt>ProtectionDomain</tt></a></code> to the newly defined class.  The
+ <tt>ProtectionDomain</tt> is effectively granted the same set of
+ permissions returned when <code dir="ltr" translate="no"><a href="/reference/java/security/Policy#getPermissions(java.security.CodeSource)"><tt>Policy.getPolicy().getPermissions(new CodeSource(null, null))</tt></a></code>
+ is invoked.  The default domain is created on the first invocation of
+ <code dir="ltr" translate="no"><a href="/reference/java/lang/ClassLoader#defineClass(java.lang.String,%20byte[],%20int,%20int)"><tt>defineClass</tt></a></code>,
+ and re-used on subsequent invocations.
+
+ </p>

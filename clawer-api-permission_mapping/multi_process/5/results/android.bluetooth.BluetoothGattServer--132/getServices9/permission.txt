@@ -1,0 +1,8 @@
+<p>An application must call <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothGattServer#addService(android.bluetooth.BluetoothGattService)">addService(BluetoothGattService)</a></code> to add a serice to the
+ list of services offered by this device.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code> or lower, this
+ requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH">Manifest.permission#BLUETOOTH</a></code> permission
+ which can be gained with a simple <code dir="ltr" translate="no">&lt;uses-permission&gt;</code>
+ manifest tag.</p>

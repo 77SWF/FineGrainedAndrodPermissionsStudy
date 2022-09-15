@@ -1,0 +1,5 @@
+<p>
+ To initiate a Wi-Fi scan, declare the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CHANGE_WIFI_STATE">Manifest.permission.CHANGE_WIFI_STATE</a></code>
+ permission in the manifest, and perform these steps:
+ </p>

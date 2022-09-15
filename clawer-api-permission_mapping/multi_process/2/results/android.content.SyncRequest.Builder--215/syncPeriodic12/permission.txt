@@ -1,0 +1,8 @@
+<p>The bundle for a periodic sync can be queried by applications with the correct
+ permissions using
+ <code dir="ltr" translate="no"><a href="/reference/android/content/ContentResolver#getPeriodicSyncs(android.accounts.Account,%20java.lang.String)">ContentResolver#getPeriodicSyncs(Account account, String provider)</a></code>, so no
+ sensitive data should be transferred here.
+
+ Example usage.
+
+ </p>

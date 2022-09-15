@@ -1,0 +1,8 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if the app targets SDK &gt;= <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#Q">android.os.Build.VERSION_CODES.Q</a></code>
+                           and the app does not have permission to read from the device.</td>
+        </tr>
+      </tbody></table>

@@ -1,0 +1,22 @@
+<p>Places a new outgoing call to the provided address using the system telecom service with
+ the specified extras.
+
+ This method is equivalent to placing an outgoing call using <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#ACTION_CALL">Intent#ACTION_CALL</a></code>,
+ except that the outgoing call will always be sent via the system telecom service. If
+ method-caller is either the user selected default dialer app or preloaded system dialer
+ app, then emergency calls will also be allowed.
+
+ Placing a call via a managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code> requires permission:
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CALL_PHONE">Manifest.permission.CALL_PHONE</a></code>
+
+ Usage example:
+ </p><p>
+ An app which implements the self-managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code> API uses
+ <code dir="ltr" translate="no"><a href="/reference/android/telecom/TelecomManager#placeCall(android.net.Uri,%20android.os.Bundle)">placeCall(android.net.Uri, android.os.Bundle)</a></code> to inform Telecom of a new outgoing call.  A self-managed
+ <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code> must include <code dir="ltr" translate="no"><a href="/reference/android/telecom/TelecomManager#EXTRA_PHONE_ACCOUNT_HANDLE">EXTRA_PHONE_ACCOUNT_HANDLE</a></code> to specify its
+ associated <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccountHandle">PhoneAccountHandle</a></code>.
+
+ Self-managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code>s require permission
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_OWN_CALLS">Manifest.permission.MANAGE_OWN_CALLS</a></code>.
+
+ </p><code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CALL_PHONE">Manifest.permission.CALL_PHONE</a></code><code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_OWN_CALLS">Manifest.permission.MANAGE_OWN_CALLS</a></code>

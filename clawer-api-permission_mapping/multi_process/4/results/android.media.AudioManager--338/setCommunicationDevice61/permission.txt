@@ -1,0 +1,7 @@
+<p>In case of simultaneous requests by multiple applications the priority is given to the
+ application currently controlling the audio mode (see <code dir="ltr" translate="no"><a href="/reference/android/media/AudioManager#setMode(int)">setMode(int)</a></code>). This is the
+ latest application having selected mode <code dir="ltr" translate="no"><a href="/reference/android/media/AudioManager#MODE_IN_COMMUNICATION">MODE_IN_COMMUNICATION</a></code> or mode
+ <code dir="ltr" translate="no"><a href="/reference/android/media/AudioManager#MODE_IN_CALL">MODE_IN_CALL</a></code>. Note that <code dir="ltr" translate="no">MODE_IN_CALL</code> can only be selected by the main
+ telephony application with permission
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code>.
+ </p>

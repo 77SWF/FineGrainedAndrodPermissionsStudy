@@ -1,0 +1,5 @@
+<p>Called by any application to find out whether it has been granted permission via
+ <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#setApplicationRestrictionsManagingPackage(android.content.ComponentName,%20java.lang.String)">setApplicationRestrictionsManagingPackage(ComponentName, String)</a></code> to manage application restrictions
+ for the calling user.
+
+ </p>

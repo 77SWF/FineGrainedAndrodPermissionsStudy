@@ -1,0 +1,1 @@
+android.app.admin.DevicePolicyManager.setPermissionGrantState    	ACTIVITY_RECOGNITION     	此应用可以识别您的身体活动。

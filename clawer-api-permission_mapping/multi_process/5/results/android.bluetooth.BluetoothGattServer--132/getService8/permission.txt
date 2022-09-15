@@ -1,0 +1,8 @@
+<p>If multiple instances of the same service (as identified by UUID)
+ exist, the first instance of the service is returned.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code> or lower, this
+ requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH">Manifest.permission#BLUETOOTH</a></code> permission
+ which can be gained with a simple <code dir="ltr" translate="no">&lt;uses-permission&gt;</code>
+ manifest tag.</p>

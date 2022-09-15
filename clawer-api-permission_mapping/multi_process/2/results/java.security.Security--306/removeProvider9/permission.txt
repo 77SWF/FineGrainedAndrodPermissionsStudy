@@ -1,0 +1,9 @@
+<p>First, if there is a security manager, its
+ <code dir="ltr" translate="no">checkSecurityAccess</code>
+ method is called with the string <code dir="ltr" translate="no">"removeProvider."+name</code>
+ to see if it's ok to remove the provider.
+ If the default implementation of <code dir="ltr" translate="no">checkSecurityAccess</code>
+ is used (i.e., that method is not overriden), then this will result in
+ a call to the security manager's <code dir="ltr" translate="no">checkPermission</code> method
+ with a <code dir="ltr" translate="no">SecurityPermission("removeProvider."+name)</code>
+ permission.</p>

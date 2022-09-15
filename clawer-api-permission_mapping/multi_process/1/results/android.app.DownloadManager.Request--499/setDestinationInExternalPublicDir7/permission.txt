@@ -1,0 +1,5 @@
+<p> For applications targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#Q">Build.VERSION_CODES.Q</a></code> or above,
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_EXTERNAL_STORAGE">WRITE_EXTERNAL_STORAGE</a></code>
+ permission is not needed and the <code dir="ltr" translate="no">dirType</code> must be one of the known public
+ directories like <code dir="ltr" translate="no"><a href="/reference/android/os/Environment#DIRECTORY_DOWNLOADS">Environment#DIRECTORY_DOWNLOADS</a></code>,
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Environment#DIRECTORY_PICTURES">Environment#DIRECTORY_PICTURES</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/os/Environment#DIRECTORY_MOVIES">Environment#DIRECTORY_MOVIES</a></code>, etc.</p>

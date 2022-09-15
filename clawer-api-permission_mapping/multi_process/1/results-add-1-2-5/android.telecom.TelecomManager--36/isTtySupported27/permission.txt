@@ -1,0 +1,4 @@
+<p>Returns whether TTY is supported on this device.
+ 
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

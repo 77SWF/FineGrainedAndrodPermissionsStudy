@@ -1,0 +1,6 @@
+<p>
+ Note: This setting does not affect whether or not the device publishes its service
+ capabilities if the subscription supports presence publication.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

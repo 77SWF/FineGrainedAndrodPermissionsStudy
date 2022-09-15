@@ -1,0 +1,5 @@
+<p>Like <code dir="ltr" translate="no"><a href="/reference/android/app/WallpaperManager#getFastDrawable()">getFastDrawable()</a></code>, but if there is no wallpaper set,
+ a null pointer is returned.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE">Manifest.permission.READ_EXTERNAL_STORAGE</a></code></p>

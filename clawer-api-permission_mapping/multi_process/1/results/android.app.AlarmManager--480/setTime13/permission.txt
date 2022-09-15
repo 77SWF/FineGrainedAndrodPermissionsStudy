@@ -1,0 +1,5 @@
+<p>Set the system wall clock time.
+ Requires the permission android.permission.SET_TIME.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SET_TIME">Manifest.permission.SET_TIME</a></code></p>

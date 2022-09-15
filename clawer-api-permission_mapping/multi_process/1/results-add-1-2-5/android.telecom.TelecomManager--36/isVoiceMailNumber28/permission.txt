@@ -1,0 +1,5 @@
+<p>Return whether a given phone number is the configured voicemail number for a
+ particular phone account.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

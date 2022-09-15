@@ -1,0 +1,8 @@
+<p>
+ Apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or higher can schedule exact alarms only if they
+ have the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SCHEDULE_EXACT_ALARM">Manifest.permission#SCHEDULE_EXACT_ALARM</a></code> permission or they are on the
+ device's power-save exemption list.
+ These apps can also
+ start <code dir="ltr" translate="no"><a href="/reference/android/provider/Settings#ACTION_REQUEST_SCHEDULE_EXACT_ALARM">Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM</a></code> to
+ request this permission from the user.
+ </p>

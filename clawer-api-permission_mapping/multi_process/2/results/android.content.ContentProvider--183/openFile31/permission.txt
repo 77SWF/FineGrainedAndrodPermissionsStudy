@@ -1,0 +1,13 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/FileNotFoundException">FileNotFoundException</a></code></td>
+          <td width="100%">Throws FileNotFoundException if there is
+ no file associated with the given URI or the mode is invalid.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">Throws SecurityException if the caller does
+ not have permission to access the file.</td>
+        </tr>
+      </tbody></table>

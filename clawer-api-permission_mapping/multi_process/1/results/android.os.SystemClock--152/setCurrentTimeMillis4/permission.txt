@@ -1,0 +1,2 @@
+<p>Sets the current wall time, in milliseconds.  Requires the calling
+ process to have appropriate permissions.</p>

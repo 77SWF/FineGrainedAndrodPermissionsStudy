@@ -1,0 +1,2 @@
+<p>The method returns the original file descriptor with the same permission that the caller
+ has for the input file descriptor.</p>

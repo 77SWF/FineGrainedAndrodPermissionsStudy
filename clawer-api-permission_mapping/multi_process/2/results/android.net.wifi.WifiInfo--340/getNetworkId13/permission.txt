@@ -1,0 +1,4 @@
+<p>
+ The networkId may be <code dir="ltr" translate="no">-1</code> if there is no currently connected network or if the caller
+ has insufficient permissions to access the network ID.
+ </p>

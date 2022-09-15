@@ -1,0 +1,10 @@
+<p>Add a listener for Wi-Fi network suggestion user approval status.
+ See <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiManager.SuggestionUserApprovalStatusListener">SuggestionUserApprovalStatusListener</a></code>.
+ Caller will receive a callback immediately after adding a listener and when the user approval
+ status of the caller has changed.
+ Caller can remove a previously registered listener using
+ <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiManager#removeSuggestionUserApprovalStatusListener(android.net.wifi.WifiManager.SuggestionUserApprovalStatusListener)">WifiManager#removeSuggestionUserApprovalStatusListener(
+ SuggestionUserApprovalStatusListener)</a></code>
+ A caller can add multiple listeners to monitor the event.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_WIFI_STATE">Manifest.permission.ACCESS_WIFI_STATE</a></code></p>

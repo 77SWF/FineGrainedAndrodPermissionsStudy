@@ -1,0 +1,2 @@
+<p>Determines whether an algorithm and the corresponding key are granted
+ permission for the specified cryptographic primitives.</p>

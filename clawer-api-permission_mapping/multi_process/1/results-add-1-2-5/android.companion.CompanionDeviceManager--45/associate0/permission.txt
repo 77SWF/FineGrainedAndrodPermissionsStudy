@@ -1,0 +1,7 @@
+<p>If the app needs to be excluded from battery optimizations (run in the background)
+ or to have unrestricted data access (use data in the background) it should declare use of
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_COMPANION_RUN_IN_BACKGROUND">Manifest.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND</a></code> and
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_COMPANION_USE_DATA_IN_BACKGROUND">Manifest.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND</a></code> in its
+ AndroidManifest.xml respectively.
+ Note that these special capabilities have a negative effect on the device's battery and
+ user's data usage, therefore you should request them when absolutely necessary.</p>

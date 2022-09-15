@@ -1,0 +1,14 @@
+<p>
+ Violations may indicate security vulnerabilities in the design of
+ your app, where a malicious app could trick you into granting
+ <code dir="ltr" translate="no"><a href="/reference/android/net/Uri">Uri</a></code> permissions or launching unexported components. Here
+ are some typical design patterns that can be used to safely
+ resolve these violations:
+ </p><p>
+ Note that this <em>may</em> detect false-positives if your app
+ sends itself an <code dir="ltr" translate="no"><a href="/reference/android/content/Intent">Intent</a></code> which is first routed through the
+ OS, such as using <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#createChooser(android.content.Intent,%20java.lang.CharSequence)">Intent#createChooser</a></code>. In these cases,
+ careful inspection is required to determine if the return point
+ into your app is appropriately protected with a signature
+ permission or marked as unexported. If the return point is not
+ protected, your app is likely vulnerable to malicious apps.</p>

@@ -1,0 +1,7 @@
+<h3 class="api-name" data-text="permissions" id="permissions()">permissions</h3><pre class="api-signature no-pretty-print" dir="ltr" translate="no">public abstract <a href="/reference/java/util/Enumeration">Enumeration</a>&lt;<a href="/reference/java/security/acl/Permission">Permission</a>&gt; permissions ()</pre><p>Returns an enumeration of the permissions in this ACL entry.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/Enumeration">Enumeration</a>&lt;<a href="/reference/java/security/acl/Permission">Permission</a>&gt;</code></td>
+        <td width="100%">an enumeration of the permissions in this ACL entry.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,6 @@
+<p>Note prior to Android Nougat MR1 (SDK version &lt;= 24;
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#N">Build.VERSION_CODES.N</a></code>, this API required a system permission
+ in order to check other profile's status.
+ Since Android Nougat MR1 (SDK version &gt;= 25;
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#N_MR1">Build.VERSION_CODES.N_MR1</a></code>), the restriction has been relaxed, and now
+ it'll accept any <code dir="ltr" translate="no"><a href="/reference/android/os/UserHandle">UserHandle</a></code> within the same profile group as the caller.</p>

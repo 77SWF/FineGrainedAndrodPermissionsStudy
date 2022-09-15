@@ -1,0 +1,27 @@
+<p>
+ An app must have
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION">ACCESS_COARSE_LOCATION</a></code> permission
+ in order to get results. An App targeting Android Q or later must have
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">ACCESS_FINE_LOCATION</a></code> permission
+ in order to get results.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code> or lower, this
+ requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_ADMIN">Manifest.permission#BLUETOOTH_ADMIN</a></code>
+ permission which can be gained with a simple
+ <code dir="ltr" translate="no">&lt;uses-permission&gt;</code> manifest tag.
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_SCAN">Manifest.permission#BLUETOOTH_SCAN</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ In addition, this requires either the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission#ACCESS_FINE_LOCATION</a></code>
+ permission or a strong assertion that you will never derive the
+ physical location of the device. You can make this assertion by
+ declaring <code dir="ltr" translate="no">usesPermissionFlags="neverForLocation"</code> on the
+ relevant <code dir="ltr" translate="no">&lt;uses-permission&gt;</code> manifest tag, but it may
+ restrict the types of Bluetooth devices you can interact with.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_SCAN">Manifest.permission.BLUETOOTH_SCAN</a></code></p>

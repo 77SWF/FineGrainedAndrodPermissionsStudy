@@ -1,0 +1,2 @@
+<h3 class="api-name" data-text="permission" id="permission">permission</h3><pre class="api-signature no-pretty-print" dir="ltr" translate="no">public <a href="/reference/java/lang/String">String</a> permission</pre><p>Optional name of a permission required to be able to access this
+ Activity.  From the "permission" attribute.</p>

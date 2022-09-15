@@ -1,0 +1,4 @@
+<p>See <code dir="ltr" translate="no"><a href="/reference/android/content/BroadcastReceiver">BroadcastReceiver</a></code> for more information on Intent broadcasts.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BROADCAST_STICKY">Manifest.permission.BROADCAST_STICKY</a></code></p>

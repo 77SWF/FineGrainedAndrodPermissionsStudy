@@ -1,0 +1,4 @@
+<p>Returns the <code dir="ltr" translate="no">PrivateKey</code> for the requested alias, or null if the alias does not exist
+ or the caller has no permission to access it (see note on exceptions below).
+
+ </p>

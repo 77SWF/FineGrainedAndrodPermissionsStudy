@@ -1,0 +1,4 @@
+<p>Set whether or not to persist this job across device reboots.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#RECEIVE_BOOT_COMPLETED">Manifest.permission.RECEIVE_BOOT_COMPLETED</a></code></p>

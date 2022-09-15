@@ -1,0 +1,5 @@
+<p>
+ If the calling application does not hold the INSTALL_PACKAGES permission then
+ the result will always return <code dir="ltr" translate="no">null</code> from
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/InstallSourceInfo#getOriginatingPackageName()">InstallSourceInfo#getOriginatingPackageName()</a></code>.
+ </p>

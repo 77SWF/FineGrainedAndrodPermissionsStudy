@@ -1,0 +1,5 @@
+<p>Remove the data previously sent with <code dir="ltr" translate="no"><a href="/reference/android/content/Context#sendStickyBroadcast(android.content.Intent)">sendStickyBroadcast(Intent)</a></code>,
+ so that it is as if the sticky broadcast had never happened.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BROADCAST_STICKY">Manifest.permission.BROADCAST_STICKY</a></code></p>

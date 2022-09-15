@@ -1,0 +1,5 @@
+<p>Uninstall the given package for the user for which this installer was created if the package
+ will still exist for other users on the device.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#DELETE_PACKAGES">Manifest.permission.DELETE_PACKAGES</a></code></p>

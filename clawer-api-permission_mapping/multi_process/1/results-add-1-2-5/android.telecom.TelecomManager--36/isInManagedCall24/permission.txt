@@ -1,0 +1,6 @@
+<p>
+ If you also need to know if there are ongoing self-managed calls, use <code dir="ltr" translate="no"><a href="/reference/android/telecom/TelecomManager#isInCall()">isInCall()</a></code>
+ instead.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

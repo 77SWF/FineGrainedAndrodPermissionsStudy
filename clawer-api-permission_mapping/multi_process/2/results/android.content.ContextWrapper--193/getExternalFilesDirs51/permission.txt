@@ -1,0 +1,13 @@
+<ul>
+ <li>Shared storage may not always be available, since removable media can
+ be ejected by the user. Media state can be checked using
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Environment#getExternalStorageState(java.io.File)">Environment#getExternalStorageState(File)</a></code>.
+ </li><li>There is no security enforced with these files. For example, any
+ application holding
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_EXTERNAL_STORAGE">Manifest.permission.WRITE_EXTERNAL_STORAGE</a></code> can write to
+ these files.
+ </li></ul><p>
+ No additional permissions are required for the calling app to read or
+ write files under the returned path. Write access outside of these paths
+ on secondary external storage devices is not available.
+ </p>

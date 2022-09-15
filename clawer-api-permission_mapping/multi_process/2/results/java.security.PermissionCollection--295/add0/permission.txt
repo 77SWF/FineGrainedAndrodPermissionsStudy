@@ -1,0 +1,8 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public abstract void add (<a href="/reference/java/security/Permission">Permission</a> permission)</pre><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Permission</code> <!-- no parameter comment --><p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,7 @@
+<p>Checks whether an application is exempt from having its permissions be automatically revoked
+ when the app is unused for an extended period of time.
+
+ Only the installer on record that installed the given package, or a holder of
+ <code dir="ltr" translate="no">WHITELIST_AUTO_REVOKE_PERMISSIONS</code> is allowed to call this.
+
+ </p>

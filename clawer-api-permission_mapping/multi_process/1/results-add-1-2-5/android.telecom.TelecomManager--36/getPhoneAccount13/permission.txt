@@ -1,0 +1,6 @@
+<p>Return the <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccount">PhoneAccount</a></code> for a specified <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccountHandle">PhoneAccountHandle</a></code>. Object includes
+ resources which can be used in a user interface.
+
+ Requires Permission:
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_NUMBERS">Manifest.permission.READ_PHONE_NUMBERS</a></code> for applications targeting API
+ level 31+.</p>

@@ -1,0 +1,15 @@
+<p>Requires Permission:
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">MODIFY_PHONE_STATE</a></code> or that the calling
+ app has carrier privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">hasCarrierPrivileges()</a></code>)
+ and <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code>.
+
+ If the system-wide location switch is off, apps may still call this API, with the
+ following constraints:
+ </p><ol>
+     <li>The app must hold the <code dir="ltr" translate="no">android.permission.NETWORK_SCAN</code> permission.</li>
+     <li>The app must not supply any specific bands or channels to scan.</li>
+     <li>The app must only specify MCC/MNC pairs that are
+     associated to a SIM in the device.</li>
+     <li>Returned results will have no meaningful info other than signal strength
+     and MCC/MNC info.</li>
+ </ol><code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code><code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code>

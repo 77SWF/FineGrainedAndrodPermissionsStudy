@@ -1,0 +1,1 @@
+no API: WRITE_CONTACTS                                           	WRITE_CONTACTS           	允许该应用修改您手机上存储的联系人相关数据。此权限允许应用删除联系人数据。

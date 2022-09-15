@@ -1,0 +1,8 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/android/app/usage/NetworkStats">NetworkStats</a></code></td>
+        <td width="100%">Statistics object or null if permissions are insufficient or error happened during
+         statistics collection.<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,6 @@
+<p>If the calling process and user ID has not been granted
+ permission to access a specific URI, throw <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>.  This is basically the same as calling
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#enforceUriPermission(android.net.Uri,%20int,%20int,%20int,%20java.lang.String)">enforceUriPermission(android.net.Uri, int, int, int, java.lang.String)</a></code> with
+ the pid and uid returned by <code dir="ltr" translate="no"><a href="/reference/android/os/Binder#getCallingPid()">Binder.getCallingPid()</a></code> and <code dir="ltr" translate="no"><a href="/reference/android/os/Binder#getCallingUid()">Binder.getCallingUid()</a></code>.  One important difference is
+ that if you are not currently processing an IPC, this function
+ will always throw a SecurityException.</p>

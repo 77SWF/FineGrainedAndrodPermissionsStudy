@@ -1,0 +1,21 @@
+<p>Sets the Geolocation permission state for the supplied origin.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">origin</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: the origin for which permissions are set<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">allow</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">boolean</code>: whether or not the origin should be allowed to use the
+              Geolocation API<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">retain</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">boolean</code>: whether the permission should be retained beyond the
+               lifetime of a page currently being displayed by a
+               WebView<p></p></td>
+      </tr>
+    </tbody></table>

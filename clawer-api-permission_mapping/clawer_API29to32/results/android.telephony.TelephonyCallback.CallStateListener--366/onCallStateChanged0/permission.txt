@@ -1,0 +1,8 @@
+<p>
+ Note: The state returned here may differ from that returned by
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#getCallState()">TelephonyManager#getCallState()</a></code>. Receivers of this callback should be aware that
+ calling <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#getCallState()">TelephonyManager#getCallState()</a></code> from within this callback may return a
+ different state than the callback reports.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

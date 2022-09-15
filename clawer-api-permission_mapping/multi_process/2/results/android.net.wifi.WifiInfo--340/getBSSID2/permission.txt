@@ -1,0 +1,6 @@
+<p>
+ The BSSID may be
+ <lt><code dir="ltr" translate="no">null</code>, if there is no network currently connected.</lt>
+ <lt><code dir="ltr" translate="no">"02:00:00:00:00:00"</code>, if the caller has insufficient permissions to access the
+ BSSID.<lt>
+ </lt></lt></p>

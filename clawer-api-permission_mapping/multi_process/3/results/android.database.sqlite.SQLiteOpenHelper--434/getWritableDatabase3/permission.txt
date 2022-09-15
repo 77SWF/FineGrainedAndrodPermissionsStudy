@@ -1,0 +1,5 @@
+<p>Once opened successfully, the database is cached, so you can
+ call this method every time you need to write to the database.
+ (Make sure to call <code dir="ltr" translate="no"><a href="/reference/android/database/sqlite/SQLiteOpenHelper#close()">close()</a></code> when you no longer need the database.)
+ Errors such as bad permissions or a full disk may cause this method
+ to fail, but future attempts may succeed if the problem is fixed.</p>

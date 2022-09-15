@@ -1,0 +1,3 @@
+<p>Determines whether a key is granted permission for the specified
+ cryptographic primitives.
+ </p>

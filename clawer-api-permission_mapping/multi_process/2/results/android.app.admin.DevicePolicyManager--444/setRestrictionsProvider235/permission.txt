@@ -1,0 +1,3 @@
+<p>Designates a specific service component as the provider for making permission requests of a
+ local or remote administrator of the user.
+ </p>

@@ -1,0 +1,6 @@
+<p>Otherwise, the current task will be launched into screen pinning mode. In this case, the
+ system will prompt the user with a dialog requesting permission to use this mode.
+ The user can exit at any time through instructions shown on the request dialog. Calling
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#stopLockTask()">stopLockTask()</a></code> will also terminate this mode.
+
+ </p>

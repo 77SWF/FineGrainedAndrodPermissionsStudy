@@ -1,0 +1,3 @@
+<p>Called when an app requests a slice it does not have write permission
+ to the uri for.
+ </p>

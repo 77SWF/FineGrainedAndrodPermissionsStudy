@@ -1,0 +1,15 @@
+<p>Stop Bluetooth LE advertising. The <code dir="ltr" translate="no">callback</code> must be the same one use in
+ <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/le/BluetoothLeAdvertiser#startAdvertising(android.bluetooth.le.AdvertiseSettings,%20android.bluetooth.le.AdvertiseData,%20android.bluetooth.le.AdvertiseCallback)">BluetoothLeAdvertiser#startAdvertising</a></code>.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code> or lower, this
+ requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_ADMIN">Manifest.permission#BLUETOOTH_ADMIN</a></code>
+ permission which can be gained with a simple
+ <code dir="ltr" translate="no">&lt;uses-permission&gt;</code> manifest tag.
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_ADVERTISE">Manifest.permission#BLUETOOTH_ADVERTISE</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_ADVERTISE">Manifest.permission.BLUETOOTH_ADVERTISE</a></code></p>

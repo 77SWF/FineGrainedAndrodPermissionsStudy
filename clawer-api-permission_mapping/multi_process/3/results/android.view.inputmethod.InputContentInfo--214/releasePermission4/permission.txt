@@ -1,0 +1,3 @@
+<p>Releases a temporary read-only access permission for content URI associated with this object.
+
+ </p><p>Does nothing if the temporary permission is not granted.</p>

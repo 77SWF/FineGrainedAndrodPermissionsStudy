@@ -1,0 +1,22 @@
+<p class="note"><strong>Note:</strong>
+ Starting with <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code>, apps targeting SDK level 31 or higher
+ need to request the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SCHEDULE_EXACT_ALARM">SCHEDULE_EXACT_ALARM</a></code> permission to use this
+ API.
+ The user and the system can revoke this permission via the special app access screen in
+ Settings.
+
+ </p><p class="note"><strong>Note:</strong>
+ Exact alarms should only be used for user-facing features.
+ For more details, see <a href="/about/versions/12/behavior-changes-12#exact-alarm-permission">
+ Exact alarm permission</a>.
+
+ </p><p>Alarms scheduled via this API
+ will be allowed to start a foreground service even if the app is in the background.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SCHEDULE_EXACT_ALARM">Manifest.permission.SCHEDULE_EXACT_ALARM</a></code></p><div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code dir="ltr" translate="no"><a href="/reference/android/app/AlarmManager#set(int,%20long,%20android.app.PendingIntent)">set(int, long, PendingIntent)</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/app/AlarmManager#setRepeating(int,%20long,%20long,%20android.app.PendingIntent)">setRepeating(int, long, long, PendingIntent)</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/app/AlarmManager#setWindow(int,%20long,%20long,%20android.app.PendingIntent)">setWindow(int, long, long, PendingIntent)</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/app/AlarmManager#setExact(int,%20long,%20android.app.PendingIntent)">setExact(int, long, PendingIntent)</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/app/AlarmManager#cancel(android.app.AlarmManager.OnAlarmListener)">cancel(AlarmManager.OnAlarmListener)</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/app/AlarmManager#getNextAlarmClock()">getNextAlarmClock()</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/content/Context#sendBroadcast(android.content.Intent)">Context.sendBroadcast(Intent)</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/content/Context#registerReceiver(android.content.BroadcastReceiver,%20android.content.IntentFilter)">Context.registerReceiver(BroadcastReceiver, IntentFilter)</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/content/Intent#filterEquals(android.content.Intent)">Intent.filterEquals(Intent)</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SCHEDULE_EXACT_ALARM">SCHEDULE_EXACT_ALARM</a></code></li>
+      </ul>
+  </div>

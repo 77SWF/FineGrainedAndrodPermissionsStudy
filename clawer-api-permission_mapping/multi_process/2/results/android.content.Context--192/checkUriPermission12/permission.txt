@@ -1,0 +1,51 @@
+<p>Check both a Uri and normal permission.  This allows you to perform
+ both <code dir="ltr" translate="no"><a href="/reference/android/content/Context#checkPermission(java.lang.String,%20int,%20int)">checkPermission(String, int, int)</a></code> and <code dir="ltr" translate="no"><a href="/reference/android/content/Context#checkUriPermission(android.net.Uri,%20int,%20int,%20int)">checkUriPermission(Uri, int, int, int)</a></code> in one
+ call.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">uri</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Uri</code>: The Uri whose permission is to be checked, or null to not
+ do this check.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">readPermission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The permission that provides overall read access,
+ or null to not do this check.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">writePermission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The permission that provides overall write
+ access, or null to not do this check.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">pid</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The process ID being checked against.  Must be &gt; 0.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">uid</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The user ID being checked against.  A uid of 0 is the root
+ user, which will pass every permission check.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">modeFlags</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The access modes to check.
+
+ Value is either <code dir="ltr" translate="no">0</code> or a combination of <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_READ_URI_PERMISSION">Intent.FLAG_GRANT_READ_URI_PERMISSION</a></code>, and <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_WRITE_URI_PERMISSION">Intent.FLAG_GRANT_WRITE_URI_PERMISSION</a></code><p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">int</code></td>
+        <td width="100%"><code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_GRANTED">PackageManager#PERMISSION_GRANTED</a></code> if the caller
+ is allowed to access that uri or holds one of the given permissions, or
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_DENIED">PackageManager#PERMISSION_DENIED</a></code> if it is not.
+ 
+ Value is <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_GRANTED">PackageManager.PERMISSION_GRANTED</a></code>, or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_DENIED">PackageManager.PERMISSION_DENIED</a></code><p></p></td>
+      </tr>
+    </tbody></table>

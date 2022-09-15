@@ -1,0 +1,5 @@
+<p>
+ If there is a security manager, its checkPermission method is called
+ with a PropertyPermission("user.language", "write") permission before
+ the default locale is changed.
+ </p>

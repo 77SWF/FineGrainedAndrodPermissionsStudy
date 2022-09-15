@@ -1,0 +1,3 @@
+<p>
+ If there is a security manager, its <code dir="ltr" translate="no">checkPermission</code> method
+ is called with a <code dir="ltr" translate="no">ReflectPermission("suppressAccessChecks")</code> permission.</p>

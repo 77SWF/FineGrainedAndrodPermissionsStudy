@@ -1,0 +1,7 @@
+<p>If there is a security manager, the
+ <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkSecurityAccess(java.lang.String)">SecurityManager.checkSecurityAccess(String)</a></code> method is called
+ with the <code dir="ltr" translate="no">"insertProvider"</code> permission target name to see if
+ it's ok to add a new provider. If this permission check is denied,
+ <code dir="ltr" translate="no">checkSecurityAccess</code> is called again with the
+ <code dir="ltr" translate="no">"insertProvider."+provider.getName()</code> permission target name. If
+ both checks are denied, a <code dir="ltr" translate="no">SecurityException</code> is thrown.</p>

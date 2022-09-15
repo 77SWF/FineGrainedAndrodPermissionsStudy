@@ -1,0 +1,6 @@
+<p>Reboots the device in order to install the given update
+ package.
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REBOOT">Manifest.permission.REBOOT</a></code> permission.
+
+ <br/>
+ Requires android.Manifest.permission.RECOVERY</p>

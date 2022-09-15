@@ -1,0 +1,17 @@
+<p>Returns a <code dir="ltr" translate="no"><a href="/reference/java/net/SocketPermission">SocketPermission</a></code> object representing the
+ permission necessary to connect to the destination host and port.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/security/Permission">Permission</a></code></td>
+        <td width="100%">a <code dir="ltr" translate="no">SocketPermission</code> object representing the
+         permission necessary to connect to the destination
+         host and port.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">if an error occurs while computing
+            the permission.</td>
+        </tr>
+      </tbody></table>

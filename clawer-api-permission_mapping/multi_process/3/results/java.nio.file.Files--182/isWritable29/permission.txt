@@ -1,0 +1,9 @@
+<p>Tests whether a file is writable. This method checks that a file exists
+ and that this Java virtual machine has appropriate privileges that would
+ allow it open the file for writing. Depending on the implementation, this
+ method may require to read file permissions, access control lists, or
+ other file attributes in order to check the effective access to the file.
+ Consequently, this method may not be atomic with respect to other file
+ system operations.
+
+ </p>

@@ -1,0 +1,16 @@
+<ul>
+     <li>Editor must keep <code dir="ltr" translate="no"><a href="/reference/android/view/inputmethod/EditorInfo#contentMimeTypes">EditorInfo#contentMimeTypes</a></code> equal to <code dir="ltr" translate="no">null</code> if it does
+     not support this method at all.</li>
+     <li>Editor can ignore this request when the MIME type specified in
+     <code dir="ltr" translate="no">inputContentInfo</code> does not match any of <code dir="ltr" translate="no"><a href="/reference/android/view/inputmethod/EditorInfo#contentMimeTypes">EditorInfo#contentMimeTypes</a></code>.
+     </li>
+     <li>Editor can ignore the cursor position when inserting the provided content.</li>
+     <li>Editor can return <code dir="ltr" translate="no">true</code> asynchronously, even before it starts loading the
+     content.</li>
+     <li>Editor should provide a way to delete the content inserted by this method or to
+     revert the effect caused by this method.</li>
+     <li>IME should not call this method when there is any composing text, in case calling
+     this method causes a focus change.</li>
+     <li>IME should grant a permission for the editor to read the content. See
+     <code dir="ltr" translate="no"><a href="/reference/android/view/inputmethod/EditorInfo#packageName">EditorInfo#packageName</a></code> about how to obtain the package name of the editor.</li>
+ </ul>

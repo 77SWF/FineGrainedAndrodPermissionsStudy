@@ -1,0 +1,8 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">whether this package is whitelisted from having its runtime permission be
+         auto-revoked if unused for an extended period of time.<p></p></td>
+      </tr>
+    </tbody></table>

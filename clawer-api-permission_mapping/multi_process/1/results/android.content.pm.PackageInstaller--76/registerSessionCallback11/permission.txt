@@ -1,0 +1,2 @@
+<p>Register to watch for session lifecycle events. The callers need to be the session
+ owner or have the android.permission.QUERY_ALL_PACKAGES to watch for these events.</p>

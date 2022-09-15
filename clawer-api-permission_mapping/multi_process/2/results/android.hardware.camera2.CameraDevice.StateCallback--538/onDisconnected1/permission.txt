@@ -1,0 +1,5 @@
+<p>Any attempt to call methods on this CameraDevice will throw a
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/camera2/CameraAccessException">CameraAccessException</a></code>. The disconnection could be due to a
+ change in security policy or permissions; the physical disconnection
+ of a removable camera device; or the camera being needed for a
+ higher-priority camera API client.</p>

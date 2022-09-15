@@ -1,0 +1,1 @@
+android.app.admin.DevicePolicyManager.setPermissionGrantState    	ACCESS_BACKGROUND_LOCATION	即使您并未使用此应用，此应用也可以随时访问位置信息。

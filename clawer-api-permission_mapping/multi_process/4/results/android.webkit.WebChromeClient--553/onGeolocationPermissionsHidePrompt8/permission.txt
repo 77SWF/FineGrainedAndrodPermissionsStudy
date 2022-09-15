@@ -1,0 +1,4 @@
+<p>Notify the host application that a request for Geolocation permissions,
+ made with a previous call to
+ <code dir="ltr" translate="no"><a href="/reference/android/webkit/WebChromeClient#onGeolocationPermissionsShowPrompt(java.lang.String,%20android.webkit.GeolocationPermissions.Callback)">onGeolocationPermissionsShowPrompt()</a></code>
+ has been canceled. Any related UI should therefore be hidden.</p>

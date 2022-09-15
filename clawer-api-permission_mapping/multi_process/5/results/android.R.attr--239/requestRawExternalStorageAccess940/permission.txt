@@ -1,0 +1,8 @@
+<ul>
+ <li><code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_EXTERNAL_STORAGE">Manifest.permission.MANAGE_EXTERNAL_STORAGE</a></code> permission or
+ </li><li><code dir="ltr" translate="no"><a href="/reference/android/app/role/package-summary">android.app.role</a></code>#SYSTEM_GALLERY role.
+ </li></ul><ul>
+ <li>app has <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_EXTERNAL_STORAGE">Manifest.permission.MANAGE_EXTERNAL_STORAGE</a></code> permission and
+ targets targetSDK&lt;=30.
+ </li><li>app has <code dir="ltr" translate="no"><a href="/reference/android/app/role/package-summary">android.app.role</a></code>#SYSTEM_GALLERY role and targetSDK&lt;=29
+ </li></ul>

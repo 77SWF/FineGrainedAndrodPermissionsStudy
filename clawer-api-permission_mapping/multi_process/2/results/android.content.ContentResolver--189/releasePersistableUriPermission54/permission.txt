@@ -1,0 +1,4 @@
+<p>Relinquish a persisted URI permission grant. The URI must have been
+ previously made persistent with
+ <code dir="ltr" translate="no"><a href="/reference/android/content/ContentResolver#takePersistableUriPermission(android.net.Uri,%20int)">takePersistableUriPermission(android.net.Uri, int)</a></code>. Any non-persistent
+ grants to the calling package will remain intact.</p>

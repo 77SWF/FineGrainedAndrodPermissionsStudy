@@ -1,0 +1,12 @@
+<p>Tests whether a file is executable. This method checks that a file exists
+ and that this Java virtual machine has appropriate privileges to <code dir="ltr" translate="no"><a href="/reference/java/lang/Runtime#exec(java.lang.String)">execute</a></code> the file. The semantics may differ when checking
+ access to a directory. For example, on UNIX systems, checking for
+ execute access checks that the Java virtual machine has permission to
+ search the directory in order to access file or subdirectories.
+
+ </p><p> Depending on the implementation, this method may require to read file
+ permissions, access control lists, or other file attributes in order to
+ check the effective access to the file. Consequently, this method may not
+ be atomic with respect to other file system operations.
+
+ </p>

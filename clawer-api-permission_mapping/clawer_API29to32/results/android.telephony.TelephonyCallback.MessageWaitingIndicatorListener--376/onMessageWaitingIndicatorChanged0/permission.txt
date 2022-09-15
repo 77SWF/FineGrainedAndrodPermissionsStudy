@@ -1,0 +1,16 @@
+<p>Callback invoked when the message-waiting indicator changes on the registered
+ subscription.
+ Note, the registration subscription ID comes from <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager">TelephonyManager</a></code> object by
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#registerTelephonyCallback(java.util.concurrent.Executor,%20android.telephony.TelephonyCallback)">TelephonyManager#registerTelephonyCallback(Executor, TelephonyCallback)</a></code>.
+ If this TelephonyManager object was created with
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#createForSubscriptionId(int)">TelephonyManager#createForSubscriptionId(int)</a></code>, then the callback applies to the
+ subscription ID. Otherwise, this callback applies to
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#getDefaultSubscriptionId()">SubscriptionManager#getDefaultSubscriptionId()</a></code>.
+
+ The calling app should have carrier privileges
+ (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager#hasCarrierPrivileges</a></code>) if it does not have the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code>.
+
+ 
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

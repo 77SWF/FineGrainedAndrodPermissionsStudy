@@ -1,0 +1,8 @@
+android.telecom.TelecomManager.acceptRingingCall                 	ANSWER_PHONE_CALLS       	允许该应用接听来电。
+android.telecom.TelecomManager.endCall                           	ANSWER_PHONE_CALLS       	允许该应用接听来电。
+no API: RECEIVE_WAP_PUSH                                         	RECEIVE_WAP_PUSH         	允许该应用接收和处理 WAP 消息。此权限包括监视发送给您的消息或删除发送给您的消息而不向您显示的功能。
+android.telephony.SmsManager.sendDataMessage                     	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendMultipartTextMessage            	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendTextMessage                     	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.SmsManager.sendTextMessageWithoutPersisting    	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。
+android.telephony.TelephonyManager.sendVisualVoicemailSms        	SEND_SMS                 	允许该应用发送短信。此权限可能会导致意外收费。恶意应用可能会未经您的确认而发送短信，由此产生相关费用。

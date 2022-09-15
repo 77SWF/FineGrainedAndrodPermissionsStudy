@@ -1,0 +1,8 @@
+<p>Note: Applications generally should not cancel and start authentication in quick
+ succession. For example, to properly handle authentication across configuration changes, it's
+ recommended to use BiometricPrompt in a fragment with setRetainInstance(true). By doing so,
+ the application will not need to cancel/restart authentication during the configuration
+ change.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_BIOMETRIC">Manifest.permission.USE_BIOMETRIC</a></code></p>

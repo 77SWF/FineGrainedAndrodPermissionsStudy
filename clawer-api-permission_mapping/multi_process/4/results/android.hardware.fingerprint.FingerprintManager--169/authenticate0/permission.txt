@@ -1,0 +1,9 @@
+<p>Request authentication of a crypto object. This call warms up the fingerprint hardware
+ and starts scanning for a fingerprint. It terminates when
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/fingerprint/FingerprintManager.AuthenticationCallback#onAuthenticationError(int,%20java.lang.CharSequence)">AuthenticationCallback#onAuthenticationError(int, CharSequence)</a></code> or
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/fingerprint/FingerprintManager.AuthenticationCallback#onAuthenticationSucceeded(android.hardware.fingerprint.FingerprintManager.AuthenticationResult)">AuthenticationCallback#onAuthenticationSucceeded(AuthenticationResult)</a></code> is called, at
+ which point the object is no longer valid. The operation can be canceled by using the
+ provided cancel object.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_BIOMETRIC">Manifest.permission.USE_BIOMETRIC</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_FINGERPRINT">Manifest.permission.USE_FINGERPRINT</a></code></p>

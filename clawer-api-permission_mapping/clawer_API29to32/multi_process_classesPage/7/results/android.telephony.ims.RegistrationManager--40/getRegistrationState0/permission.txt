@@ -1,0 +1,4 @@
+<p>Gets the registration state of the IMS service.
+
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE</p>

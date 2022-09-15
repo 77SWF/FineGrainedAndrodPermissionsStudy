@@ -1,0 +1,3 @@
+<p>Declaring the permission <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_EXTERNAL_STORAGE">Manifest.permission.MANAGE_EXTERNAL_STORAGE</a></code> isn't
+ enough to gain the access.
+ </p>

@@ -1,0 +1,20 @@
+<p>Returns true if the caller has permission to access the accessory.
+ Permission might have been granted temporarily via
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/usb/UsbManager#requestPermission(android.hardware.usb.UsbAccessory,%20android.app.PendingIntent)">requestPermission(android.hardware.usb.UsbAccessory, android.app.PendingIntent)</a></code> or
+ by the user choosing the caller as the default application for the accessory.
+
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_USB_ACCESSORY">PackageManager#FEATURE_USB_ACCESSORY</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">accessory</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">UsbAccessory</code>: to check permissions for<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">true if caller has permission<p></p></td>
+      </tr>
+    </tbody></table>

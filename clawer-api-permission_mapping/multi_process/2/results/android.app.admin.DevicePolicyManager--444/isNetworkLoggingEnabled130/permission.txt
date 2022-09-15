@@ -1,0 +1,17 @@
+<table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">admin</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">ComponentName</code>: Which <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DeviceAdminReceiver">DeviceAdminReceiver</a></code> this request is associated with. Can only
+ be <code dir="ltr" translate="no">null</code> if the caller is a delegated app with <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#DELEGATION_NETWORK_LOGGING">DELEGATION_NETWORK_LOGGING</a></code>
+ or has MANAGE_USERS permission.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if <code dir="ltr" translate="no">admin</code> is not a device owner or profile owner and
+ caller has no MANAGE_USERS permission</td>
+        </tr>
+      </tbody></table>

@@ -1,0 +1,28 @@
+<table border="1" cellpadding="5" summary="">
+ <tbody><tr> <th>Value</th> <th>Description</th> </tr>
+ <tr>
+   <td> <code dir="ltr" translate="no"><a href="/reference/java/nio/file/AccessMode#READ">READ</a></code> </td>
+   <td> Checks that the file exists and that the Java virtual machine has
+     permission to read the file. </td>
+ </tr>
+ <tr>
+   <td> <code dir="ltr" translate="no"><a href="/reference/java/nio/file/AccessMode#WRITE">WRITE</a></code> </td>
+   <td> Checks that the file exists and that the Java virtual machine has
+     permission to write to the file, </td>
+ </tr>
+ <tr>
+   <td> <code dir="ltr" translate="no"><a href="/reference/java/nio/file/AccessMode#EXECUTE">EXECUTE</a></code> </td>
+   <td> Checks that the file exists and that the Java virtual machine has
+     permission to <code dir="ltr" translate="no"><a href="/reference/java/lang/Runtime#exec(java.lang.String)">execute</a></code> the file. The semantics
+     may differ when checking access to a directory. For example, on UNIX
+     systems, checking for <code dir="ltr" translate="no">EXECUTE</code> access checks that the Java
+     virtual machine has permission to search the directory in order to
+     access file or subdirectories. </td>
+ </tr>
+ </tbody></table><p> This method follows symbolic links if the file referenced by this
+ object is a symbolic link. Depending on the implementation, this method
+ may require to read file permissions, access control lists, or other
+ file attributes in order to check the effective access to the file. To
+ determine the effective access to a file may require access to several
+ attributes and so in some implementations this method may not be atomic
+ with respect to other file system operations.</p>

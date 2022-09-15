@@ -1,0 +1,13 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"></code></td>
+          <td width="100%">java.lang.SecurityException SecurityException} if the calling app is not a Device Owner (DO),
+                           Profile Owner (PO), system app, or a privileged app that has one of
+                           the permissions required by this API.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"></code></td>
+          <td width="100%">java.lang.IllegalArgumentException IllegalArgumentException} if the input configuration is null.</td>
+        </tr>
+      </tbody></table>

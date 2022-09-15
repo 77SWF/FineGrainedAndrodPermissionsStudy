@@ -1,0 +1,9 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">true if the number is in the list of voicemail. False
+ otherwise, including if the caller does not have the permission
+ to read the VM number.<p></p></td>
+      </tr>
+    </tbody></table>

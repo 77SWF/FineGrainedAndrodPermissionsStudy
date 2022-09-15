@@ -1,0 +1,44 @@
+<table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">receiver</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">BroadcastReceiver</code>: The BroadcastReceiver to handle the broadcast.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">filter</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">IntentFilter</code>: Selects the Intent broadcasts to be received.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">broadcastPermission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: String naming a permissions that a
+      broadcaster must hold in order to send an Intent to you.  If null,
+      no permission is required.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">scheduler</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Handler</code>: Handler identifying the thread that will receive
+      the Intent.  If null, the main thread of the process will be used.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">flags</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: Additional options for the receiver. For apps targeting
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#TIRAMISU">Build.VERSION_CODES.TIRAMISU</a></code>,
+              either <code dir="ltr" translate="no"><a href="/reference/android/content/Context#RECEIVER_EXPORTED">Context.RECEIVER_EXPORTED</a></code> or
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#RECEIVER_NOT_EXPORTED">Context.RECEIVER_NOT_EXPORTED</a></code> must be specified if the receiver isn't being registered
+              for <a href="/guide/components/broadcasts#system-broadcasts">system
+              broadcasts</a> or an exception will be thrown. If
+              <code dir="ltr" translate="no"><a href="/reference/android/content/Context#RECEIVER_EXPORTED">Context.RECEIVER_EXPORTED</a></code> is specified, a receiver may additionally
+              specify <code dir="ltr" translate="no"><a href="/reference/android/content/Context#RECEIVER_VISIBLE_TO_INSTANT_APPS">Context.RECEIVER_VISIBLE_TO_INSTANT_APPS</a></code>. For a complete list of
+              system broadcast actions, see the BROADCAST_ACTIONS.TXT file in the
+              Android SDK. If both <code dir="ltr" translate="no"><a href="/reference/android/content/Context#RECEIVER_EXPORTED">Context.RECEIVER_EXPORTED</a></code> and
+              <code dir="ltr" translate="no"><a href="/reference/android/content/Context#RECEIVER_NOT_EXPORTED">Context.RECEIVER_NOT_EXPORTED</a></code> are specified, an exception will be thrown as
+              well.
+
+ Value is either <code dir="ltr" translate="no">0</code> or a combination of <code dir="ltr" translate="no"><a href="/reference/android/content/Context#RECEIVER_VISIBLE_TO_INSTANT_APPS">Context.RECEIVER_VISIBLE_TO_INSTANT_APPS</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/content/Context#RECEIVER_EXPORTED">Context.RECEIVER_EXPORTED</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/content/Context#RECEIVER_NOT_EXPORTED">Context.RECEIVER_NOT_EXPORTED</a></code>, and android.content.Context.RECEIVER_EXPORTED_UNAUDITED<p></p></td>
+      </tr>
+    </tbody></table>

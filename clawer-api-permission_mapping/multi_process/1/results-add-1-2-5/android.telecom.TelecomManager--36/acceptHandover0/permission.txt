@@ -1,0 +1,11 @@
+<p>
+ This method is called from the <em>receiving</em> side of a handover to indicate a desire to
+ accept the handover of an ongoing call to another <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code> identified by
+ <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccountHandle">PhoneAccountHandle</a></code> destAcct. For managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code>s, the specified
+ <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccountHandle">PhoneAccountHandle</a></code> must have been registered with <code dir="ltr" translate="no"><a href="/reference/android/telecom/TelecomManager#registerPhoneAccount(android.telecom.PhoneAccount)">registerPhoneAccount(PhoneAccount)</a></code> and
+ the user must have enabled the corresponding <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccount">PhoneAccount</a></code>.  This can be checked using
+ <code dir="ltr" translate="no"><a href="/reference/android/telecom/TelecomManager#getPhoneAccount(android.telecom.PhoneAccountHandle)">getPhoneAccount(PhoneAccountHandle)</a></code>. Self-managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code>s must have
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_OWN_CALLS">Manifest.permission.MANAGE_OWN_CALLS</a></code> to handover a call to it.
+ </p><p>
+ For a self-managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code>, a <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code> will be thrown if
+ the calling app does not have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_OWN_CALLS">Manifest.permission.MANAGE_OWN_CALLS</a></code>.</p>

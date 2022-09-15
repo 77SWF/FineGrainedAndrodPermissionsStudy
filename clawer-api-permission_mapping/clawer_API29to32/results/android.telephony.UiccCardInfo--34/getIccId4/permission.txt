@@ -1,0 +1,3 @@
+<p>
+ Note that this field may be omitted if the caller does not have the correct permissions
+ (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#getUiccCardsInfo()">TelephonyManager#getUiccCardsInfo()</a></code>).</p>

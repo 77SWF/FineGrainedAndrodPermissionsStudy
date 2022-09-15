@@ -1,0 +1,17 @@
+<p>Returns a subset of the list returned by <code dir="ltr" translate="no"><a href="/reference/android/hardware/camera2/CameraCharacteristics#getKeys()">getKeys()</a></code> with all keys that
+ require camera clients to obtain the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CAMERA">Manifest.permission.CAMERA</a></code> permission.
+ </p><p>If an application calls <code dir="ltr" translate="no"><a href="/reference/android/hardware/camera2/CameraManager#getCameraCharacteristics(java.lang.String)">CameraManager#getCameraCharacteristics</a></code> without holding the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CAMERA">Manifest.permission.CAMERA</a></code> permission,
+ all keys in this list will not be available, and calling <code dir="ltr" translate="no"><a href="/reference/android/hardware/camera2/CameraCharacteristics#get(android.hardware.camera2.CameraCharacteristics.Key&lt;T&gt;)">get(CameraCharacteristics.Key<t>)</t></a></code> will
+ return null for those keys. If the application obtains the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CAMERA">Manifest.permission.CAMERA</a></code> permission, then the
+ CameraCharacteristics from a call to a subsequent
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/camera2/CameraManager#getCameraCharacteristics(java.lang.String)">CameraManager#getCameraCharacteristics</a></code> will have the keys available.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/util/List">List</a>&lt;<a href="/reference/android/hardware/camera2/CameraCharacteristics.Key">Key</a>&lt;?&gt;&gt;</code></td>
+        <td width="100%">List of camera characteristic keys that require the
+         <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CAMERA">Manifest.permission.CAMERA</a></code> permission. The list can be empty in case
+         there are no currently present keys that need additional permission.<p></p></td>
+      </tr>
+    </tbody></table>

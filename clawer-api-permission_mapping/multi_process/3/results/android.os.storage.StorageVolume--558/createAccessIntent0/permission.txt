@@ -1,0 +1,11 @@
+<p>
+ If your application only needs to store internal data, consider using
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#getExternalFilesDirs(java.lang.String)">Context.getExternalFilesDirs</a></code>,
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#getExternalCacheDirs()">Context#getExternalCacheDirs()</a></code>, or <code dir="ltr" translate="no"><a href="/reference/android/content/Context#getExternalMediaDirs()">Context#getExternalMediaDirs()</a></code>, which
+ require no permissions to read or write.
+ </p><p>
+ Access to the entire volume is only available for non-primary volumes (for the primary
+ volume, apps can use the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE">Manifest.permission.READ_EXTERNAL_STORAGE</a></code> and
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_EXTERNAL_STORAGE">Manifest.permission.WRITE_EXTERNAL_STORAGE</a></code> permissions) and should be used
+ with caution, since users are more likely to deny access when asked for entire volume access
+ rather than specific directories.</p>

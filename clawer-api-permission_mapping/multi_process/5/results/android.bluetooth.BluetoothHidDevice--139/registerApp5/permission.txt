@@ -1,0 +1,15 @@
+<p>Registers application to be used for HID device. Connections to HID Device are only possible
+ when application is registered. Only one application can be registered at one time. When an
+ application is registered, the HID Host service will be disabled until it is unregistered.
+ When no longer used, application should be unregistered using <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothHidDevice#unregisterApp()">unregisterApp()</a></code>. The
+ app will be automatically unregistered if it is not foreground. The registration status
+ should be tracked by the application by handling callback from Callback#onAppStatusChanged.
+ The app registration status is not related to the return value of this method.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission#BLUETOOTH_CONNECT</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission.BLUETOOTH_CONNECT</a></code></p>

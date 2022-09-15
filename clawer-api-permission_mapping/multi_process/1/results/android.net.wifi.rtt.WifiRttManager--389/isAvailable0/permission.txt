@@ -1,0 +1,2 @@
+<p>Note: availability of RTT does not mean that the app can use the API. The app's
+ permissions and platform Location Mode are validated at run-time.</p>

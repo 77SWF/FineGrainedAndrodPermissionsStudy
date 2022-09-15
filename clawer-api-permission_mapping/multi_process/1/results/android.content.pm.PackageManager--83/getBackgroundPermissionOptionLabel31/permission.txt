@@ -1,0 +1,2 @@
+<p>The intended use is for apps to reference this label in its instruction for users to grant
+ a background permission.</p>

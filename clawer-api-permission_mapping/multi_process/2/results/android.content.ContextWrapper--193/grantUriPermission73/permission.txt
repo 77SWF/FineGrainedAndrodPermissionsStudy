@@ -1,0 +1,10 @@
+<p>Grant permission to access a specific Uri to another package, regardless
+ of whether that package has general permission to access the Uri's
+ content provider.  This can be used to grant specific, temporary
+ permissions, typically in response to user interaction (such as the
+ user opening an attachment that you would like someone else to
+ display).
+
+ </p><p>To succeed, the content provider owning the Uri must have set the
+ <code dir="ltr" translate="no"><a href="/reference/android/R.styleable#AndroidManifestProvider_grantUriPermissions">grantUriPermissions</a></code> attribute in its manifest or included the
+ <code dir="ltr" translate="no"><a href="/reference/android/R.styleable#AndroidManifestGrantUriPermission">&lt;grant-uri-permissions&gt;</a></code> tag.</p>

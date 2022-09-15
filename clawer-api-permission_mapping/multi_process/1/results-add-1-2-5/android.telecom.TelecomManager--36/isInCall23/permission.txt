@@ -1,0 +1,5 @@
+<p>Returns whether there is an ongoing phone call (can be in dialing, ringing, active or holding
+ states) originating from either a manager or self-managed <code dir="ltr" translate="no"><a href="/reference/android/telecom/ConnectionService">ConnectionService</a></code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

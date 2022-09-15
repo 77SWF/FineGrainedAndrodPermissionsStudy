@@ -1,0 +1,2 @@
+<p>This method will fail for listeners that have
+ not been granted the permission by the user.</p>

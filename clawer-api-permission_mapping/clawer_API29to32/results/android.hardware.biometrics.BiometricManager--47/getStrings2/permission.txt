@@ -1,0 +1,5 @@
+<p>Produces an instance of the <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricManager.Strings">Strings</a></code> class, which provides localized strings for an
+ application, given a set of allowed authenticator types.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_BIOMETRIC">Manifest.permission.USE_BIOMETRIC</a></code></p>

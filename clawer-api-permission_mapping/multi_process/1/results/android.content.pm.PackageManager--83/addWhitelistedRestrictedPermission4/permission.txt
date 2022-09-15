@@ -1,0 +1,57 @@
+<p>Adds a whitelisted restricted permission for an app.
+
+ </p><p> Permissions can be hard restricted which means that the app cannot hold
+ them or soft restricted where the app can hold the permission but in a weaker
+ form. Whether a permission is <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#FLAG_HARD_RESTRICTED">restricted</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#FLAG_SOFT_RESTRICTED">soft restricted</a></code>
+ depends on the permission declaration. Whitelisting a hard restricted permission
+ allows for the to hold that permission and whitelisting a soft restricted
+ permission allows the app to hold the permission in its full, unrestricted form.
+
+ </p><ol>There are four whitelists:
+
+ <li>one for cases where the system permission policy whitelists a permission
+ This list corresponds to the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FLAG_PERMISSION_WHITELIST_SYSTEM">FLAG_PERMISSION_WHITELIST_SYSTEM</a></code> flag.
+ Can only be modified by pre-installed holders of a dedicated permission.
+
+ </li><li>one for cases where the system whitelists the permission when upgrading
+ from an OS version in which the permission was not restricted to an OS version
+ in which the permission is restricted. This list corresponds to the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FLAG_PERMISSION_WHITELIST_UPGRADE">FLAG_PERMISSION_WHITELIST_UPGRADE</a></code> flag. Can be modified by pre-installed
+ holders of a dedicated permission. The installer on record can only remove
+ permissions from this whitelist.
+
+ </li><li>one for cases where the installer of the package whitelists a permission.
+ This list corresponds to the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FLAG_PERMISSION_WHITELIST_INSTALLER">FLAG_PERMISSION_WHITELIST_INSTALLER</a></code> flag.
+ Can be modified by pre-installed holders of a dedicated permission or the installer
+ on record.
+ </li></ol><p>You need to specify the whitelists for which to set the whitelisted permissions
+ which will clear the previous whitelisted permissions and replace them with the
+ provided ones.
+
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">packageName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The app for which to get whitelisted permissions.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The whitelisted permission to add.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">whitelistFlags</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The whitelists to which to add. Passing multiple flags
+ updates all specified whitelists.
+ Value is either <code dir="ltr" translate="no">0</code> or a combination of <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FLAG_PERMISSION_WHITELIST_SYSTEM">FLAG_PERMISSION_WHITELIST_SYSTEM</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FLAG_PERMISSION_WHITELIST_INSTALLER">FLAG_PERMISSION_WHITELIST_INSTALLER</a></code>, and <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FLAG_PERMISSION_WHITELIST_UPGRADE">FLAG_PERMISSION_WHITELIST_UPGRADE</a></code><p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">Whether the permission was added to the whitelist.<p></p></td>
+      </tr>
+    </tbody></table>

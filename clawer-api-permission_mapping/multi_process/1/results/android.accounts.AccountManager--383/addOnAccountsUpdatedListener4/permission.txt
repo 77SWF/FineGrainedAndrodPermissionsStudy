@@ -1,0 +1,7 @@
+<p>Adds an <code dir="ltr" translate="no"><a href="/reference/android/accounts/OnAccountsUpdateListener">OnAccountsUpdateListener</a></code> to this instance of the <code dir="ltr" translate="no"><a href="/reference/android/accounts/AccountManager">AccountManager</a></code>. This
+ listener will be notified whenever user or AbstractAccountAuthenticator made changes to
+ accounts of any type related to the caller. This method is equivalent to
+ addOnAccountsUpdatedListener(listener, handler, updateImmediately, null)
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#GET_ACCOUNTS">Manifest.permission.GET_ACCOUNTS</a></code></p>

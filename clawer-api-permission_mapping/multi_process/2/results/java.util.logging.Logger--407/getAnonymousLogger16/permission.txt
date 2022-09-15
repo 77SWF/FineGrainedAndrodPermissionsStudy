@@ -1,0 +1,8 @@
+<p>
+ Even although the new logger is anonymous, it is configured
+ to have the root logger ("") as its parent.  This means that
+ by default it inherits its effective level and handlers
+ from the root logger. Changing its parent via the
+ <code dir="ltr" translate="no"><a href="/reference/java/util/logging/Logger#setParent(java.util.logging.Logger)">setParent</a></code> method
+ will still require the security permission specified by that method.
+ </p>

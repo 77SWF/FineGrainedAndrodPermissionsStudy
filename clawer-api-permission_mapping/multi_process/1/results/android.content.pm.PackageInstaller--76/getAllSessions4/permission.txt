@@ -1,0 +1,4 @@
+<p>Return list of all known install sessions, regardless of the installer. Callers need to
+ either declare &lt;queries&gt; element with the specific  package name in the app's manifest,
+ have the android.permission.QUERY_ALL_PACKAGES, or be the session owner to retrieve these
+ details.</p>

@@ -1,0 +1,5 @@
+<p>Returns the <code dir="ltr" translate="no">X509Certificate</code> chain for the requested alias, or null if the alias
+ does not exist or the caller has no permission to access it (see note on exceptions
+ in <code dir="ltr" translate="no"><a href="/reference/android/security/KeyChain#getPrivateKey(android.content.Context,%20java.lang.String)">getPrivateKey(Context, String)</a></code>).
+
+ </p>

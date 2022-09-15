@@ -1,0 +1,5 @@
+<p>Array of flags of all <code dir="ltr" translate="no"><a href="/reference/android/R.styleable#AndroidManifestUsesPermission">&lt;uses-permission&gt;</a></code> tags included under &lt;manifest&gt;,
+ or null if there were none.  This is only filled in if the flag
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#GET_PERMISSIONS">PackageManager#GET_PERMISSIONS</a></code> was set.  Each value matches
+ the corresponding entry in <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageInfo#requestedPermissions">requestedPermissions</a></code>, and will have
+ the flag <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageInfo#REQUESTED_PERMISSION_GRANTED">REQUESTED_PERMISSION_GRANTED</a></code> set as appropriate.</p>

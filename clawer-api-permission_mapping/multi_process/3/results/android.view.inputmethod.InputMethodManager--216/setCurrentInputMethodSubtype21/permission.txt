@@ -1,0 +1,12 @@
+<p class="caution"><strong>
+      This method was deprecated
+      in API level 29.</strong><br/>
+    If the calling process is an IME, use
+             <code dir="ltr" translate="no"><a href="/reference/android/inputmethodservice/InputMethodService#switchInputMethod(java.lang.String,%20android.view.inputmethod.InputMethodSubtype)">InputMethodService#switchInputMethod(String, InputMethodSubtype)</a></code>, which
+             does not require any permission as long as the caller is the current IME.
+             If the calling process is some privileged app that already has
+             <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_SECURE_SETTINGS">Manifest.permission.WRITE_SECURE_SETTINGS</a></code> permission, just
+             directly update <code dir="ltr" translate="no"><a href="/reference/android/provider/Settings.Secure#SELECTED_INPUT_METHOD_SUBTYPE">Settings.Secure#SELECTED_INPUT_METHOD_SUBTYPE</a></code>.
+  </p><p>Switch to a new input method subtype of the current input method.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_SECURE_SETTINGS">Manifest.permission.WRITE_SECURE_SETTINGS</a></code></p>

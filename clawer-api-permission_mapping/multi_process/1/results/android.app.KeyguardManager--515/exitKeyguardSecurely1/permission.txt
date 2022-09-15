@@ -1,0 +1,19 @@
+<p class="caution"><strong>
+      This method was deprecated
+      in API level 15.</strong><br/>
+    Use <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#FLAG_DISMISS_KEYGUARD">LayoutParams#FLAG_DISMISS_KEYGUARD</a></code>
+   and/or <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#FLAG_SHOW_WHEN_LOCKED">LayoutParams#FLAG_SHOW_WHEN_LOCKED</a></code>
+   instead; this allows you to seamlessly hide the keyguard as your application
+   moves in and out of the foreground and does not require that any special
+   permissions be requested.
+  </p><p>Exit the keyguard securely.  The use case for this api is that, after
+ disabling the keyguard, your app, which was granted permission to
+ disable the keyguard and show a limited amount of information deemed
+ safe without the user getting past the keyguard, needs to navigate to
+ something that is not safe to view without getting past the keyguard.
+
+ This will, if the keyguard is secure, bring up the unlock screen of
+ the keyguard.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#DISABLE_KEYGUARD">Manifest.permission.DISABLE_KEYGUARD</a></code></p>

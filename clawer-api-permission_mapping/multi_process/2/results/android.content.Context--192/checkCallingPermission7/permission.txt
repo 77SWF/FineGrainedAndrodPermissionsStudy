@@ -1,0 +1,28 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public abstract int checkCallingPermission (<a href="/reference/java/lang/String">String</a> permission)</pre><p>Determine whether the calling process of an IPC you are handling has been
+ granted a particular permission.  This is basically the same as calling
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#checkPermission(java.lang.String,%20int,%20int)">checkPermission(java.lang.String, int, int)</a></code> with the pid and uid returned
+ by <code dir="ltr" translate="no"><a href="/reference/android/os/Binder#getCallingPid()">Binder.getCallingPid()</a></code> and
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Binder#getCallingUid()">Binder.getCallingUid()</a></code>.  One important difference
+ is that if you are not currently processing an IPC, this function
+ will always fail.  This is done to protect against accidentally
+ leaking permissions; you can use <code dir="ltr" translate="no"><a href="/reference/android/content/Context#checkCallingOrSelfPermission(java.lang.String)">checkCallingOrSelfPermission(String)</a></code>
+ to avoid this protection.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The name of the permission being checked.
+
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">int</code></td>
+        <td width="100%"><code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_GRANTED">PackageManager#PERMISSION_GRANTED</a></code> if the calling
+ pid/uid is allowed that permission, or
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_DENIED">PackageManager#PERMISSION_DENIED</a></code> if it is not.
+
+ Value is <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_GRANTED">PackageManager.PERMISSION_GRANTED</a></code>, or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_DENIED">PackageManager.PERMISSION_DENIED</a></code><p></p></td>
+      </tr>
+    </tbody></table>

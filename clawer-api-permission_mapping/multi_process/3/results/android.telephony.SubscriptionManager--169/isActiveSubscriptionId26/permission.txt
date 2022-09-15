@@ -1,0 +1,13 @@
+<p>Checks if the supplied subscription ID corresponds to a subscription which is actively in
+ use on the device. An active subscription ID is a valid and usable subscription ID.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%"><code dir="ltr" translate="no">true</code> if the supplied subscription ID corresponds to an active subscription;
+ <code dir="ltr" translate="no">false</code> if it does not correspond to an active subscription; or throw a
+ SecurityException if the caller hasn't got the right permission.<p></p></td>
+      </tr>
+    </tbody></table>

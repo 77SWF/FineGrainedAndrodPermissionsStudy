@@ -1,0 +1,9 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/lang/String">String</a></code></td>
+        <td width="100%">The name of the caller, or <code dir="ltr" translate="no">null</code> if the lookup is not yet complete, if
+         there's no contacts entry for the caller, or if the <code dir="ltr" translate="no"><a href="/reference/android/telecom/InCallService">InCallService</a></code> does
+         not hold the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_CONTACTS">Manifest.permission.READ_CONTACTS</a></code> permission.<p></p></td>
+      </tr>
+    </tbody></table>

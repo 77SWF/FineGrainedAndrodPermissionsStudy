@@ -1,0 +1,13 @@
+<p>Call this method to grant origin the permission to access the given resources.
+ The granted permission is only valid for this WebView.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">resources</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: the resources granted to be accessed by origin, to grant
+        request, the requested resources returned by <code dir="ltr" translate="no"><a href="/reference/android/webkit/PermissionRequest#getResources()">getResources()</a></code>
+        must be equals or a subset of granted resources.
+        This parameter is designed to avoid granting permission by accident
+        especially when new resources are requested by web content.<p></p></td>
+      </tr>
+    </tbody></table>

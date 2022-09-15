@@ -1,0 +1,5 @@
+<p>Control whether we should use the attached SurfaceHolder to keep the
+ screen on while video playback is occurring.  This is the preferred
+ method over <code dir="ltr" translate="no"><a href="/reference/android/media/MediaPlayer#setWakeMode(android.content.Context,%20int)">setWakeMode(Context, int)</a></code> where possible, since it doesn't
+ require that the application have permission for low-level wake lock
+ access.</p>

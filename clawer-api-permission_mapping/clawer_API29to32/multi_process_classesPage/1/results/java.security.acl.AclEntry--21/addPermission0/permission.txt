@@ -1,0 +1,17 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public abstract boolean addPermission (<a href="/reference/java/security/acl/Permission">Permission</a> permission)</pre><p>Adds the specified permission to this ACL entry. Note: An entry can
+ have multiple permissions.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Permission</code>: the permission to be associated with
+ the principal in this entry.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">true if the permission was added, false if the
+ permission was already part of this entry's permission set.<p></p></td>
+      </tr>
+    </tbody></table>

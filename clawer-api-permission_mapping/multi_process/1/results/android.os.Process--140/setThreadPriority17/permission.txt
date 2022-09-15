@@ -1,0 +1,14 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">Throws IllegalArgumentException if
+ <var translate="no">tid</var> does not exist.</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">Throws SecurityException if your process does
+ not have permission to modify the given thread, or to use the given
+ priority.</td>
+        </tr>
+      </tbody></table>

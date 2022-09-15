@@ -1,0 +1,3 @@
+<li>A carrier provisioning app (which holds the
+ <code dir="ltr" translate="no">android.Manifest.permission#NETWORK_CARRIER_PROVISIONING</code> permission).
+ </li>

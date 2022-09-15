@@ -1,0 +1,17 @@
+<ul>
+ <li>Shared storage may not always be available, since removable media can
+ be ejected by the user. Media state can be checked using
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Environment#getExternalStorageState(java.io.File)">Environment#getExternalStorageState(File)</a></code>.
+ </li><li>There is no security enforced with these files. For example, any
+ application holding
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_EXTERNAL_STORAGE">Manifest.permission.WRITE_EXTERNAL_STORAGE</a></code> can write to
+ these files.
+ </li></ul><p>
+ Starting in <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#KITKAT">Build.VERSION_CODES.KITKAT</a></code>, no permissions
+ are required to read or write to the returned path; it's always
+ accessible to the calling app. This only applies to paths generated for
+ package name of the calling application. To access paths belonging to
+ other packages,
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_EXTERNAL_STORAGE">Manifest.permission.WRITE_EXTERNAL_STORAGE</a></code> and/or
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE">Manifest.permission.READ_EXTERNAL_STORAGE</a></code> are required.
+ </p>

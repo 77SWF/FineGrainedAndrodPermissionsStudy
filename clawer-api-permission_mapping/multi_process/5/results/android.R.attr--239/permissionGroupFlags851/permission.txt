@@ -1,0 +1,10 @@
+<h3 class="api-name" data-text="permissionGroupFlags" id="permissionGroupFlags">permissionGroupFlags</h3><pre class="api-signature no-pretty-print" dir="ltr" translate="no">public static final int permissionGroupFlags</pre><p>Flags indicating more context for a permission group.
+ </p><table>
+ <colgroup align="left">
+ </colgroup><colgroup align="left">
+ </colgroup><colgroup align="left">
+ </colgroup><tbody><tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+ <tr><td>personalInfo</td><td>1</td><td>Set to indicate that this permission group contains permissions
+ protecting access to some information that is considered
+ personal to the user (such as contacts, e-mails, etc).</td></tr>
+ </tbody></table>

@@ -1,0 +1,4 @@
+<p>Determine if there is at least one fingerprint enrolled.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_FINGERPRINT">Manifest.permission.USE_FINGERPRINT</a></code></p>

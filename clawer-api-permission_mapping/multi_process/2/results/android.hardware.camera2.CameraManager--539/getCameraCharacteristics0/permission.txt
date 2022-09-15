@@ -1,0 +1,4 @@
+<p>Also starting with API level 29, while most basic camera information is still available
+ even without the CAMERA permission, some values are not available to apps that do not hold
+ that permission. The keys not available are listed by
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/camera2/CameraCharacteristics#getKeysNeedingPermission()">CameraCharacteristics#getKeysNeedingPermission</a></code>.</p>

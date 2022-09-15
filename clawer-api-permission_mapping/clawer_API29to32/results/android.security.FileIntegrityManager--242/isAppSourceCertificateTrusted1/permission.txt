@@ -1,0 +1,6 @@
+<p>A store can use this API to decide if a signature file needs to be downloaded. Also, if a
+ store has shipped different certificates before (e.g. with stronger and weaker key), it can
+ also use this API to download the best signature on the running device.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#INSTALL_PACKAGES">Manifest.permission.INSTALL_PACKAGES</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_INSTALL_PACKAGES">Manifest.permission.REQUEST_INSTALL_PACKAGES</a></code></p>

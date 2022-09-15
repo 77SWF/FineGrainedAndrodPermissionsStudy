@@ -1,0 +1,18 @@
+<p>Returns the <code dir="ltr" translate="no">String</code> representation of a set of permissions. It
+ is guaranteed that the returned <code dir="ltr" translate="no">String</code> can be parsed by the
+ <code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/PosixFilePermissions#fromString(java.lang.String)">fromString(String)</a></code> method.
+
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">perms</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Set</code>: the set of permissions<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/lang/String">String</a></code></td>
+        <td width="100%">the string representation of the permission set<p></p></td>
+      </tr>
+    </tbody></table>

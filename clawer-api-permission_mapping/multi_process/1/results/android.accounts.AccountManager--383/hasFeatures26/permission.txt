@@ -1,0 +1,4 @@
+<p>
+ If caller target API level is below <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#O">Build.VERSION_CODES.O</a></code>, it is
+ required to hold the permission <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#GET_ACCOUNTS">Manifest.permission.GET_ACCOUNTS</a></code> or have a
+ signature match with the AbstractAccountAuthenticator that manages the account.</p>

@@ -1,0 +1,6 @@
+<h3 class="api-name" data-text="permission" id="permission">permission</h3><pre class="api-signature no-pretty-print" dir="ltr" translate="no">public static final int permission</pre><p>Specify a permission that a client is required to have in order to
+ use the associated object.  If the client does not hold the named
+ permission, its request will fail.  See the
+ <a href="/guide/topics/security/security">Security and Permissions</a>
+ document for more information on permissions.
+ </p>

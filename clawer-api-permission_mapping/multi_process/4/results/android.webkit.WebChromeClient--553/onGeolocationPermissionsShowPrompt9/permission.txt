@@ -1,0 +1,21 @@
+<p>Notify the host application that web content from the specified origin
+ is attempting to use the Geolocation API, but no permission state is
+ currently set for that origin. The host application should invoke the
+ specified callback with the desired permission state. See
+ <code dir="ltr" translate="no"><a href="/reference/android/webkit/GeolocationPermissions">GeolocationPermissions</a></code> for details.
+
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">origin</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The origin of the web content attempting to use the
+               Geolocation API.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">callback</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">GeolocationPermissions.Callback</code>: The callback to use to set the permission state for the
+                 origin.<p></p></td>
+      </tr>
+    </tbody></table>

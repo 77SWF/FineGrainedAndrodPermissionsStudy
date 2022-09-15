@@ -1,0 +1,4 @@
+<p>
+ This method requires that the application hold the "android.permission.BACKUP"
+ permission if the package named in the argument does not run under the same uid
+ as the caller.</p>

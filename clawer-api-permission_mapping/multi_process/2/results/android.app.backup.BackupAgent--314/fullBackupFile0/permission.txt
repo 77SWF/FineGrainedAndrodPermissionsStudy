@@ -1,0 +1,6 @@
+<p>Write an entire file as part of a full-backup operation.  The file's contents
+ will be delivered to the backup destination along with the metadata necessary
+ to place it with the proper location and permissions on the device where the
+ data is restored.
+
+ </p>

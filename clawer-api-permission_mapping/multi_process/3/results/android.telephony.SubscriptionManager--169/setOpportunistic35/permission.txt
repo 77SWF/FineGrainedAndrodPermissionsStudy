@@ -1,0 +1,18 @@
+<p>Set whether a subscription is opportunistic, that is, whether the network it connects
+ to has limited coverage. For example, CBRS. Setting a subscription opportunistic has
+ following impacts:
+  1) Even if it's active, it will be dormant most of the time. The modem will not try
+     to scan or camp until it knows an available network is nearby to save power.
+  2) Telephony relies on system app or carrier input to notify nearby available networks.
+     See <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#updateAvailableNetworks(java.util.List&lt;android.telephony.AvailableNetworkInfo&gt;,%20java.util.concurrent.Executor,%20java.util.function.Consumer&lt;java.lang.Integer&gt;)">TelephonyManager#updateAvailableNetworks(List, Executor, Consumer)</a></code>
+     for more information.
+  3) In multi-SIM devices, when the network is nearby and camped, system may automatically
+     switch internet data between it and default data subscription, based on carrier
+     recommendation and its signal strength and metered-ness, etc.
+
+
+ Caller will either have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code> or carrier
+ privilege permission of the subscription.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code></p>

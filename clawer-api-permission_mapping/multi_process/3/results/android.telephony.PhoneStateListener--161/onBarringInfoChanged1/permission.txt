@@ -1,0 +1,5 @@
+<p>Barring info is provided for all services applicable to the current camped/registered
+ cell, for the registered PLMN and current access class/access category.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PRECISE_PHONE_STATE">Manifest.permission.READ_PRECISE_PHONE_STATE</a></code> and <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code></p>

@@ -1,0 +1,3 @@
+<p>Constructs a new builder. The initial value of the type and who
+ components is <code dir="ltr" translate="no">null</code>. The initial value of the permissions and
+ flags components is the empty set.</p>

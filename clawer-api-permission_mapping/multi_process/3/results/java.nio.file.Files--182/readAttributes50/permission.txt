@@ -1,0 +1,44 @@
+<blockquote>
+ <table border="0" summary="Possible values">
+ <tbody><tr>
+   <td> <code dir="ltr" translate="no">"*"</code> </td>
+   <td> Read all <code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/BasicFileAttributes">basic-file-attributes</a></code>. </td>
+ </tr>
+ <tr>
+   <td> <code dir="ltr" translate="no">"size,lastModifiedTime,lastAccessTime"</code> </td>
+   <td> Reads the file size, last modified time, and last access time
+     attributes. </td>
+ </tr>
+ <tr>
+   <td> <code dir="ltr" translate="no">"posix:*"</code> </td>
+   <td> Read all <code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/PosixFileAttributes">POSIX-file-attributes</a></code>. </td>
+ </tr>
+ <tr>
+   <td> <code dir="ltr" translate="no">"posix:permissions,owner,size"</code> </td>
+   <td> Reads the POSX file permissions, owner, and file size. </td>
+ </tr>
+ </tbody></table>
+ </blockquote><table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/UnsupportedOperationException">UnsupportedOperationException</a></code></td>
+          <td width="100%">if the attribute view is not available</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/IllegalArgumentException">IllegalArgumentException</a></code></td>
+          <td width="100%">if no attributes are specified or an unrecognized attributes is
+          specified</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">if an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">In the case of the default provider, and a security manager is
+          installed, its <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkRead(java.lang.String)">checkRead</a></code>
+          method denies read access to the file. If this method is invoked
+          to read security sensitive attributes then the security manager
+          may be invoke to check for additional permissions.</td>
+        </tr>
+      </tbody></table>

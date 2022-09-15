@@ -1,0 +1,7 @@
+<p>Returns the number of bytes available to this virtual machine on the
+ partition <a href="#partName">named</a> by this abstract pathname.  When
+ possible, this method checks for write permissions and other operating
+ system restrictions and will therefore usually provide a more accurate
+ estimate of how much new data can actually be written than <code dir="ltr" translate="no"><a href="/reference/java/io/File#getFreeSpace()">getFreeSpace()</a></code>.
+
+ </p>

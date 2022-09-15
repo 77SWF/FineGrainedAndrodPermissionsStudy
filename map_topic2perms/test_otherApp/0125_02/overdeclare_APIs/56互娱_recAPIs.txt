@@ -1,0 +1,6 @@
+android.accounts.AccountManager.addOnAccountsUpdatedListener     	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。
+android.accounts.AccountManager.getAccounts                      	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。
+android.accounts.AccountManager.getAccountsByType                	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。
+android.accounts.AccountManager.getAccountsByTypeAndFeatures     	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。
+android.accounts.AccountManager.hasFeatures                      	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。
+android.os.UserManager.getUserName                               	GET_ACCOUNTS             	允许该应用获取手机已知的帐号列表，其中可能包括由已安装的应用创建的所有帐号。

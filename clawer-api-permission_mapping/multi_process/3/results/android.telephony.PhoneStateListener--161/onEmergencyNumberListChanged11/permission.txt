@@ -1,0 +1,12 @@
+<p>Callback invoked when the current emergency number list has changed on the registered
+ subscription.
+
+ Note, the registered subscription is associated with <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager">TelephonyManager</a></code> object
+ on which <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#listen(android.telephony.PhoneStateListener,%20int)">TelephonyManager#listen(PhoneStateListener, int)</a></code> was called.
+ If this TelephonyManager object was created with
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#createForSubscriptionId(int)">TelephonyManager#createForSubscriptionId(int)</a></code>, then the callback applies to the
+ given subId. Otherwise, this callback applies to
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#getDefaultSubscriptionId()">SubscriptionManager#getDefaultSubscriptionId()</a></code>.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

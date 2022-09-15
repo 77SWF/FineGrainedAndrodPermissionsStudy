@@ -1,0 +1,5 @@
+<p>If non-null, these are the patterns that are allowed for granting URI
+ permissions.  Any URI that does not match one of these patterns will not
+ allowed to be granted.  If null, all URIs are allowed.  The
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#GET_URI_PERMISSION_PATTERNS">PackageManager.GET_URI_PERMISSION_PATTERNS</a></code> flag must be specified for
+ this field to be filled in.</p>

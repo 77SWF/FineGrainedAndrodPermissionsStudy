@@ -1,0 +1,1 @@
+<p>Mode (permissions) of file.</p>

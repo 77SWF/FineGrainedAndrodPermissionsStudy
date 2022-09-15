@@ -1,0 +1,6 @@
+<p>
+ If a different <code dir="ltr" translate="no"><a href="/reference/android/provider/DocumentsContract.Document#COLUMN_DOCUMENT_ID">Document#COLUMN_DOCUMENT_ID</a></code> must be used to
+ represent the renamed document, generate and return it. Any outstanding
+ URI permission grants will be updated to point at the new document. If
+ the original <code dir="ltr" translate="no"><a href="/reference/android/provider/DocumentsContract.Document#COLUMN_DOCUMENT_ID">Document#COLUMN_DOCUMENT_ID</a></code> is still valid after the
+ rename, return <code dir="ltr" translate="no">null</code>.</p>

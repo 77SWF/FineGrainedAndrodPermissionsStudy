@@ -1,0 +1,7 @@
+<p>Tells which class is performing the lookup.  It is this class against
+  which checks are performed for visibility and access permissions.
+  </p><p>
+  The class implies a maximum level of access permission,
+  but the permissions may be additionally limited by the bitmask
+  <code dir="ltr" translate="no"><a href="/reference/java/lang/invoke/MethodHandles.Lookup#lookupModes()">lookupModes</a></code>, which controls whether non-public members
+  can be accessed.</p>

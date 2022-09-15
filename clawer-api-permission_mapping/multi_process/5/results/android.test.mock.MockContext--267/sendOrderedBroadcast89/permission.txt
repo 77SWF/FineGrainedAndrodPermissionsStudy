@@ -1,0 +1,16 @@
+<table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">intent</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Intent</code>: The Intent to broadcast; all receivers matching this
+               Intent will receive the broadcast.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">receiverPermission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: (optional) String naming a permissions that
+               a receiver must hold in order to receive your broadcast.
+               If null, no permission is required.<p></p></td>
+      </tr>
+    </tbody></table>

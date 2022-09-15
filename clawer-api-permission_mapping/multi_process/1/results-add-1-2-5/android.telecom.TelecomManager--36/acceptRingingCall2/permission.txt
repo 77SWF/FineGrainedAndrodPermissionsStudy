@@ -1,0 +1,8 @@
+<p>If there is a ringing incoming call, this method accepts the call on behalf of the user.
+
+ If the incoming call is a video call, the call will be answered with the same video state as
+ the incoming call requests.  This means, for example, that an incoming call requesting
+ <code dir="ltr" translate="no"><a href="/reference/android/telecom/VideoProfile#STATE_BIDIRECTIONAL">VideoProfile#STATE_BIDIRECTIONAL</a></code> will be answered, accepting that state.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ANSWER_PHONE_CALLS">Manifest.permission.ANSWER_PHONE_CALLS</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">Manifest.permission.MODIFY_PHONE_STATE</a></code></p>

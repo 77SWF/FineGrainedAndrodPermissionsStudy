@@ -1,0 +1,6 @@
+<p>As of <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#GINGERBREAD">Build.VERSION_CODES.GINGERBREAD</a></code>, the Intent
+ you supply here can have <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_READ_URI_PERMISSION">Intent.FLAG_GRANT_READ_URI_PERMISSION</a></code> and/or <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_WRITE_URI_PERMISSION">Intent.FLAG_GRANT_WRITE_URI_PERMISSION</a></code> set.  This will grant the
+ Activity receiving the result access to the specific URIs in the Intent.
+ Access will remain until the Activity has finished (it will remain across the hosting
+ process being killed and other temporary destruction) and will be added
+ to any existing set of URI permissions it already holds.</p>

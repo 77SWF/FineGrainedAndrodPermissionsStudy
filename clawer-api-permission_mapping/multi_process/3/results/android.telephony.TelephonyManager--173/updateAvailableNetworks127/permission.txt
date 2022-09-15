@@ -1,0 +1,14 @@
+<p>Update availability of a list of networks in the current location.
+
+ This api should be called to inform OpportunisticNetwork Service about the availability
+ of a network at the current location. This information will be used by OpportunisticNetwork
+ service to enable modem stack and to attach to the network. If an empty list is passed,
+ it is assumed that no network is available and will result in disabling the modem stack
+ to save power. This api do not switch internet data once network attach is completed.
+ Use <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#setPreferredOpportunisticDataSubscription(int,%20boolean,%20java.util.concurrent.Executor,%20java.util.function.Consumer&lt;java.lang.Integer&gt;)">TelephonyManager#setPreferredOpportunisticDataSubscription</a></code>
+ to switch internet data after network attach is complete.
+ Requires that the calling app has carrier privileges on both primary and
+ secondary subscriptions (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">hasCarrierPrivileges()</a></code>), or has permission
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MODIFY_PHONE_STATE">MODIFY_PHONE_STATE</a></code>.
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_TELEPHONY_RADIO_ACCESS">PackageManager#FEATURE_TELEPHONY_RADIO_ACCESS</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p>

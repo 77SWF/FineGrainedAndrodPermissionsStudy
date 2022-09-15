@@ -1,0 +1,10 @@
+<p>Sets the permissions component of this builder. On return, the
+ permissions component of this builder is a copy of the permissions in
+ the given array.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">perms</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">AclEntryPermission</code>: the permissions component<p></p></td>
+      </tr>
+    </tbody></table>

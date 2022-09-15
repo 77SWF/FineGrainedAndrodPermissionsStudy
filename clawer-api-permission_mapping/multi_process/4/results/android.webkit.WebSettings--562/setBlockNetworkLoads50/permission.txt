@@ -1,0 +1,12 @@
+<p>Sets whether the WebView should not load resources from the network.
+ Use <code dir="ltr" translate="no"><a href="/reference/android/webkit/WebSettings#setBlockNetworkImage(boolean)">setBlockNetworkImage(boolean)</a></code> to only avoid loading
+ image resources. Note that if the value of this setting is
+ changed from <code dir="ltr" translate="no">true</code> to <code dir="ltr" translate="no">false</code>, network resources referenced by content
+ currently displayed by the WebView are not fetched until
+ <code dir="ltr" translate="no"><a href="/reference/android/webkit/WebView#reload()">WebView.reload()</a></code> is called.
+ If the application does not have the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#INTERNET">Manifest.permission.INTERNET</a></code> permission, attempts to set
+ a value of <code dir="ltr" translate="no">false</code> will cause a <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>
+ to be thrown. The default value is <code dir="ltr" translate="no">false</code> if the application has the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#INTERNET">Manifest.permission.INTERNET</a></code> permission, otherwise it is
+ <code dir="ltr" translate="no">true</code>.</p>

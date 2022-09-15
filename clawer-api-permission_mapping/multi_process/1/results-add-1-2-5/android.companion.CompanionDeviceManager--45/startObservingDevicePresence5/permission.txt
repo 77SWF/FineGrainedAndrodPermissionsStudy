@@ -1,0 +1,26 @@
+<p>Register to receive callbacks whenever the associated device comes in and out of range.
+
+ The provided device must be <code dir="ltr" translate="no"><a href="/reference/android/companion/CompanionDeviceManager#associate(android.companion.AssociationRequest,%20android.companion.CompanionDeviceManager.Callback,%20android.os.Handler)">associated</a></code> with the calling app before
+ calling this method.
+
+ Caller must implement a single <code dir="ltr" translate="no"><a href="/reference/android/companion/CompanionDeviceService">CompanionDeviceService</a></code> which will be bound to and
+ receive callbacks to <code dir="ltr" translate="no"><a href="/reference/android/companion/CompanionDeviceService#onDeviceAppeared(android.companion.AssociationInfo)">CompanionDeviceService#onDeviceAppeared</a></code> and
+ <code dir="ltr" translate="no"><a href="/reference/android/companion/CompanionDeviceService#onDeviceDisappeared(android.companion.AssociationInfo)">CompanionDeviceService#onDeviceDisappeared</a></code>.
+ The app doesn't need to remain running in order to receive its callbacks.
+
+ Calling app must declare uses-permission
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE">Manifest.permission.REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE</a></code>.
+
+ Calling app must check for feature presence of
+ <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_COMPANION_DEVICE_SETUP">PackageManager#FEATURE_COMPANION_DEVICE_SETUP</a></code> before calling this API.
+
+ For Bluetooth LE devices this is based on scanning for device with the given address.
+ For Bluetooth classic devices this is triggered when the device connects/disconnects.
+ WiFi devices are not supported.
+
+ If a Bluetooth LE device wants to use a rotating mac address, it is recommended to use
+ Resolvable Private Address, and ensure the device is bonded to the phone so that android OS
+ is able to resolve the address.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE">Manifest.permission.REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE</a></code></p>

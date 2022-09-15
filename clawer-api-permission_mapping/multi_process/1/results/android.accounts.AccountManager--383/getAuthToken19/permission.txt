@@ -1,0 +1,5 @@
+<p>This method may be called from any thread, but the returned
+ <code dir="ltr" translate="no"><a href="/reference/android/accounts/AccountManagerFuture">AccountManagerFuture</a></code> must not be used on the main thread.
+
+ <br/>
+ Requires android.Manifest.permission.USE_CREDENTIALS</p>

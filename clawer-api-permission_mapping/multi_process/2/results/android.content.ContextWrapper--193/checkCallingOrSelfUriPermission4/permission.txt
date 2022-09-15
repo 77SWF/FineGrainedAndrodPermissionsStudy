@@ -1,0 +1,4 @@
+<p>Determine whether the calling process of an IPC <em>or you</em> has been granted
+ permission to access a specific URI.  This is the same as
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#checkCallingUriPermission(android.net.Uri,%20int)">checkCallingUriPermission(Uri, int)</a></code>, except it grants your own permissions
+ if you are not currently processing an IPC.  Use with care!</p>

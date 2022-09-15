@@ -1,0 +1,28 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public void onRequestPermissionsResult (int requestCode, 
+                <a href="/reference/java/lang/String">String[]</a> permissions, 
+                int[] grantResults)</pre><p>Callback for the result from requesting permissions. This method
+ is invoked for every call on <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">requestPermissions(java.lang.String[], int)</a></code>.
+ </p><p>
+ <strong>Note:</strong> It is possible that the permissions request interaction
+ with the user is interrupted. In this case you will receive empty permissions
+ and results arrays which should be treated as a cancellation.
+ </p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">requestCode</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The request code passed in <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">requestPermissions(java.lang.String[], int)</a></code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permissions</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The requested permissions. Never null.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">grantResults</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: The grant results for the corresponding permissions
+     which is either <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_GRANTED">PackageManager.PERMISSION_GRANTED</a></code>
+     or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#PERMISSION_DENIED">PackageManager.PERMISSION_DENIED</a></code>. Never null.<p></p></td>
+      </tr>
+    </tbody></table>

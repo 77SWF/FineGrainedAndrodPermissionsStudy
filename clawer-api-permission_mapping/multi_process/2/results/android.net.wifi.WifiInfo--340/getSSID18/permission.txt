@@ -1,0 +1,6 @@
+<p>
+ If the SSID can be decoded as UTF-8, it will be returned surrounded by double
+ quotation marks. Otherwise, it is returned as a string of hex digits.
+ The SSID may be <code dir="ltr" translate="no"><a href="/reference/android/net/wifi/WifiManager#UNKNOWN_SSID">WifiManager#UNKNOWN_SSID</a></code>, if there is no network currently connected
+ or if the caller has insufficient permissions to access the SSID.
+ </p>

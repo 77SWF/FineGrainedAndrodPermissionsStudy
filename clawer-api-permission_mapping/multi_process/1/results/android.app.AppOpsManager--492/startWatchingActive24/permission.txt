@@ -1,0 +1,2 @@
+<p> If you don't hold the <code dir="ltr" translate="no">android.Manifest.permission#WATCH_APPOPS</code> permission
+ you can watch changes only for your UID.</p>

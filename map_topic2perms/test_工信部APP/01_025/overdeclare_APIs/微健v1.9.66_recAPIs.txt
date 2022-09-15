@@ -1,0 +1,7 @@
+no API: PROCESS_OUTGOING_CALLS                                   	PROCESS_OUTGOING_CALLS   	允许应用在拨出电话时查看拨打的电话号码，并选择改为拨打其他号码或完全中止通话。
+android.telephony.PhoneStateListener.onCallStateChanged          	READ_CALL_LOG            	此应用可读取您的通话记录。
+android.telecom.TelecomManager.getLine1Number                    	READ_PHONE_NUMBERS;READ_SMS	允许该应用访问设备上的电话号码。;此应用可读取您手机上存储的所有短信。
+android.telecom.TelecomManager.getPhoneAccount                   	READ_PHONE_NUMBERS       	允许该应用访问设备上的电话号码。
+android.telephony.SubscriptionInfo.getNumber                     	READ_PHONE_NUMBERS;READ_SMS	允许该应用访问设备上的电话号码。;此应用可读取您手机上存储的所有短信。
+android.telephony.TelephonyManager.getLine1Number                	READ_PHONE_NUMBERS;READ_SMS	允许该应用访问设备上的电话号码。;此应用可读取您手机上存储的所有短信。
+android.app.admin.DevicePolicyManager.setPermissionGrantState    	READ_SMS                 	此应用可读取您手机上存储的所有短信。

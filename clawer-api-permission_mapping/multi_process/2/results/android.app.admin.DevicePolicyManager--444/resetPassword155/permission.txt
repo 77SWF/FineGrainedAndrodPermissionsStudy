@@ -1,0 +1,13 @@
+<p><em>Starting from <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES.R</a></code>, this API is no longer
+ supported in most cases.</em> Device owner and profile owner calling
+ this API will receive <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code> if they target SDK level
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#O">Build.VERSION_CODES.O</a></code> or above, or they will receive a silent failure
+ (API returning <code dir="ltr" translate="no">false</code>) if they target lower SDK level.
+ For legacy device admins, this API throws <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code> if they target SDK level
+ <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#N">Build.VERSION_CODES.N</a></code> or above, and returns <code dir="ltr" translate="no">false</code> otherwise. Only
+ privileged apps holding RESET_PASSWORD permission which are part of
+ the system factory image can still call this API to set a new password if there is currently
+ no password set. In this case, if the device already has a password, this API will throw
+ <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>.
+
+ </p>

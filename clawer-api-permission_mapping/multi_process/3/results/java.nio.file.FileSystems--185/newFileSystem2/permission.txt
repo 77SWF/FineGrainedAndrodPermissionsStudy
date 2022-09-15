@@ -1,0 +1,20 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/nio/file/ProviderNotFoundException">ProviderNotFoundException</a></code></td>
+          <td width="100%">if a provider supporting this file type cannot be located</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/util/ServiceConfigurationError">ServiceConfigurationError</a></code></td>
+          <td width="100%">when an error occurs while loading a service provider</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">if an I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">if a security manager is installed and it denies an unspecified
+          permission</td>
+        </tr>
+      </tbody></table>

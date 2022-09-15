@@ -1,0 +1,5 @@
+<p> If the <code dir="ltr" translate="no">loader</code> is <code dir="ltr" translate="no">null</code>, and a security
+ manager is present, and the caller's class loader is not null, then this
+ method calls the security manager's <code dir="ltr" translate="no">checkPermission</code> method
+ with a <code dir="ltr" translate="no">RuntimePermission("getClassLoader")</code> permission to
+ ensure it's ok to access the bootstrap class loader.</p>

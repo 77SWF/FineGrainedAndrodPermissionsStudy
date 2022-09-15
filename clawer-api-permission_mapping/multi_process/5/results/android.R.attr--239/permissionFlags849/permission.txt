@@ -1,0 +1,29 @@
+<h3 class="api-name" data-text="permissionFlags" id="permissionFlags">permissionFlags</h3><pre class="api-signature no-pretty-print" dir="ltr" translate="no">public static final int permissionFlags</pre><p>Flags indicating more context for a permission.
+ </p><table>
+ <colgroup align="left">
+ </colgroup><colgroup align="left">
+ </colgroup><colgroup align="left">
+ </colgroup><tbody><tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+ <tr><td>costsMoney</td><td>1</td><td>Set to indicate that this permission allows an operation that
+ may cost the user money.  Such permissions may be highlighted
+ when shown to the user with this additional information.</td></tr>
+ <tr><td>hardRestricted</td><td>4</td><td>This permission is restricted by the platform and it would be
+ grantable only to apps that meet special criteria per platform
+ policy.</td></tr>
+ <tr><td>immutablyRestricted</td><td>10</td><td>This permission is restricted immutably which means that its
+ restriction state may be specified only on the first install of
+ the app and will stay in this initial allowlist state until
+ the app is uninstalled.</td></tr>
+ <tr><td>installerExemptIgnored</td><td>20</td><td>Modifier for permission restriction. This permission cannot
+ be exempted by the installer.</td></tr>
+ <tr><td>removed</td><td>2</td><td>Additional flag from base permission type: this permission has been
+ removed and it is no longer enforced. It shouldn't be shown in the
+ UI. Removed permissions are kept as normal permissions for backwards
+ compatibility as apps may be checking them before calling an API.</td></tr>
+ <tr><td>softRestricted</td><td>8</td><td>This permission is restricted by the platform and it would be
+ grantable in its full form to apps that meet special criteria
+ per platform policy. Otherwise, a weaker form of the permission
+ would be granted. The weak grant depends on the permission.
+ <p>What weak grant means is described in the documentation of
+ the permissions.</p></td></tr>
+ </tbody></table>

@@ -1,0 +1,8 @@
+<p>
+ Only calls where the <code dir="ltr" translate="no"><a href="/reference/android/telecom/Call.Details#getHandle()">handle</a></code> <code dir="ltr" translate="no"><a href="/reference/android/net/Uri#getScheme()">scheme</a></code>
+ is <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccount#SCHEME_TEL">PhoneAccount#SCHEME_TEL</a></code> are passed for call
+ screening.  Further, only calls which are not in the user's contacts are passed for
+ screening, unless the <code dir="ltr" translate="no"><a href="/reference/android/telecom/CallScreeningService">CallScreeningService</a></code> has been granted
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_CONTACTS">Manifest.permission#READ_CONTACTS</a></code> permission by the user.  For outgoing calls, no
+ post-dial digits are passed.
+ </p>

@@ -1,0 +1,15 @@
+<p>Returns whether the calling app is granted <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_MEDIA">Manifest.permission.MANAGE_MEDIA</a></code>
+ or not.
+ </p><p>Declaring the permission <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_MEDIA">Manifest.permission.MANAGE_MEDIA</a></code> isn't
+ enough to gain the access.
+ </p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">true, the calling app is granted the permission. Otherwise, false<p></p></td>
+      </tr>
+    </tbody></table><div>
+      <p><b>See also:</b></p>
+      <ul class="nolist"><li><code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MANAGE_MEDIA">Manifest.permission.MANAGE_MEDIA</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/provider/Settings#ACTION_REQUEST_MANAGE_MEDIA">Settings.ACTION_REQUEST_MANAGE_MEDIA</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/provider/MediaStore#createDeleteRequest(android.content.ContentResolver,%20java.util.Collection&lt;android.net.Uri&gt;)">createDeleteRequest(ContentResolver, Collection)</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/provider/MediaStore#createTrashRequest(android.content.ContentResolver,%20java.util.Collection&lt;android.net.Uri&gt;,%20boolean)">createTrashRequest(ContentResolver, Collection, boolean)</a></code></li><li><code dir="ltr" translate="no"><a href="/reference/android/provider/MediaStore#createWriteRequest(android.content.ContentResolver,%20java.util.Collection&lt;android.net.Uri&gt;)">createWriteRequest(ContentResolver, Collection)</a></code></li>
+      </ul>
+  </div>

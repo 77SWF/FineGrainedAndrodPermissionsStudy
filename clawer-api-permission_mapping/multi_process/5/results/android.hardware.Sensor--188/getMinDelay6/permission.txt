@@ -1,0 +1,11 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">int</code></td>
+        <td width="100%">the minimum delay allowed between two events in microseconds
+ or zero if this sensor only returns a value when the data it's measuring
+ changes. Note that if the app does not have the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#HIGH_SAMPLING_RATE_SENSORS">Manifest.permission.HIGH_SAMPLING_RATE_SENSORS</a></code> permission, the
+ minimum delay is capped at 5000 microseconds (200 Hz).<p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,2 @@
+<p>Prior to Android S, this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission#ACCESS_FINE_LOCATION</a></code>
+ permission.</p>

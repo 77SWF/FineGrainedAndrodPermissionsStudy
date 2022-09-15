@@ -1,0 +1,27 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public void setWhitelistedRestrictedPermissions (<a href="/reference/java/util/Set">Set</a>&lt;<a href="/reference/java/lang/String">String</a>&gt; permissions)</pre><p>Sets which restricted permissions to be allowlisted for the app. Allowlisting
+ is not granting the permissions, rather it allows the app to hold permissions
+ which are otherwise restricted. Allowlisting a non restricted permission has
+ no effect.
+
+ </p><p> Permissions can be hard restricted which means that the app cannot hold
+ them or soft restricted where the app can hold the permission but in a weaker
+ form. Whether a permission is <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#FLAG_HARD_RESTRICTED">restricted</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PermissionInfo#FLAG_SOFT_RESTRICTED">soft restricted</a></code>
+ depends on the permission declaration. Allowlisting a hard restricted permission
+ allows the app to hold that permission and allowlisting a soft restricted
+ permission allows the app to hold the permission in its full, unrestricted form.
+
+ </p><p> Permissions can also be immutably restricted which means that the allowlist
+ state of the permission can be determined only at install time and cannot be
+ changed on updated or at a later point via the package manager APIs.
+
+ </p><p>Initially, all restricted permissions are allowlisted but you can change
+ which ones are allowlisted by calling this method or the corresponding ones
+ on the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager">PackageManager</a></code>. Only soft or hard restricted permissions on the current
+ Android version are supported and any invalid entries will be removed.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permissions</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Set</code>: This value may be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

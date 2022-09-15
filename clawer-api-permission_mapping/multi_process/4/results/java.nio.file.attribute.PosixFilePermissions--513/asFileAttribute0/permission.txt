@@ -1,0 +1,17 @@
+<p>Creates a <code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/FileAttribute">FileAttribute</a></code>, encapsulating a copy of the given file
+ permissions, suitable for passing to the <code dir="ltr" translate="no"><a href="/reference/java/nio/file/Files#createFile(java.nio.file.Path,%20java.nio.file.attribute.FileAttribute&lt;?&gt;...)">createFile</a></code> or <code dir="ltr" translate="no"><a href="/reference/java/nio/file/Files#createDirectory(java.nio.file.Path,%20java.nio.file.attribute.FileAttribute&lt;?&gt;...)">createDirectory</a></code>
+ methods.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">perms</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">Set</code>: the set of permissions<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/FileAttribute">FileAttribute</a>&lt;<a href="/reference/java/util/Set">Set</a>&lt;<a href="/reference/java/nio/file/attribute/PosixFilePermission">PosixFilePermission</a>&gt;&gt;</code></td>
+        <td width="100%">an attribute encapsulating the given file permissions with
+          <code dir="ltr" translate="no"><a href="/reference/java/nio/file/attribute/FileAttribute#name()">name</a></code> <code dir="ltr" translate="no">"posix:permissions"</code><p></p></td>
+      </tr>
+    </tbody></table>

@@ -1,0 +1,5 @@
+https://developer.android.com/reference/android/service/voice/AlwaysOnHotwordDetector.html
+https://developer.android.com/reference/android/service/voice/AlwaysOnHotwordDetector.Callback.html
+https://developer.android.com/reference/android/service/voice/AlwaysOnHotwordDetector.EventPayload.html
+
+Note:这3个是页面已经消失的，不用补充 在API31移除

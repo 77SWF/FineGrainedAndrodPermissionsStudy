@@ -1,0 +1,5 @@
+<p>ObjectInputStream subclasses which override this method can only be
+ constructed in security contexts possessing the
+ "enableSubclassImplementation" SerializablePermission; any attempt to
+ instantiate such a subclass without this permission will cause a
+ SecurityException to be thrown.</p>

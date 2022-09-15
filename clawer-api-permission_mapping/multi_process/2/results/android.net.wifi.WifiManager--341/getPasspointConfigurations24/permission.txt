@@ -1,0 +1,8 @@
+<p class="caution"><strong>
+      This method was deprecated
+      in API level 29.</strong><br/>
+    This will be non-functional in a future release.
+ <br/>
+ Requires <code dir="ltr" translate="no">android.Manifest.permission.NETWORK_SETTINGS</code> or
+ <code dir="ltr" translate="no">android.Manifest.permission.NETWORK_SETUP_WIZARD</code>.
+  </p>

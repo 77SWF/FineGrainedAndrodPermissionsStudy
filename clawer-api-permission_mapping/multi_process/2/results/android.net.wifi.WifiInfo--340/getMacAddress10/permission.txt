@@ -1,0 +1,11 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no"><a href="/reference/java/lang/String">String</a></code></td>
+        <td width="100%">MAC address of the connection or <code dir="ltr" translate="no">"02:00:00:00:00:00"</code> if the caller has
+ insufficient permission.
+
+ Requires <code dir="ltr" translate="no">android.Manifest.permission#LOCAL_MAC_ADDRESS</code> and
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_FINE_LOCATION">Manifest.permission.ACCESS_FINE_LOCATION</a></code>.<p></p></td>
+      </tr>
+    </tbody></table>

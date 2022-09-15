@@ -1,0 +1,1 @@
+<p>This method will fail for providers that have not been granted the permission by the user.</p>

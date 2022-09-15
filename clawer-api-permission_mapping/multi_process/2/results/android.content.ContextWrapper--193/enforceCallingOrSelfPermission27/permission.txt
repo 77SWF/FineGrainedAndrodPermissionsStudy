@@ -1,0 +1,19 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public void enforceCallingOrSelfPermission (<a href="/reference/java/lang/String">String</a> permission, 
+                <a href="/reference/java/lang/String">String</a> message)</pre><p>If neither you nor the calling process of an IPC you are
+ handling has been granted a particular permission, throw a
+ <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>.  This is the same as <code dir="ltr" translate="no"><a href="/reference/android/content/Context#enforceCallingPermission(java.lang.String,%20java.lang.String)">enforceCallingPermission(String, String)</a></code>, except it grants your own
+ permissions if you are not currently processing an IPC.  Use
+ with care!</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The name of the permission being checked.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">message</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: This value may be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

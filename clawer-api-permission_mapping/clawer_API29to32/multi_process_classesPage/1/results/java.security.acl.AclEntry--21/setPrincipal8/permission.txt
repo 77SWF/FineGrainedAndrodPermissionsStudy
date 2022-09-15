@@ -1,0 +1,3 @@
+<p>Specifies the principal for which permissions are granted or denied
+ by this ACL entry. If a principal was already set for this ACL entry,
+ false is returned, otherwise true is returned.</p>

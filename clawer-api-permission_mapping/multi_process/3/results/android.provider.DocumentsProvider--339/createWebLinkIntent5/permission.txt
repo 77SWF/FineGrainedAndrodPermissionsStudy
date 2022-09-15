@@ -1,0 +1,15 @@
+<p>
+ <code dir="ltr" translate="no"><a href="/reference/android/app/AuthenticationRequiredException">AuthenticationRequiredException</a></code> can be thrown if user does not have
+ sufficient permission for the linked document. Before any new permissions
+ are granted for the linked document, a visible UI must be shown, so the
+ user can explicitly confirm whether the permission grants are expected.
+ The user must be able to cancel the operation.
+ </p><p>
+ Options passed as an argument may include a list of recipients, such
+ as email addresses. The provider should reflect these options if possible,
+ but it's acceptable to ignore them. In either case, confirmation UI must
+ be shown before any new permission grants are granted.
+ </p><p>
+ It is all right to generate a web link without granting new permissions,
+ if opening the link would result in a page for requesting permission
+ access. If it's impossible then the operation must fail by throwing an exception.</p>

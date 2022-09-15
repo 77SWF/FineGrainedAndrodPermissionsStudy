@@ -1,0 +1,5 @@
+<p>Like <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#addPermission(android.content.pm.PermissionInfo)">addPermission(android.content.pm.PermissionInfo)</a></code> but asynchronously
+ persists the package manager state after returning from the call,
+ allowing it to return quicker and batch a series of adds at the
+ expense of no guarantee the added permission will be retained if
+ the device is rebooted before it is written.</p>

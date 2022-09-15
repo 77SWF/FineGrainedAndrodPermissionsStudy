@@ -1,0 +1,13 @@
+<p>
+ This method can also be called by the FRP management agent on device or with the permission
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MASTER_CLEAR">Manifest.permission.MASTER_CLEAR</a></code>, in which case, it can pass <code dir="ltr" translate="no">null</code>
+ as the ComponentName.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">admin</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">ComponentName</code>: Which <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DeviceAdminReceiver">DeviceAdminReceiver</a></code> this request is associated with or
+              <code dir="ltr" translate="no">null</code> if called by the FRP management agent on device or with the
+              permission <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#MASTER_CLEAR">Manifest.permission.MASTER_CLEAR</a></code>.<p></p></td>
+      </tr>
+    </tbody></table>

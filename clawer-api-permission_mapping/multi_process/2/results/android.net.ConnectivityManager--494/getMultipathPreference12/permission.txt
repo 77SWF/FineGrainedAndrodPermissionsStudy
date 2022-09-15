@@ -1,0 +1,8 @@
+<p>Provides a hint to the calling application on whether it is desirable to use the
+ multinetwork APIs (e.g., <code dir="ltr" translate="no"><a href="/reference/android/net/Network#openConnection(java.net.URL)">Network#openConnection</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/net/Network#bindSocket(java.io.FileDescriptor)">Network#bindSocket</a></code>, etc.)
+ for multipath data transfer on this network when it is not the system default network.
+ Applications desiring to use multipath network protocols should call this method before
+ each such operation.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_NETWORK_STATE">Manifest.permission.ACCESS_NETWORK_STATE</a></code></p>

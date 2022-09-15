@@ -1,0 +1,1 @@
+<p>Grant permission to access a specific slice Uri to another package.</p>

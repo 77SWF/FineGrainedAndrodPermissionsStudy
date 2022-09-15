@@ -1,0 +1,16 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Throws</th></tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/io/IOException">IOException</a></code></td>
+          <td width="100%">An I/O error occurs</td>
+        </tr>
+        <tr>
+          <td><code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code></td>
+          <td width="100%">If the implementation requires to access the file, and a
+          security manager is installed, and it denies an unspecified
+          permission required by a file system provider implementation.
+          If the file reference is associated with the default file system
+          provider then the <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityManager#checkRead(java.lang.String)">SecurityManager#checkRead(String)</a></code> method
+          is invoked to check read access to the file.</td>
+        </tr>
+      </tbody></table>

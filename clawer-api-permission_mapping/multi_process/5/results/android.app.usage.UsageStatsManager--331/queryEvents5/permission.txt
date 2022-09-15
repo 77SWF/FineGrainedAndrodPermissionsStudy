@@ -1,0 +1,1 @@
+<p> The caller must have <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#PACKAGE_USAGE_STATS">Manifest.permission.PACKAGE_USAGE_STATS</a></code> </p>

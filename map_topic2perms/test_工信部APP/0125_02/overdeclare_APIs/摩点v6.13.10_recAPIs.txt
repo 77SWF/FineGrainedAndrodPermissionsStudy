@@ -1,0 +1,3 @@
+no API: PROCESS_OUTGOING_CALLS                                   	PROCESS_OUTGOING_CALLS   	允许应用在拨出电话时查看拨打的电话号码，并选择改为拨打其他号码或完全中止通话。
+no API: READ_CALENDAR                                            	READ_CALENDAR            	此应用可读取您手机上存储的所有日历活动，并分享或保存您的日历数据。
+no API: WRITE_CALENDAR                                           	WRITE_CALENDAR           	此应用可在手机上添加、移除或更改日历活动。此应用可能会以日历所有者的身份发送消息，或在不通知所有者的情况下更改活动。

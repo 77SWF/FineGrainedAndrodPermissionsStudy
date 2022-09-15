@@ -1,0 +1,6 @@
+<p>Returns a list of <code dir="ltr" translate="no"><a href="/reference/android/telecom/PhoneAccountHandle">PhoneAccountHandle</a></code>s which can be used to make and receive phone
+ calls. The returned list includes only those accounts which have been explicitly enabled
+ by the user.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">Manifest.permission.READ_PHONE_STATE</a></code></p>

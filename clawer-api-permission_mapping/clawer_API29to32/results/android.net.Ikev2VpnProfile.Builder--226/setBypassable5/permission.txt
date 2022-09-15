@@ -1,0 +1,7 @@
+<p>By default, all traffic from apps are forwarded through the VPN interface and it is
+ not possible for unprivileged apps to side-step the VPN. If a VPN is set to bypassable,
+ apps may use methods such as <code dir="ltr" translate="no"><a href="/reference/android/net/Network#getSocketFactory()">Network#getSocketFactory</a></code> or <code dir="ltr" translate="no"><a href="/reference/android/net/Network#openConnection(java.net.URL)">Network.openConnection(URL)</a></code> to instead send/receive directly over the underlying network or
+ any other network they have permissions for.
+
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_IPSEC_TUNNELS">PackageManager#FEATURE_IPSEC_TUNNELS</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p>

@@ -1,0 +1,3 @@
+<p>
+ The caller must either be the foreground default launcher or have one of these permissions:
+ <code dir="ltr" translate="no">MANAGE_USERS</code> or <code dir="ltr" translate="no">MODIFY_QUIET_MODE</code>.</p>

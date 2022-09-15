@@ -1,0 +1,7 @@
+<p>Returns an URI that provides a settings <code dir="ltr" translate="no"><a href="/reference/android/app/slice/Slice">Slice</a></code> for this wallpaper.
+ The wallpaper should implement a SliceProvider associated with this URI.
+ The system will display the Slice in the customization section while previewing the live
+ wallpaper. Because this URI is accessible to other apps, it is recommended to protect it
+ with the android.permission.BIND_WALLPAPER permission.
+
+ </p>

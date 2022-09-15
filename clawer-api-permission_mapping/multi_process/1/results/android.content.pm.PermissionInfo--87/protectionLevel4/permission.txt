@@ -1,0 +1,8 @@
+<p>The level of access this permission is protecting, as per
+ <code dir="ltr" translate="no"><a href="/reference/android/R.attr#protectionLevel">R.attr.protectionLevel</a></code>. Consists of
+ a base permission type and zero or more flags. Use the following functions
+ to extract them.
+
+ </p><pre dir="ltr" translate="no"> int basePermissionType = permissionInfo.getProtection();
+ int permissionFlags = permissionInfo.getProtectionFlags();
+ </pre>Base permission types are 

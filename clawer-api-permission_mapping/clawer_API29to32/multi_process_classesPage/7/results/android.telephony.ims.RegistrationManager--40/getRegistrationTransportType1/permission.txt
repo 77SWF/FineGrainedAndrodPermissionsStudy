@@ -1,0 +1,3 @@
+<p>Gets the Transport Type associated with the current IMS registration.
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE</p>

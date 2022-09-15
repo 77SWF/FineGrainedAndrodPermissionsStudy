@@ -1,0 +1,7 @@
+<p>Adds an ACL entry to this ACL. An entry associates a principal
+ (e.g., an individual or a group) with a set of
+ permissions. Each principal can have at most one positive ACL
+ entry (specifying permissions to be granted to the principal)
+ and one negative ACL entry (specifying permissions to be
+ denied). If there is already an ACL entry of the same type
+ (negative or positive) already in the ACL, false is returned.</p>

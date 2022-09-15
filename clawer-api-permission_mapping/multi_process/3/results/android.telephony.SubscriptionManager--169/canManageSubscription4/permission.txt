@@ -1,0 +1,6 @@
+<p>Checks whether the app with the given context is authorized to manage the given subscription
+ according to its metadata.
+
+ Only supported for embedded subscriptions (if <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionInfo#isEmbedded()">SubscriptionInfo#isEmbedded</a></code> returns
+ true). To check for permissions for non-embedded subscription as well,
+ .</p>

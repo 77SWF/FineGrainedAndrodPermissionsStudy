@@ -1,0 +1,5 @@
+<p>On Android <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#Q">Build.VERSION_CODES#Q</a></code> and later devices, the undocumented behavior that
+ token can be <code dir="ltr" translate="no">null</code> when the caller has
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#WRITE_SECURE_SETTINGS">Manifest.permission.WRITE_SECURE_SETTINGS</a></code> is deprecated. Instead, update
+ <code dir="ltr" translate="no"><a href="/reference/android/provider/Settings.Secure#DEFAULT_INPUT_METHOD">Settings.Secure.DEFAULT_INPUT_METHOD</a></code> and
+ <code dir="ltr" translate="no"><a href="/reference/android/provider/Settings.Secure#SELECTED_INPUT_METHOD_SUBTYPE">Settings.Secure.SELECTED_INPUT_METHOD_SUBTYPE</a></code> directly.</p>

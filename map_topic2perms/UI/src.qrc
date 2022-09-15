@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>apk2.png</file>
+    <file>back2.jpeg</file>
+    <file>wait.png</file>
+    <file>input.png</file>
+    <file>back.jpeg</file>
+    <file>output.png</file>
+    <file>desc.png</file>
+    <file>dir.png</file>
+    <file>apk.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>

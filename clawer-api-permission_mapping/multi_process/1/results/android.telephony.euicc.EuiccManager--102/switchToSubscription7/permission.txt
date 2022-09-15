@@ -1,0 +1,45 @@
+<p>Requires the <code dir="ltr" translate="no">android.Manifest.permission#WRITE_EMBEDDED_SUBSCRIPTIONS</code> permission,
+ or the calling app must be authorized to manage both the currently-active subscription and
+ the subscription to be enabled according to the subscription metadata. Without the former,
+ an <code dir="ltr" translate="no"><a href="/reference/android/telephony/euicc/EuiccManager#EMBEDDED_SUBSCRIPTION_RESULT_RESOLVABLE_ERROR">EMBEDDED_SUBSCRIPTION_RESULT_RESOLVABLE_ERROR</a></code> will be returned in the callback
+ intent to prompt the user to accept the download.
+
+ </p><p>On a multi-active SIM device, requires the
+ <code dir="ltr" translate="no">android.Manifest.permission#WRITE_EMBEDDED_SUBSCRIPTIONS</code> permission, or a calling app
+  only if the targeted eUICC does not currently have an active subscription or the calling app
+ is authorized to manage the active subscription on the target eUICC, and the calling app is
+ authorized to manage any active subscription on any SIM. Without it, an
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/euicc/EuiccManager#EMBEDDED_SUBSCRIPTION_RESULT_RESOLVABLE_ERROR">EMBEDDED_SUBSCRIPTION_RESULT_RESOLVABLE_ERROR</a></code> will be returned in the callback
+ intent to prompt the user to accept the download. The caller should also be authorized to
+ manage the subscription to be enabled.
+
+ </p><p> From Android T, devices might support MEP(Multiple Enabled Profiles), the subscription
+ can be installed on different port from the eUICC. Calling apps with carrier privilege
+ (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager#hasCarrierPrivileges</a></code>) over the currently active subscriptions
+ can use <code dir="ltr" translate="no"><a href="/reference/android/telephony/euicc/EuiccManager#switchToSubscription(int,%20int,%20android.app.PendingIntent)">switchToSubscription(int, int, android.app.PendingIntent)</a></code> to specify which port to
+ enable the subscription. Otherwise, use this API to enable the subscription on the eUICC
+ and the platform will internally resolve a port. If there is no available port,
+ an <code dir="ltr" translate="no"><a href="/reference/android/telephony/euicc/EuiccManager#EMBEDDED_SUBSCRIPTION_RESULT_RESOLVABLE_ERROR">EMBEDDED_SUBSCRIPTION_RESULT_RESOLVABLE_ERROR</a></code> might be returned in the callback
+ intent to prompt the user to disable an already-active subscription.
+
+ <br/>
+ Requires android.Manifest.permission.WRITE_EMBEDDED_SUBSCRIPTIONS</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">subscriptionId</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: the ID of the subscription to enable. May be
+     <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionManager#INVALID_SUBSCRIPTION_ID">SubscriptionManager.INVALID_SUBSCRIPTION_ID</a></code> to deactivate the
+     current profile without activating another profile to replace it. Calling apps targeting
+     on android T must use <code dir="ltr" translate="no"><a href="/reference/android/telephony/euicc/EuiccManager#switchToSubscription(int,%20int,%20android.app.PendingIntent)">switchToSubscription(int, int, android.app.PendingIntent)</a></code> API for
+     disable profile, port index can be found from <code dir="ltr" translate="no"><a href="/reference/android/telephony/SubscriptionInfo#getPortIndex()">SubscriptionInfo#getPortIndex()</a></code>.
+     If it's a disable operation, requires the
+     <code dir="ltr" translate="no">android.Manifest.permission#WRITE_EMBEDDED_SUBSCRIPTIONS</code> permission, or the
+     calling app must be authorized to manage the active subscription on the target eUICC.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">callbackIntent</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">PendingIntent</code>: a PendingIntent to launch when the operation completes.<p></p></td>
+      </tr>
+    </tbody></table>

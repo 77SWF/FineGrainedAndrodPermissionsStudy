@@ -1,0 +1,6 @@
+<p>Returns the <code dir="ltr" translate="no">ProtectionDomain</code> of this class.  If there is a
+ security manager installed, this method first calls the security
+ manager's <code dir="ltr" translate="no">checkPermission</code> method with a
+ <code dir="ltr" translate="no">RuntimePermission("getProtectionDomain")</code> permission to
+ ensure it's ok to get the
+ <code dir="ltr" translate="no">ProtectionDomain</code>.</p>

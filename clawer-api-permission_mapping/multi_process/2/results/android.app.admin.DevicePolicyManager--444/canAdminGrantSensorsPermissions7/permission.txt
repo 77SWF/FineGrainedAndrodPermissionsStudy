@@ -1,0 +1,14 @@
+<p>Returns true if the caller is running on a device where the admin can grant
+ permissions related to device sensors.
+ This is a signal that the device is a fully-managed device where personal usage is
+ discouraged.
+ The list of permissions is listed in
+ <code dir="ltr" translate="no"><a href="/reference/android/app/admin/DevicePolicyManager#setPermissionGrantState(android.content.ComponentName,%20java.lang.String,%20java.lang.String,%20int)">setPermissionGrantState(android.content.ComponentName, java.lang.String, java.lang.String, int)</a></code>.
+
+ May be called by any app.</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">true if the app can grant device sensors-related permissions, false otherwise.<p></p></td>
+      </tr>
+    </tbody></table>

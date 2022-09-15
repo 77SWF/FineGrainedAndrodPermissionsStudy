@@ -1,0 +1,4 @@
+<p>Returns a valid ringtone URI. No guarantees on which it returns. If it
+ cannot find one, returns null. If it can only find one on external storage and the caller
+ doesn't have the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_EXTERNAL_STORAGE">Manifest.permission.READ_EXTERNAL_STORAGE</a></code> permission,
+ returns null.</p>

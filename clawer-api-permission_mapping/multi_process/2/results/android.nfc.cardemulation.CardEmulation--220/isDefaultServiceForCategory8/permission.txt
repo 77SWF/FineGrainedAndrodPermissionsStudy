@@ -1,0 +1,9 @@
+<table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">whether service is currently the default service for the category.
+
+ <p class="note">Requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#NFC">Manifest.permission.NFC</a></code> permission.</p></td>
+      </tr>
+    </tbody></table>

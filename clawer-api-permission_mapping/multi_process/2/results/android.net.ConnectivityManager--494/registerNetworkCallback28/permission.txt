@@ -1,0 +1,12 @@
+<p>To avoid performance issues due to apps leaking callbacks, the system will limit the
+ number of outstanding requests to 100 per app (identified by their UID), shared with
+ all variants of this method, of <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager#requestNetwork(android.net.NetworkRequest,%20android.app.PendingIntent)">requestNetwork(NetworkRequest, PendingIntent)</a></code> as well as
+ <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityDiagnosticsManager#registerConnectivityDiagnosticsCallback(android.net.NetworkRequest,%20java.util.concurrent.Executor,%20android.net.ConnectivityDiagnosticsManager.ConnectivityDiagnosticsCallback)">ConnectivityDiagnosticsManager#registerConnectivityDiagnosticsCallback</a></code>.
+ Requesting a network with this method will count toward this limit. If this limit is
+ exceeded, an exception will be thrown. To avoid hitting this issue and to conserve resources,
+ make sure to unregister the callbacks with
+ <code dir="ltr" translate="no"><a href="/reference/android/net/ConnectivityManager#unregisterNetworkCallback(android.net.ConnectivityManager.NetworkCallback)">unregisterNetworkCallback(android.net.ConnectivityManager.NetworkCallback)</a></code>.
+
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#ACCESS_NETWORK_STATE">Manifest.permission.ACCESS_NETWORK_STATE</a></code></p>

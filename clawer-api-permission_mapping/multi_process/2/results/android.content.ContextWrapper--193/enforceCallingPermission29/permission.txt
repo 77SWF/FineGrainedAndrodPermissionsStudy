@@ -1,0 +1,24 @@
+<pre class="api-signature no-pretty-print" dir="ltr" translate="no">public void enforceCallingPermission (<a href="/reference/java/lang/String">String</a> permission, 
+                <a href="/reference/java/lang/String">String</a> message)</pre><p>If the calling process of an IPC you are handling has not been
+ granted a particular permission, throw a <code dir="ltr" translate="no"><a href="/reference/java/lang/SecurityException">SecurityException</a></code>.  This is basically the same as calling
+ <code dir="ltr" translate="no"><a href="/reference/android/content/Context#enforcePermission(java.lang.String,%20int,%20int,%20java.lang.String)">enforcePermission(java.lang.String, int, int, java.lang.String)</a></code> with the
+ pid and uid returned by <code dir="ltr" translate="no"><a href="/reference/android/os/Binder#getCallingPid()">Binder.getCallingPid()</a></code>
+ and <code dir="ltr" translate="no"><a href="/reference/android/os/Binder#getCallingUid()">Binder.getCallingUid()</a></code>.  One important
+ difference is that if you are not currently processing an IPC,
+ this function will always throw the SecurityException.  This is
+ done to protect against accidentally leaking permissions; you
+ can use <code dir="ltr" translate="no"><a href="/reference/android/content/Context#enforceCallingOrSelfPermission(java.lang.String,%20java.lang.String)">enforceCallingOrSelfPermission(String, String)</a></code> to avoid this
+ protection.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permission</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The name of the permission being checked.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">message</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: This value may be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table>

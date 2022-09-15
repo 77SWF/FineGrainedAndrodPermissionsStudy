@@ -1,0 +1,5 @@
+<p>First, if there is a security manager, its
+ <code dir="ltr" translate="no">checkPermission</code>  method is called with a
+ <code dir="ltr" translate="no">java.security.SecurityPermission("getProperty."+key)</code>
+ permission to see if it's ok to retrieve the specified
+ security property value..</p>

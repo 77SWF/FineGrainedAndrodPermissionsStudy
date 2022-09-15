@@ -1,0 +1,6 @@
+<p>If <code dir="ltr" translate="no">enable</code> is true, and there is a security manager
+ installed, this method first calls the security manager's
+ <code dir="ltr" translate="no">checkPermission</code> method with a
+ <code dir="ltr" translate="no">SerializablePermission("enableSubstitution")</code> permission to
+ ensure it's ok to enable the stream to do replacement of objects in the
+ stream.</p>

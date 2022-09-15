@@ -1,0 +1,11 @@
+<p>Returns the IMEI (International Mobile Equipment Identity). Return null if IMEI is not
+ available.
+
+ See <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#getImei(int)">getImei(int)</a></code> for details on the required permissions and behavior
+ when the caller does not hold sufficient permissions.
+ 
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE
+ 
+ <br/>
+ Requires the <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#FEATURE_TELEPHONY_GSM">PackageManager#FEATURE_TELEPHONY_GSM</a></code> feature which can be detected using <code dir="ltr" translate="no"><a href="/reference/android/content/pm/PackageManager#hasSystemFeature(java.lang.String)">PackageManager.hasSystemFeature(String)</a></code>.</p>

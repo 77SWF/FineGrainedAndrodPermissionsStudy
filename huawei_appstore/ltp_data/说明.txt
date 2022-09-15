@@ -1,0 +1,1 @@
+分词模型cws.model（>100MB，已压缩），完整ltp_data文件夹有1.1G，

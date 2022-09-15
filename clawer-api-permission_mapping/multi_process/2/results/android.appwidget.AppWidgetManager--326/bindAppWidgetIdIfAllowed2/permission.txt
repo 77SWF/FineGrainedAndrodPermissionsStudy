@@ -1,0 +1,10 @@
+<p class="note">You need the BIND_APPWIDGET permission or the user must have enabled binding
+         widgets always for your component. Should be used by apps that host widgets; if this
+         method returns false, call <code dir="ltr" translate="no"><a href="/reference/android/appwidget/AppWidgetManager#ACTION_APPWIDGET_BIND">ACTION_APPWIDGET_BIND</a></code> to request permission to
+         bind</p><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">true if this component has permission to bind the AppWidget<p></p></td>
+      </tr>
+    </tbody></table>

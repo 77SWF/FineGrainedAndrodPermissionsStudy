@@ -1,0 +1,11 @@
+<p>The ClipData in an intent is not used for Intent matching or other
+ such operations.  Semantically it is like extras, used to transmit
+ additional data with the Intent.  The main feature of using this over
+ the extras for data is that <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_READ_URI_PERMISSION">FLAG_GRANT_READ_URI_PERMISSION</a></code>
+ and <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#FLAG_GRANT_WRITE_URI_PERMISSION">FLAG_GRANT_WRITE_URI_PERMISSION</a></code> will operate on any URI
+ items included in the clip data.  This is useful, in particular, if
+ you want to transmit an Intent containing multiple <code dir="ltr" translate="no">content:</code>
+ URIs for which the recipient may not have global permission to access the
+ content provider.
+
+ </p>

@@ -1,0 +1,19 @@
+<ul>
+ <li> <strong>Application windows</strong> (ranging from
+ <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#FIRST_APPLICATION_WINDOW">FIRST_APPLICATION_WINDOW</a></code> to
+ <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#LAST_APPLICATION_WINDOW">LAST_APPLICATION_WINDOW</a></code>) are normal top-level application
+ windows.  For these types of windows, the <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#token">token</a></code> must be
+ set to the token of the activity they are a part of (this will
+ normally be done for you if <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#token">token</a></code> is null).
+ </li><li> <strong>Sub-windows</strong> (ranging from
+ <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#FIRST_SUB_WINDOW">FIRST_SUB_WINDOW</a></code> to
+ <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#LAST_SUB_WINDOW">LAST_SUB_WINDOW</a></code>) are associated with another top-level
+ window.  For these types of windows, the <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#token">token</a></code> must be
+ the token of the window it is attached to.
+ </li><li> <strong>System windows</strong> (ranging from
+ <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#FIRST_SYSTEM_WINDOW">FIRST_SYSTEM_WINDOW</a></code> to
+ <code dir="ltr" translate="no"><a href="/reference/android/view/WindowManager.LayoutParams#LAST_SYSTEM_WINDOW">LAST_SYSTEM_WINDOW</a></code>) are special types of windows for
+ use by the system for specific purposes.  They should not normally
+ be used by applications, and a special permission is required
+ to use them.
+ </li></ul>

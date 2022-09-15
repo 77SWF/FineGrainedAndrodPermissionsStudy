@@ -1,0 +1,26 @@
+<p>Checks whether a particular permissions has been revoked for a
+ package by policy. Typically the device owner or the profile owner
+ may apply such a policy. The user cannot grant policy revoked
+ permissions, hence the only way for an app to get such a permission
+ is by a policy change.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">permName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The name of the permission you are checking for.
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">pkgName</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: The name of the package you are checking against.
+
+ This value cannot be <code dir="ltr" translate="no">null</code>.<p></p></td>
+      </tr>
+    </tbody></table><table class="responsive">
+      <tbody><tr><th colspan="2">Returns</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">boolean</code></td>
+        <td width="100%">Whether the permission is restricted by policy.<p></p></td>
+      </tr>
+    </tbody></table>

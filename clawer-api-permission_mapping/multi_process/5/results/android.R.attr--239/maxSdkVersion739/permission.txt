@@ -1,0 +1,5 @@
+<p>Optional: specify the maximum version of the Android OS for which the
+ application wishes to request the permission.  When running on a version
+ of Android higher than the number given here, the permission will not
+ be requested.
+ </p>

@@ -1,0 +1,8 @@
+<p>
+ A redacted Uri can be used to share a file with another application wherein exposing
+ sensitive information in EXIF headers is not desirable.
+ Note:
+ 1. Order of the returned uris follow the order of the <code dir="ltr" translate="no">uris</code>.
+ 2. Redacted uris cannot be granted write access and can neither be used to perform any kind
+ of write operations.
+ 3. To get a redacted uri the caller must hold read permission to its corresponding uri.</p>

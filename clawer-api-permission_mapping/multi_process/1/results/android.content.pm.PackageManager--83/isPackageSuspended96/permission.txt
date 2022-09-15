@@ -1,0 +1,4 @@
+<p>Apps can query this to know if they have been suspended. A system app with the permission
+ <code dir="ltr" translate="no">android.permission.SUSPEND_APPS</code> can put any app on the device into a suspended state.
+
+ </p>

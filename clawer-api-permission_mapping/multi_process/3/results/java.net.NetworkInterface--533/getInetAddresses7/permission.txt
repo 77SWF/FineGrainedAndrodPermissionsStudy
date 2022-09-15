@@ -1,0 +1,7 @@
+<p>
+ If there is a security manager, its <code dir="ltr" translate="no">checkConnect</code>
+ method is called for each InetAddress. Only InetAddresses where
+ the <code dir="ltr" translate="no">checkConnect</code> doesn't throw a SecurityException
+ will be returned in the Enumeration. However, if the caller has the
+ <code dir="ltr" translate="no"><a href="/reference/java/net/NetPermission">NetPermission</a></code>("getNetworkInformation") permission, then all
+ InetAddresses are returned.</p>

@@ -1,0 +1,7 @@
+<p>Remove one or more currently set wallpapers, reverting to the system default
+ display for each one.  If <code dir="ltr" translate="no"><a href="/reference/android/app/WallpaperManager#FLAG_SYSTEM">FLAG_SYSTEM</a></code> is set in the <code dir="ltr" translate="no">which</code>
+ parameter, the intent <code dir="ltr" translate="no"><a href="/reference/android/content/Intent#ACTION_WALLPAPER_CHANGED">Intent#ACTION_WALLPAPER_CHANGED</a></code> will be broadcast
+ upon success.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#SET_WALLPAPER">Manifest.permission.SET_WALLPAPER</a></code></p>

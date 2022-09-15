@@ -1,0 +1,12 @@
+<p> A caller requires permissions to access the Credentials
+ in the returned <code dir="ltr" translate="no">Set</code>, or to modify the
+ <code dir="ltr" translate="no">Set</code> itself.  A <code dir="ltr" translate="no">SecurityException</code>
+ is thrown if the caller does not have the proper permissions.
+
+ </p><p> While iterating through the <code dir="ltr" translate="no">Set</code>,
+ a <code dir="ltr" translate="no">SecurityException</code> is thrown
+ if the caller does not have permission to access a
+ particular Credential.  The <code dir="ltr" translate="no">Iterator</code>
+ is nevertheless advanced to next element in the <code dir="ltr" translate="no">Set</code>.
+
+ </p>

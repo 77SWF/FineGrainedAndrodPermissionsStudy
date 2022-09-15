@@ -1,0 +1,25 @@
+<p>
+ Note: The state returned here may differ from that returned by
+ <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#getCallState()">TelephonyManager#getCallState()</a></code>. Receivers of this callback should be aware that
+ calling <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#getCallState()">TelephonyManager#getCallState()</a></code> from within this callback may return a
+ different state than the callback reports.
+
+ Requires Permission:
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PHONE_STATE">READ_PHONE_STATE</a></code> for applications
+ targeting API level 31+.</p><table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">state</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">int</code>: call state
+ Value is <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#CALL_STATE_IDLE">TelephonyManager.CALL_STATE_IDLE</a></code>, <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#CALL_STATE_RINGING">TelephonyManager.CALL_STATE_RINGING</a></code>, or <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#CALL_STATE_OFFHOOK">TelephonyManager.CALL_STATE_OFFHOOK</a></code><p></p></td>
+      </tr>
+      <tr>
+        <td><code dir="ltr" translate="no">phoneNumber</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: call phone number. If application does not have
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_CALL_LOG">READ_CALL_LOG</a></code> permission or carrier
+ privileges (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager#hasCarrierPrivileges</a></code>), an empty string will be
+ passed as an argument.<p></p></td>
+      </tr>
+    </tbody></table>

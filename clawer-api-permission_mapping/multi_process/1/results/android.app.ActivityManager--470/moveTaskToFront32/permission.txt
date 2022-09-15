@@ -1,0 +1,5 @@
+<p>Ask that the task associated with a given task ID be moved to the
+ front of the stack, so it is now visible to the user.
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REORDER_TASKS">Manifest.permission.REORDER_TASKS</a></code></p>

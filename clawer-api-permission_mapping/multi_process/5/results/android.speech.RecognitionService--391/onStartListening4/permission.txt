@@ -1,0 +1,11 @@
+<p> If you are recognizing speech from the microphone, in this callback you
+ should create an attribution context for the caller such that when you access
+ the mic the caller would be properly blamed (and their permission checked in
+ the process) for accessing the microphone and that you served as a proxy for
+ this sensitive data (and your permissions would be checked in the process).
+ You should also open the mic in this callback via the attribution context
+ and close the mic before returning the recognized result. If you don't do
+ that then the caller would be blamed and you as being a proxy as well as you
+ would get one more blame on yourself when you open the microphone.
+
+ </p>

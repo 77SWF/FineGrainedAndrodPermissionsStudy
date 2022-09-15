@@ -1,0 +1,20 @@
+<table class="responsive">
+    <tbody><tr><th colspan="2">Parameters</th></tr>
+      <tr>
+        <td><code dir="ltr" translate="no">path</code></td>
+        <td width="100%">
+          <code dir="ltr" translate="no">String</code>: the path of the file, or the http URL of the stream
+
+ <p>When <code dir="ltr" translate="no">path</code> refers to a local file, the file may actually be opened by a
+ process other than the calling application.  This implies that the pathname
+ should be an absolute path (as any other process runs with unspecified current working
+ directory), and that the pathname should reference a world-readable file.
+ As an alternative, the application could first open the file for reading,
+ and then use the file descriptor form <code dir="ltr" translate="no"><a href="/reference/android/media/MediaExtractor#setDataSource(java.io.FileDescriptor)">setDataSource(java.io.FileDescriptor)</a></code>.
+
+ </p><p>When <code dir="ltr" translate="no">path</code> refers to a network file the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#INTERNET">Manifest.permission.INTERNET</a></code> permission is required.
+ 
+ This value cannot be <code dir="ltr" translate="no">null</code>.</p></td>
+      </tr>
+    </tbody></table>

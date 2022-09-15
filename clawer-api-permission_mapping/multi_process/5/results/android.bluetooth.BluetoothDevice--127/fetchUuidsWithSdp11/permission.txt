@@ -1,0 +1,20 @@
+<p>This API is asynchronous and <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothDevice#ACTION_UUID">ACTION_UUID</a></code> intent is sent,
+ with the UUIDs supported by the remote end. If there is an error
+ in getting the SDP records or if the process takes a long time, or the device is bonding and
+ we have its UUIDs cached, <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothDevice#ACTION_UUID">ACTION_UUID</a></code> intent is sent with the UUIDs that is
+ currently present in the cache. Clients should use the <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothDevice#getUuids()">getUuids()</a></code> to get UUIDs
+ if service discovery is not to be performed. If there is an ongoing bonding process,
+ service discovery or device inquiry, the request will be queued.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code> or lower, this
+ requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH">Manifest.permission#BLUETOOTH</a></code> permission
+ which can be gained with a simple <code dir="ltr" translate="no">&lt;uses-permission&gt;</code>
+ manifest tag.
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission#BLUETOOTH_CONNECT</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_CONNECT">Manifest.permission.BLUETOOTH_CONNECT</a></code></p>

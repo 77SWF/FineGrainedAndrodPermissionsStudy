@@ -1,0 +1,17 @@
+<p>If Bluetooth state is not <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothAdapter#STATE_ON">STATE_ON</a></code>, this API
+ will return <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothAdapter#SCAN_MODE_NONE">SCAN_MODE_NONE</a></code>. After turning on Bluetooth,
+ wait for <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothAdapter#ACTION_STATE_CHANGED">ACTION_STATE_CHANGED</a></code> with <code dir="ltr" translate="no"><a href="/reference/android/bluetooth/BluetoothAdapter#STATE_ON">STATE_ON</a></code>
+ to get the updated value.
+
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#R">Build.VERSION_CODES#R</a></code> or lower, this
+ requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH">Manifest.permission#BLUETOOTH</a></code> permission
+ which can be gained with a simple <code dir="ltr" translate="no">&lt;uses-permission&gt;</code>
+ manifest tag.
+ <br/>
+ For apps targeting <code dir="ltr" translate="no"><a href="/reference/android/os/Build.VERSION_CODES#S">Build.VERSION_CODES#S</a></code> or or higher,
+ this requires the <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_SCAN">Manifest.permission#BLUETOOTH_SCAN</a></code>
+ permission which can be gained with
+ <code dir="ltr" translate="no"><a href="/reference/android/app/Activity#requestPermissions(java.lang.String[],%20int)">Activity.requestPermissions(String[], int)</a></code>.
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#BLUETOOTH_SCAN">Manifest.permission.BLUETOOTH_SCAN</a></code></p>

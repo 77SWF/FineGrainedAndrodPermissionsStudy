@@ -1,0 +1,13 @@
+<ul>
+     <li>The caller holds the READ_PRECISE_PHONE_STATE permission.</li>
+     <li>If the caller is the device or profile owner, the caller holds the
+     <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PRECISE_PHONE_STATE">Manifest.permission#READ_PRECISE_PHONE_STATE</a></code> permission.</li>
+     <li>The caller has carrier privileges (see
+     <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager.hasCarrierPrivileges()</a></code>) on any
+     active subscription.</li>
+ </ul><p>The profile owner is an app that owns a managed profile on the device; for more details
+ see <a href="https://developer.android.google.cn/work/managed-profiles">Work profiles</a>.
+ Access by profile owners is deprecated and will be removed in a future release.
+
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PRECISE_PHONE_STATE">Manifest.permission.READ_PRECISE_PHONE_STATE</a></code></p>

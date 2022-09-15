@@ -1,0 +1,5 @@
+android.telephony.PhoneStateListener.onCallStateChanged          	READ_CALL_LOG            	此应用可读取您的通话记录。
+android.app.admin.DevicePolicyManager.setPermissionGrantState    	READ_SMS                 	此应用可读取您手机上存储的所有短信。
+android.telecom.TelecomManager.getLine1Number                    	READ_SMS                 	此应用可读取您手机上存储的所有短信。
+android.telephony.SubscriptionInfo.getNumber                     	READ_SMS                 	此应用可读取您手机上存储的所有短信。
+android.telephony.TelephonyManager.getLine1Number                	READ_SMS                 	此应用可读取您手机上存储的所有短信。

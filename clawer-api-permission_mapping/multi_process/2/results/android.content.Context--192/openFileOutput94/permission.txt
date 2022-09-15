@@ -1,0 +1,3 @@
+<p>
+ No additional permissions are required for the calling app to read or
+ write the returned file.</p>

@@ -1,0 +1,1 @@
+<code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#CAMERA">Manifest.permission.CAMERA</a></code>

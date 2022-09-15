@@ -1,0 +1,10 @@
+<p>Requires Permission: <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PRECISE_PHONE_STATE">READ_PRECISE_PHONE_STATE</a></code> or that the calling app has carrier privileges
+ (see <code dir="ltr" translate="no"><a href="/reference/android/telephony/TelephonyManager#hasCarrierPrivileges()">TelephonyManager.hasCarrierPrivileges()</a></code>).
+
+ Registers a <code dir="ltr" translate="no"><a href="/reference/android/telephony/ims/RegistrationManager.RegistrationCallback">RegistrationCallback</a></code> with the system. Use
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE
+
+ 
+ <br/>
+ Requires android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE or <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#READ_PRECISE_PHONE_STATE">Manifest.permission.READ_PRECISE_PHONE_STATE</a></code></p>

@@ -1,0 +1,5 @@
+<p>
+ Disabling this check is <em>strongly discouraged</em>, as
+ violations may indicate security vulnerabilities in the design of
+ your app, where a malicious app could trick you into granting
+ <code dir="ltr" translate="no"><a href="/reference/android/net/Uri">Uri</a></code> permissions or launching unexported components.</p>

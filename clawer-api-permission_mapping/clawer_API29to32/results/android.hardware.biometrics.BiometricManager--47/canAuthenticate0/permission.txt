@@ -1,0 +1,7 @@
+<p>Determine if biometrics can be used. In other words, determine if
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricPrompt">BiometricPrompt</a></code> can be expected to be shown (hardware available, templates enrolled,
+ user-enabled). This is the equivalent of <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricManager#canAuthenticate(int)">canAuthenticate(int)</a></code> with
+ <code dir="ltr" translate="no"><a href="/reference/android/hardware/biometrics/BiometricManager.Authenticators#BIOMETRIC_WEAK">Authenticators#BIOMETRIC_WEAK</a></code>
+
+ <br/>
+ Requires <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#USE_BIOMETRIC">Manifest.permission.USE_BIOMETRIC</a></code></p>

@@ -1,0 +1,1 @@
+<p>The attribution tag of the app accessing the permission protected data.</p>

@@ -1,0 +1,1 @@
+<p>Most services require the caller to hold android.permission.DUMP.</p>

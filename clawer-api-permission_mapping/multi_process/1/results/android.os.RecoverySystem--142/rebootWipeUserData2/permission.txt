@@ -1,0 +1,5 @@
+<p>Reboots the device and wipes the user data and cache
+ partitions.  This is sometimes called a "factory reset", which
+ is something of a misnomer because the system partition is not
+ restored to its factory state.  Requires the
+ <code dir="ltr" translate="no"><a href="/reference/android/Manifest.permission#REBOOT">Manifest.permission.REBOOT</a></code> permission.</p>
